@@ -1,0 +1,1084 @@
+/* line 76, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.strong {
+  font-weight: bold;
+}
+
+/* line 80, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+a.link {
+  color: #FF5572;
+  text-decoration: none;
+}
+
+/* line 85, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+a.website {
+  display: block;
+  line-height: 12px;
+  margin-top: 14px;
+}
+
+/* line 129, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+div.left-column div.comments {
+  padding-top: 25px;
+}
+/* line 133, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+div.left-column div.comments div.content {
+  overflow: hidden;
+  font-family: Georgia;
+  font-size: 13;
+  color: #515254;
+  font-style: italic;
+}
+/* line 141, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+div.left-column div.comments div.comment div.by {
+  display: inline;
+  float: none;
+}
+/* line 145, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+div.left-column div.comments div.comment span.posted-at {
+  font-size: 11px;
+  color: #a6a6ad;
+}
+/* line 150, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+div.left-column div.comments div.separator {
+  background-color: #e8e3db;
+  height: 1px;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+/* line 158, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.section-title {
+  font-weight: bold;
+  font-size: 11px;
+  border-bottom: 2px solid #ff5572;
+  display: block;
+  height: 17px;
+  color: #231f20;
+  text-transform: uppercase;
+}
+/* line 167, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.section-title .more {
+  float: right;
+  color: #929292;
+}
+/* line 171, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.section-title .more a {
+  color: #929292;
+  text-decoration: none;
+}
+/* line 175, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.section-title .more a:hover {
+  color: #FF5572;
+}
+/* line 176, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.section-title .more .current_per {
+  color: #FF5572;
+}
+
+/* line 180, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+span.comment-count {
+  display: block;
+  float: left;
+  padding: 0 4px 0 4px;
+  margin: -1px 0 0 9px;
+  text-align: center;
+  color: #fff;
+  font-size: 9px;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+  background: none;
+  background-color: #f6506b;
+  position: relative;
+}
+/* line 195, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+span.comment-count img {
+  position: absolute;
+  bottom: -4px;
+  right: -1px;
+}
+/* line 201, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+span.comment-count a, span.comment-count span {
+  color: #fff;
+}
+/* line 203, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+span.comment-count a:visited, span.comment-count a:hover, span.comment-count span:visited, span.comment-count span:hover {
+  color: #fff;
+}
+
+/* line 209, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.fb-like {
+  width: 80px;
+  overflow: hidden;
+  height: 15px;
+  position: relative;
+  top: -12px;
+  padding: 10px 15px 5px 0px !important;
+}
+
+/* line 218, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.twitter-share-button {
+  width: 94px !important;
+}
+
+/* line 244, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.cropped_link {
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+}
+
+/* line 250, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.medium {
+  width: 240px;
+  height: 145px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  display: block;
+}
+/* line 231, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.medium span {
+  width: 2000px;
+  height: 145px;
+  margin-left: -880px;
+  display: inline-block;
+}
+/* line 237, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.medium span img {
+  height: 145px;
+  width: 240px;
+}
+
+/* line 254, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.tiny {
+  width: 44px;
+  height: 27px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  display: block;
+  left: -30%;
+}
+/* line 231, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.tiny span {
+  width: 2000px;
+  height: 27px;
+  margin-left: -978px;
+  display: inline-block;
+}
+/* line 237, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.tiny span img {
+  height: 27px;
+  width: 44px;
+}
+
+/* line 259, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.youtubetiny {
+  width: 36px;
+  height: 27px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  display: block;
+  left: -4px;
+}
+/* line 231, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.youtubetiny span {
+  width: 2000px;
+  height: 27px;
+  margin-left: -982px;
+  display: inline-block;
+}
+/* line 237, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.youtubetiny span img {
+  height: 27px;
+  width: 36px;
+}
+
+/* line 264, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.small {
+  width: 160px;
+  height: 96px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  display: block;
+}
+/* line 231, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.small span {
+  width: 2000px;
+  height: 96px;
+  margin-left: -920px;
+  display: inline-block;
+}
+/* line 237, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.small span img {
+  height: 96px;
+  width: 160px;
+}
+
+/* line 268, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.large {
+  width: 570px;
+  height: 345px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  display: block;
+}
+/* line 231, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.large span {
+  width: 2000px;
+  height: 345px;
+  margin-left: -715px;
+  display: inline-block;
+}
+/* line 237, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.large span img {
+  height: 345px;
+  width: 570px;
+}
+
+/* line 272, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.extra-large {
+  width: 570px;
+  height: 385px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  display: block;
+}
+/* line 231, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.extra-large span {
+  width: 2000px;
+  height: 385px;
+  margin-left: -715px;
+  display: inline-block;
+}
+/* line 237, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.extra-large span img {
+  height: 385px;
+  width: 570px;
+}
+
+/* line 276, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.medium-large {
+  width: 280px;
+  height: 170px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  display: block;
+}
+/* line 231, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.medium-large span {
+  width: 2000px;
+  height: 170px;
+  margin-left: -860px;
+  display: inline-block;
+}
+/* line 237, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.medium-large span img {
+  height: 170px;
+  width: 280px;
+}
+
+/* line 280, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.winning-large {
+  width: 273px;
+  height: 182px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 231, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.winning-large span {
+  width: 2000px;
+  height: 182px;
+  margin-left: -864px;
+  display: inline-block;
+}
+/* line 237, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.winning-large span img {
+  height: 182px;
+  width: 273px;
+}
+
+/* creates the 'yes, change my vote' panel */
+/* line 2, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.back {
+  margin: -20px -20px 18px -20px;
+  padding: 0;
+  background: #7FD4CD;
+  padding: 10px 0 10px 24px;
+}
+/* line 8, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.back a {
+  background: url("../../images/layout/back-arrow-white.png") no-repeat scroll 0px 1px transparent;
+  background-color: #7fd4cd;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 35px;
+  font-weight: bold;
+  color: #ff5572;
+  color: #fff;
+  line-height: 10px;
+  margin: 0;
+  padding-left: 10px;
+}
+/* line 17, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.back a.backlink {
+  float: left;
+}
+/* line 21, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.back .pagination {
+  color: #FFF;
+  float: right;
+  margin: 0 23px 0 0;
+  padding: 0;
+  height: 10px;
+  line-height: 10px;
+}
+/* line 28, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.back .pagination a, .back .pagination span.disabledlink {
+  height: 10px;
+  font-size: 11px;
+  display: inline;
+  background: none;
+  padding: 0;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  line-height: 10px;
+}
+/* line 39, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.back .pagination span.disabledlink {
+  color: #d0d3df;
+}
+/* line 42, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.back .pagination .pagecount {
+  height: 10px;
+  color: #515254;
+  font-size: 11px;
+  line-height: 10px;
+  margin: 0 15px 0 0;
+  padding: 0;
+}
+/* line 49, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.back .pagination .pagecount .number {
+  line-height: 10px;
+  height: 10px;
+  font-weight: bold;
+}
+/* line 61, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.back .separator {
+  height: 1px;
+  background: #DBE5E6;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+/* line 68, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.back .hairline {
+  height: 1px;
+  background: #DBE5E6;
+  border-top: 2px solid #fff;
+}
+
+/* line 9, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.back {
+  margin-top: 0px;
+}
+
+/* line 13, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.projects.show .left-column h1 {
+  line-height: 18px;
+  margin-top: 4px;
+}
+
+/* line 18, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.projects.show .left-column h1.huge {
+  font-size: 32px;
+  letter-spacing: 0px;
+  line-height: 1.1em;
+  margin-bottom: 5px;
+  margin-top: 7px;
+}
+
+/* line 22, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.pagination {
+  position: relative;
+  background: #7fd5ce;
+  height: 27px;
+  margin: 0 -20px 20px -20px;
+  padding: 0 0 3px;
+  text-align: right;
+}
+/* line 99, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.pagination .status {
+  margin: 0 20px 0 0;
+  padding: 7px 0 0;
+  font-size: 10px;
+  color: #515254;
+}
+/* line 105, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.pagination .status span {
+  font-weight: bold;
+  margin: 0 3px 0 0;
+}
+/* line 111, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/_shared.scss */
+.pagination .hairline {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #DBE5E6;
+  border-top: 2px solid #fff;
+}
+
+/* line 26, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+div.divider {
+  border: 1px solid #edeef1;
+  height: 0px;
+  margin: 8px -22px 23px -22px;
+}
+
+/* line 32, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+div.share {
+  margin: 25px 0 5px 0;
+}
+
+/* line 36, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.see-all a {
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 35px;
+  font-weight: bold;
+  color: #ff5572;
+  background: url("../../images/layout/right-arrow.png") no-repeat scroll right center transparent;
+  padding-right: 10px;
+}
+
+/* line 42, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.challenge-media {
+  float: left;
+  margin-right: 10px;
+  padding: 10px 10px 10px 10px;
+  line-height: 0px;
+}
+
+/* line 49, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.yellow-seperator {
+  border-bottom: 2px solid #ffcb15;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+/* line 54, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.yellow-seperator.preview {
+  margin-top: -22px;
+}
+/* line 58, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.yellow-seperator.winner {
+  border-bottom: 2px solid #ff5572;
+}
+
+/* line 64, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .project-header {
+  position: relative;
+  margin: 0 -20px;
+}
+/* line 72, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .project-header #previous,
+.idea-detail-body .project-header #next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  -moz-transition: background-color 500ms;
+  -webkit-transition: background-color 500ms;
+  -o-transition: background-color 500ms;
+  transition: background-color 500ms;
+}
+/* line 88, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .project-header #previous {
+  left: 0;
+  background-image: url(../../images/icons/previous.png);
+  border-right: 1px solid #f5f5f5;
+}
+/* line 95, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .project-header #previous:hover {
+  background-image: url(../../images/icons/previous_rollover.png);
+  background-color: #fffcfc;
+}
+/* line 102, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .project-header #previous:active {
+  background-image: url(../../images/icons/previous_active.png);
+  background-color: #fffaeb;
+}
+/* line 110, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .project-header #next {
+  right: 0;
+  background-image: url(../../images/icons/next.png);
+  border-left: 1px solid #f5f5f5;
+}
+/* line 117, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .project-header #next:hover {
+  background-image: url(../../images/icons/next_rollover.png);
+  background-color: #fffcfc;
+}
+/* line 124, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .project-header #next:active {
+  background-image: url(../../images/icons/next_active.png);
+  background-color: #fffaeb;
+}
+/* line 132, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .project-header #project-title {
+  text-align: center;
+  margin: 0 60px;
+}
+/* line 136, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .project-header #project-title h1 {
+  line-height: 1.2em;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 144, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .project-header #project-title h1.no-rank {
+  padding-top: 10px;
+}
+/* line 148, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .project-header #project-title h1.no-byline {
+  margin-bottom: 20px;
+}
+/* line 155, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .project-header #idea_title.no-nav {
+  padding-top: 40px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* line 165, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .project-header .nav-text {
+  position: absolute;
+  right: 18px;
+  display: none;
+}
+/* line 170, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .project-header .nav-text#previous_text {
+  right: 18px;
+}
+/* line 174, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .project-header .nav-text#next_text {
+  right: 19px;
+}
+/* line 180, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body #idea-rank {
+  background: url(../../images/icons/banner_idea_detail.png) no-repeat;
+  background-position: 0 1px;
+  padding: 13px 0 0 0px;
+  height: 55px;
+  width: 56px;
+  margin: 0;
+  font-size: 23px;
+  position: absolute;
+  top: -16px;
+  left: 260px;
+}
+/* line 193, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body #idea-rank.winner {
+  background: url(../../images/icons/winning_idea_ideadetail.png) no-repeat;
+  color: #ffffff;
+}
+/* line 199, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .user-media {
+  text-align: center;
+  height: 385px;
+  width: 570px;
+}
+/* line 205, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .media-tray {
+  text-align: center;
+  margin-top: 25px;
+}
+/* line 209, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .media-tray .media-item {
+  display: inline-block;
+  margin: 3px;
+  height: 60px;
+  width: 100px;
+  overflow: hidden;
+}
+/* line 216, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .media-tray .media-item img {
+  display: block;
+  height: 60px;
+  width: 100px;
+}
+/* line 222, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .media-tray .media-item.current {
+  border: 3px solid #7fd6d0;
+  height: 54px;
+  width: 94px;
+}
+/* line 227, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .media-tray .media-item.current img {
+  margin-left: -3px;
+  margin-top: -3px;
+}
+/* line 233, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .media-tray .media-item.selectable {
+  cursor: pointer;
+}
+/* line 238, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .media-tray .left-media-scroll {
+  display: inline-block;
+  height: 60px;
+  width: 25px;
+  margin-left: -20px;
+}
+/* line 245, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .media-tray #prev_media_scroll {
+  background: url(../../images/icons/media_tray/leftarrow-inactive.png) no-repeat 30% 50%;
+  height: 60px;
+  width: 30px;
+}
+/* line 250, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .media-tray #prev_media_scroll:hover {
+  background-image: url(../../images/icons/media_tray/leftarrow-active.png);
+}
+/* line 255, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .media-tray .right-media-scroll {
+  display: inline-block;
+  height: 60px;
+  width: 25px;
+  margin-right: -20px;
+}
+/* line 262, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .media-tray #next_media_scroll {
+  background: url(../../images/icons/media_tray/rightarrow-inactive.png) no-repeat 70% 50%;
+  height: 60px;
+  width: 25px;
+}
+/* line 267, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .media-tray #next_media_scroll:hover {
+  background-image: url(../../images/icons/media_tray/rightarrow-active.png);
+}
+/* line 273, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .vote-wait {
+  margin: 0px auto;
+  padding-bottom: 33px;
+  display: none;
+}
+/* line 279, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .green-vote-button {
+  float: none;
+  margin: 0 auto 23px;
+  padding: 0 20px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-color: #71d5de;
+  width: 208px;
+  height: 51px;
+  line-height: 51px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid #49c9d5;
+  font-family: arial;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 0;
+}
+/* line 300, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .green-vote-button:hover {
+  border: 2px solid #49c9d5;
+  background-color: #49c9d5;
+  cursor: pointer;
+}
+/* line 305, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .green-vote-button:active, .idea-detail-body .green-vote-button:focus {
+  border: 2px solid #2cbecc;
+  background-color: #2cbecc;
+  cursor: pointer;
+}
+/* line 312, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body #verifyEmailNotice {
+  display: block;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 14px;
+  margin-bottom: 25px;
+}
+/* line 321, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body #verifyEmailNotice a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+/* line 326, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body #verifyEmailNotice .wait-text {
+  height: 35px;
+  font-weight: bold;
+  color: #fff;
+  padding: 20px 0px 0px 25px;
+  background-color: #e85d32;
+  margin-bottom: 2px;
+  text-align: center;
+}
+/* line 337, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body #verifyEmailNotice .resend-text {
+  background: url(../../images/icons/pending_diagonals.png) no-repeat 0px 0px;
+  color: #e85d32;
+  text-align: center;
+  padding-top: 26px;
+  height: 78px;
+  font-weight: normal;
+  line-height: 25px;
+}
+/* line 346, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body #verifyEmailNotice .resend-text img {
+  vertical-align: middle;
+  padding-bottom: 4px;
+}
+/* line 351, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body #verifyEmailNotice .resend-text a {
+  color: #e85d32;
+}
+/* line 357, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .your-vote {
+  margin: -7px 0 23px;
+  background: url(../../images/icons/checkmark-small.png) no-repeat 95% 12px #49c9d5;
+  width: 100%;
+  text-align: left;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  height: 55px;
+  line-height: 55px;
+  margin-top: 20px;
+}
+/* line 370, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .your-vote span {
+  padding-left: 25px;
+}
+/* line 375, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .opt-in-box {
+  text-align: center;
+  color: #515254;
+  margin-bottom: 23px;
+  margin-top: -5px;
+}
+/* line 382, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.idea-detail-body .projects_bar {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+/* line 388, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.green-good-button {
+  background: #47cab3;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 1px solid #00af90;
+  text-align: center;
+  height: 24px;
+  line-height: 24px;
+  width: 124px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: arial;
+  margin-top: -1px;
+  width: 151px;
+  height: 32px;
+  float: right;
+  text-transform: none;
+  line-height: 32px;
+}
+/* line 45, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
+.green-good-button:hover {
+  cursor: pointer;
+  background: #34b7a0;
+}
+
+/* line 397, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.green-good-button.gray {
+  border: 1px solid #6f7794;
+  background: #9097b2;
+  margin-right: 10px;
+}
+/* line 401, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.green-good-button.gray:hover {
+  background: #6f7794;
+}
+
+/* line 406, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.index .challenge-header {
+  padding-bottom: 10px;
+}
+
+/* line 410, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.challenge-header {
+  margin: -20px -20px 0 -20px;
+  font-family: arial;
+  font-weight: bold;
+}
+/* line 415, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.challenge-header .challenge-brief {
+  background-color: #f2f3f7;
+  background-image: url("show_idea.self-5bc5c3f78c6f4ba36ebfd7d5a30f6785c124fb14711fda201f5f93d8fbb589d3.css%3Fbody=1.css");
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f2f3f7), to(#fcfcfc));
+  background-image: -webkit-linear-gradient(top, #f2f3f7, #fcfcfc);
+  background-image: -moz-linear-gradient(top, #f2f3f7, #fcfcfc);
+  background-image: -ms-linear-gradient(top, #f2f3f7, #fcfcfc);
+  background-image: -o-linear-gradient(top, #f2f3f7, #fcfcfc);
+  padding: 10px 20px 15px;
+  line-height: 1.4em;
+  font-size: 1em;
+  color: #9b9da1;
+}
+/* line 423, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.challenge-header .challenge-title {
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  border-bottom: 2px solid #edeef1;
+  margin: 0px 20px 5px 190px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 434, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.challenge-header .challenge-title a {
+  color: #515254;
+}
+/* line 439, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.challenge-header .vote-frequency {
+  font-weight: normal;
+  color: #515254;
+}
+/* line 444, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.challenge-header .learn-more {
+  color: #47cab3;
+  font-size: 11px;
+}
+/* line 448, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.challenge-header .learn-more img {
+  vertical-align: middle;
+}
+
+/* line 455, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.projects div.thick_divider {
+  border: 7px solid #EFEFEF;
+  margin: 0px -20px;
+}
+
+/* line 461, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+div.thick_divider {
+  border: 5px solid #EFEFEF;
+  margin: 0px -20px;
+}
+
+/* line 466, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.fat.divider {
+  border: 10px solid #E1E3EA;
+  margin: 0px -20px;
+}
+
+/* line 471, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/show_idea.scss */
+.change-vote {
+  display: none;
+  position: absolute;
+  background: #515254;
+  height: 170px;
+  width: 280px;
+  z-index: 3;
+}
+/* line 12, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_change_vote.scss */
+.change-vote .content {
+  padding: 12px;
+}
+/* line 16, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_change_vote.scss */
+.change-vote .text {
+  color: #fff;
+  padding: 0;
+  text-align: center;
+}
+/* line 21, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_change_vote.scss */
+.change-vote .text label {
+  font-family: "TradeGothicLTStdBoldCondensed", "Arial";
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 13px;
+  height: 16px;
+  display: block;
+}
+/* line 33, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_fonts.scss */
+.hide-custom-font-face .change-vote .text label {
+  visibility: hidden;
+}
+/* line 27, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_change_vote.scss */
+.change-vote .text p {
+  font-size: 10px;
+  color: #fff;
+  line-height: 13px;
+  margin-bottom: 8px;
+}
+/* line 33, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_change_vote.scss */
+.change-vote .text .separator {
+  border-bottom: 1px solid #606164;
+  width: 220px;
+  margin-left: 20px;
+}
+/* line 40, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_change_vote.scss */
+.change-vote a {
+  font-size: 12px !important;
+}
+/* line 44, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_change_vote.scss */
+.change-vote .vote-button {
+  background-color: #f74967;
+  background-image: url("show_idea.self-5bc5c3f78c6f4ba36ebfd7d5a30f6785c124fb14711fda201f5f93d8fbb589d3.css%3Fbody=1.css");
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
+  background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
+  background-image: -moz-linear-gradient(top, #f74967, #ff5572);
+  background-image: -ms-linear-gradient(top, #f74967, #ff5572);
+  background-image: -o-linear-gradient(top, #f74967, #ff5572);
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-box-shadow: 0px 0px 1px 0px #E59CA8;
+  -webkit-box-shadow: 0px 0px 1px 0px #E59CA8;
+  box-shadow: 0px 0px 1px 0px #E59CA8;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #f0415f;
+  font-family: arial;
+  font-size: 13px;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 180px;
+  margin: 16px 0 12px 40px;
+}
+/* line 22, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
+.change-vote .vote-button:hover {
+  border: 1px solid #ec3c5a;
+  cursor: pointer;
+  background-color: #e2304e;
+  background-image: url("show_idea.self-5bc5c3f78c6f4ba36ebfd7d5a30f6785c124fb14711fda201f5f93d8fbb589d3.css%3Fbody=1.css");
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2304e), to(#f54664));
+  background-image: -webkit-linear-gradient(top, #e2304e, #f54664);
+  background-image: -moz-linear-gradient(top, #e2304e, #f54664);
+  background-image: -ms-linear-gradient(top, #e2304e, #f54664);
+  background-image: -o-linear-gradient(top, #e2304e, #f54664);
+}
+/* line 27, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
+.change-vote .vote-button[disabled]:hover {
+  background-color: #f74967;
+  background-image: url("show_idea.self-5bc5c3f78c6f4ba36ebfd7d5a30f6785c124fb14711fda201f5f93d8fbb589d3.css%3Fbody=1.css");
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
+  background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
+  background-image: -moz-linear-gradient(top, #f74967, #ff5572);
+  background-image: -ms-linear-gradient(top, #f74967, #ff5572);
+  background-image: -o-linear-gradient(top, #f74967, #ff5572);
+}
+/* line 53, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_change_vote.scss */
+.change-vote .cancel-button {
+  background-color: #f74967;
+  background-image: url("show_idea.self-5bc5c3f78c6f4ba36ebfd7d5a30f6785c124fb14711fda201f5f93d8fbb589d3.css%3Fbody=1.css");
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
+  background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
+  background-image: -moz-linear-gradient(top, #f74967, #ff5572);
+  background-image: -ms-linear-gradient(top, #f74967, #ff5572);
+  background-image: -o-linear-gradient(top, #f74967, #ff5572);
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-box-shadow: 0px 0px 1px 0px #E59CA8;
+  -webkit-box-shadow: 0px 0px 1px 0px #E59CA8;
+  box-shadow: 0px 0px 1px 0px #E59CA8;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #f0415f;
+  font-family: arial;
+  font-size: 13px;
+  padding: 0;
+  background: #aba8a9;
+  border: 1px solid #949293;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-left: 55px;
+}
+/* line 22, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
+.change-vote .cancel-button:hover {
+  border: 1px solid #ec3c5a;
+  cursor: pointer;
+  background-color: #e2304e;
+  background-image: url("show_idea.self-5bc5c3f78c6f4ba36ebfd7d5a30f6785c124fb14711fda201f5f93d8fbb589d3.css%3Fbody=1.css");
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2304e), to(#f54664));
+  background-image: -webkit-linear-gradient(top, #e2304e, #f54664);
+  background-image: -moz-linear-gradient(top, #e2304e, #f54664);
+  background-image: -ms-linear-gradient(top, #e2304e, #f54664);
+  background-image: -o-linear-gradient(top, #e2304e, #f54664);
+}
+/* line 27, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
+.change-vote .cancel-button[disabled]:hover {
+  background-color: #f74967;
+  background-image: url("show_idea.self-5bc5c3f78c6f4ba36ebfd7d5a30f6785c124fb14711fda201f5f93d8fbb589d3.css%3Fbody=1.css");
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
+  background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
+  background-image: -moz-linear-gradient(top, #f74967, #ff5572);
+  background-image: -ms-linear-gradient(top, #f74967, #ff5572);
+  background-image: -o-linear-gradient(top, #f74967, #ff5572);
+}
+/* line 61, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_change_vote.scss */
+.change-vote .cancel-button:hover {
+  background-color: #858283;
+  background-image: url("show_idea.self-5bc5c3f78c6f4ba36ebfd7d5a30f6785c124fb14711fda201f5f93d8fbb589d3.css%3Fbody=1.css");
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#858283), to(#aaa7a8));
+  background-image: -webkit-linear-gradient(top, #858283, #aaa7a8);
+  background-image: -moz-linear-gradient(top, #858283, #aaa7a8);
+  background-image: -ms-linear-gradient(top, #858283, #aaa7a8);
+  background-image: -o-linear-gradient(top, #858283, #aaa7a8);
+  border: 1px solid #949293;
+}

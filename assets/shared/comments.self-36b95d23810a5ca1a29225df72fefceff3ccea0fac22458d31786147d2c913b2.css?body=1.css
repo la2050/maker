@@ -1,0 +1,28 @@
+/* line 2, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/comments.scss */
+.comment span.person {
+  color: #515254;
+}
+/* line 5, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/comments.scss */
+.comment a.reply {
+  color: #47cab3;
+  font-weight: bold;
+  font-size: 11px;
+  text-decoration: none;
+}
+/* line 10, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/comments.scss */
+.comment a.reply:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* line 16, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/comments.scss */
+.comment a.remove {
+  color: #e95623;
+  font-weight: bold;
+  font-size: 11px;
+  text-decoration: none;
+}
+/* line 21, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/comments.scss */
+.comment a.remove:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,284 @@
+/* line 1, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar-background {
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 90px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+/* line 11, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar {
+  z-index: 5;
+  color: #2a2b2c;
+  height: 50px;
+  margin-bottom: 0px;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+/* line 22, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #good-header {
+  padding-top: 30px;
+  float: left;
+}
+/* line 26, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #good-header .good-logo {
+  float: left;
+  padding-right: 20px;
+  height: 100px;
+  width: 0px;
+}
+/* line 33, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #good-header .good-logo:hover {
+  background-image: url(../../images/good-hover.png);
+}
+/* line 37, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #good-header .good-logo:active {
+  background-image: url(../../images/good-active.png);
+}
+/* line 42, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #good-header #slogan {
+  margin-top: 0px;
+  width: 470px;
+}
+/* line 48, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar a {
+  color: #71b3f7;
+  text-decoration: underline;
+}
+/* line 53, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container {
+  padding-top: 50px;
+}
+/* line 56, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area {
+  position: relative;
+  z-index: 2;
+  display: inline;
+  float: right;
+}
+/* line 63, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area .registration a {
+  color: #008ee7;
+}
+/* line 67, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area .registration .or {
+  color: #b1b1b1;
+  font-style: italic;
+  font-weight: normal;
+  padding-left: 2px;
+  padding-right: 3px;
+}
+/* line 76, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #menu-show {
+  border: 1px solid #e6e6e6;
+  -moz-box-shadow: 1px -1px 0px #f0f0f0 inset, -1px 1px 0px #fcfcfc inset;
+  -webkit-box-shadow: 1px -1px 0px #f0f0f0 inset, -1px 1px 0px #fcfcfc inset;
+  box-shadow: 1px -1px 0px #f0f0f0 inset, -1px 1px 0px #fcfcfc inset;
+  font-weight: normal;
+  color: #999;
+  font-size: 12px;
+  padding: 0px 0px 0px 15px;
+  margin-top: -20px;
+}
+/* line 88, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #menu-show a {
+  text-decoration: underline;
+  padding-right: 15px;
+  color: #999;
+}
+/* line 93, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #menu-show a:hover {
+  color: #666;
+}
+/* line 99, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area .icon {
+  display: inline-block;
+  z-index: 10;
+  padding: 10px 10px 10px 12px;
+  position: relative;
+}
+/* line 106, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #avatar {
+  cursor: pointer;
+}
+/* line 107, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #avatar img {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #202020;
+  vertical-align: middle;
+}
+/* line 117, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification_count {
+  vertical-align: middle;
+  text-align: center;
+  margin-left: -12px;
+  font-size: 16px;
+}
+/* line 123, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification_count a {
+  padding-right: 0px;
+  text-decoration: none;
+}
+/* line 128, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification_count strong {
+  width: 42px;
+  height: 32px;
+  background-color: #454747;
+  display: block;
+  color: #fff;
+  padding-top: 10px;
+  border-radius: 2px;
+}
+/* line 137, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification_count strong:hover {
+  background-color: #666;
+}
+/* line 142, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification_count.show-dropdown {
+  margin-left: -14px;
+}
+/* line 147, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area .show-dropdown {
+  border-top: 2px solid #8b8b8b;
+  border-left: 2px solid #8b8b8b;
+  border-right: 2px solid #8b8b8b;
+  background-color: #fff;
+  margin: -4px -4px -2px -2px;
+  padding: 12px 12px 12px 12px;
+}
+/* line 157, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area .dropdown {
+  position: absolute;
+  right: -3px;
+  top: 43px;
+  background-color: #fff;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 24px;
+  padding: 20px 15px 20px 10px;
+  text-align: left;
+  border: 2px solid #8b8b8b;
+  display: none;
+}
+/* line 171, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area .dropdown:hover {
+  display: block;
+}
+/* line 176, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #profile-dropdown {
+  width: 150px;
+}
+/* line 179, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #profile-dropdown a {
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 184, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #profile-dropdown ul {
+  margin-bottom: 0px;
+}
+/* line 188, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #profile-dropdown li {
+  width: 135px;
+  float: none;
+  display: block;
+  margin-left: 20px;
+}
+/* line 196, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification-dropdown {
+  background: #fdfdfd;
+  width: 320px;
+  padding: 0;
+}
+/* line 201, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification-dropdown a {
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 206, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification-dropdown .header {
+  margin: 0;
+  position: relative;
+  background: white;
+}
+/* line 211, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification-dropdown .header h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  padding-left: 15px;
+  line-height: 40px;
+  color: #2a2b2c;
+}
+/* line 220, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification-dropdown .header a#view_all {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  font-size: 12px;
+  color: #71b3f7;
+  padding-right: 0px;
+}
+/* line 229, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification-dropdown .header .empty_notice {
+  color: #666666;
+  font-size: 13px;
+  font-weight: normal;
+  padding: 15px 15px 15px 57px;
+  background: #fdfdfd url(../../images/icons/nothing_todo.png) no-repeat 12px 7px;
+  border-top: 1px solid #dadce0;
+}
+/* line 237, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification-dropdown .header .empty_notice em {
+  text-decoration: underline;
+}
+/* line 243, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification-dropdown ul {
+  margin-bottom: 0px;
+  background: #fdfdfd;
+}
+/* line 247, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification-dropdown ul li {
+  padding: 15px;
+  border-top: 1px solid #dadce0;
+  line-height: 1;
+  position: relative;
+  list-style: none;
+  margin-left: 0px;
+  background: #fdfdfd url(../../images/icons/todo_see_more.png) no-repeat 290px 20px;
+}
+/* line 256, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification-dropdown ul li h2 {
+  margin: 0 0 5px 0;
+  padding: 0 35px 0 0;
+}
+/* line 260, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification-dropdown ul li h2 a {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  color: #666666;
+  display: block;
+}
+/* line 274, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification-dropdown ul li .meta {
+  font-size: 11px;
+  color: #b2b2b2;
+}
+/* line 278, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/menubar.scss */
+#menu-bar #template-container #profile_area #notification-dropdown ul li .meta span {
+  display: inline-block;
+  margin-right: 10px;
+}

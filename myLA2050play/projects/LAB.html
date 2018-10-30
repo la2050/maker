@@ -1,0 +1,2383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <title>An Open Biology Lab for Everyone</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en" />
+
+      <link rel="stylesheet" media="all" href="../../assets/reset.self-c24ee0aa1527df85ac03c8d941cc1366e21748a09c41555f3392555f39e1f308.css%3Fbody=1.css" />
+<link rel="stylesheet" media="all" href="../../assets/text.self-39c860465e6a5da40781e13fcf84bb75c7f471d94b6cfe9c29560089d0b181f5.css%3Fbody=1.css" />
+<link rel="stylesheet" media="all" href="../../assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css%3Fbody=1.css" />
+      <!--[if IE 6]>
+      <link rel="stylesheet" media="all" href="/stylesheets/ie6.css" />
+      <![endif]-->
+      <!--[if IE 7]>
+      <link rel="stylesheet" media="all" href="/stylesheets/ie7.css" />
+      <![endif]-->
+      <!--[if lt IE 9]>
+      <script src="/javascripts/IE9.js"></script>
+      <![endif]-->
+      <script src="../../assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js%3Fbody=1"></script>
+<script src="../../assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js%3Fbody=1"></script>
+<script src="../../assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js%3Fbody=1"></script>
+      <script src="../../javascripts/plugins/jquery.scrollto.min.js"></script>
+      <script src="../../javascripts/plugins/jquery.autogrow.js"></script>
+      <script src="../../javascripts/plugins/jquery.simplemodal.js"></script>
+      <script src="http://cdn.jquerytools.org/1.2.5/all/jquery.tools.min.js"></script>
+
+      <script src="../../javascripts/compiled/ui_elements.js"></script>
+      <script src="../../javascripts/compiled/mixpanel.js"></script>
+      <script src="../../javascripts/compiled/comments.js"></script>
+      <script src="../../javascripts/vendor/ajaxfileupload/ajaxfileupload.js"></script>
+
+      <!-- For custom alert boxes and background color fade in/out -->
+      <!-- And for jquery ui datepicker -->
+      <script src="../../javascripts/plugins/jquery-ui-1.9.2.custom.min.js"></script>
+      <link rel="stylesheet" media="screen" href="../../assets/ui-dialog/jquery-ui-dialog.custom.self-3c9c895313a1b7eb8a344aebe697c558a084668e4499bb77df7b700ee0c4a23d.css%3Fbody=1.css" />
+      <link rel="stylesheet" media="screen" href="../../stylesheets/smoothness/jquery-ui-1.9.2.custom.css" />
+
+      <link rel="stylesheet" media="screen" href="../../stylesheets/imgareaselect-animated.css" />
+
+      <script src="../../javascripts/vendor/imgareaselect/jquery.imgareaselect.min.js"></script>
+
+      <script type="text/javascript">
+        $.noConflict();
+      </script>
+
+
+      <link rel="icon" type="image/vnd.microsoft.icon" href="../../favicon.ico" />
+          <meta property="og:title" content="An Open Biology Lab for Everyone"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="/myLA2050play/projects/LAB"/>
+      <meta property="og:image" content="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/project_photos/images/22859/display/la_biohackers__LA2050_570_345_copy2.jpg?1410151221" />
+    <meta property="og:site_name" content="How would you use $100K to make LA the best place to play? by GOOD Maker"/>
+    <meta property="fb:app_id" content="590727534352624"/>
+    <meta property="fb:admins" content="100004372031382"/>
+    <meta property="og:description" content=""/>
+        <link rel="img_src" href="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/fund_photos/images/20124/display/LA2050-MAKER-2.jpg?1403008560" />
+	<script src="../../javascripts/vendor/zeroclipboard/ZeroClipboard.js"></script>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=590727534352624";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+        window.twttr = (function (d,s,id) {
+          var t, js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+          js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+          return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+        }(document, "script", "twitter-wjs"));
+
+        window.fbAsyncInit = function() {
+          FB.Event.subscribe('edge.create', function(response) {
+            trackShareContent('facebook');
+          });
+        };
+
+        twttr.ready(function (twttr) {
+          twttr.events.bind('click', function(event) {
+            trackShareContent('twitter');
+          });
+        });
+        </script>
+  <link rel="stylesheet" media="screen" href="../../assets/shared/goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/shared/menubar.self-c6f399247e564168b1e87cc3598006147e2610b99a1df88849bd36740110f282.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/shared/footer.self-d5c5909d3f1a927d51ca2f6a93e55566ff415acdbe5208d6ced368f0e74b57c2.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/goodmaker_new.self-a0c54ca7154c11a512cc4ec4597f6e3e0eb6c0470daae13eefc1c665698b8bad.css%3Fbody=1.css" />
+  
+  <script src="../../assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js%3Fbody=1"></script>
+<script src="../../assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js%3Fbody=1"></script>
+<script src="../../assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js%3Fbody=1"></script>
+
+
+    <script src="../../javascripts/vendor/backbone/underscore-min.js"></script>
+    <script src="../../javascripts/vendor/backbone/backbone-min.js"></script>
+
+      
+      <!-- GA -->
+      <script type="text/javascript">
+        function removeRootGACookies() {
+            var ca = document.cookie.split(';'),
+                re = /^(__utm.)=/;
+            for(var i=0; i<ca.length; i++) {
+                var c = ca[i].trim();
+                var m = c.match(re)
+                if (m) {
+                  // Deletes cookies only if they are on root domain, does nothing otherwise
+                  document.cookie = m[1] + "=;path=/;domain=.good.is;expires=Thu, 01 Jan 1970 00:00:01 GMT;"
+                }
+            }
+        }
+        // Delete GA cookies on .good.is, this code can be removed on 6/1/2016 (GA cookies last 2 years)
+        removeRootGACookies()
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'doesntmatter']);
+        _gaq.push(['_setDomainName', '.maker.good.is']);
+        _gaq.push(['_trackPageview']);
+
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      </script>
+
+      <!-- start Mixpanel -->
+      <script type="text/javascript">(function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");
+    b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+
+    '//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';d=c.getElementsByTagName("script")[0];
+    d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){
+    var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(
+    Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?g=a[f]=[]:
+    f="mixpanel";g.people=g.people||[];h=['disable','track','track_pageview','track_links',
+    'track_forms','register','register_once','unregister','identify','alias','name_tag','set_config',
+    'people.set','people.set_once','people.increment','people.track_charge','people.append'];
+    for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.2;})(document,window.mixpanel||[]);
+      mixpanel.init("doesntmatter", {cookie_name: "gd_doesntmatter"});
+      </script>
+
+      <!-- end Mixpanel -->
+
+    </head>
+
+    <body class="normal projects show">
+      
+  <div id="header-background"></div>
+<div id="menu-bar-background"></div>
+
+<div id="global-header">
+ <div id='menu-bar'>
+  <div id='good-header'>
+    <a class="good-logo" href="http://www.good.is"></a>
+    <div id='slogan'>
+      <a href="../../index.html">Go to Maker Home</a>
+    </div>
+  </div>
+  <div id='template-container'>
+    <div id='template-profile-area'></div>
+  </div>
+</div>
+<div class='clear'></div>
+
+ 
+<!---->
+
+ 
+
+
+
+ <div class="clear"></div>
+</div>
+
+
+
+
+<div class="container">
+  <div class="contents">
+    
+    
+    <div class="left-column">
+      <link rel="canonical" href="http://myLA2050play.localhost:3000/myLA2050play/projects/LAB">
+
+
+<link rel="stylesheet" media="screen" href="../../assets/projects/show_idea.self-5bc5c3f78c6f4ba36ebfd7d5a30f6785c124fb14711fda201f5f93d8fbb589d3.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/projects/index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/tooltip/idea.self-eb971c9298d1548bdc93a859b4c2aee01537301a065c4c3f91eb9e871731fdfc.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/tooltip/form.self-55ce5cc1a9a95e48bb274b3a10bad6e4e69738bd4896a43e48d242aff4a5df2d.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/projects.self-8bba53b365ba017996583893f85c89a8b6899ebc86f5b8e0d3a4291b6b2de81e.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/show_idea.self-d2fefe18a71da57eee2141bce760e3400d33f26242847bd68d9762dbdc4b21de.css%3Fbody=1.css" />
+
+
+
+    <div class="challenge-header">
+  <div class="challenge-media" >
+
+    <div class="user-media">
+      <a href="../../myLA2050play.html"><img alt="How would you use $100K to make LA the best place to play?" src="../..//s3/maker%252Fattachments%252Ffund_photos%252Fimages%252F20124%252Fdisplay%252FLA2050-MAKER-2.jpg=c160x96#" /></a>
+    </div>
+</div>
+
+  <div class="challenge-title">
+    <a href="../../myLA2050play.html">LA is the best place to play</a></div>
+      <div class="learn-more">
+        <a href="../../myLA2050play.html">Learn More <img src="../../assets/icons/arrow_green-def7b8dfadd0dcc5f118e5cd10ed5e1ca25ff0794100c0b16b0707c38adad12c.png" alt="Arrow green def7b8dfadd0dcc5f118e5cd10ed5e1ca25ff0794100c0b16b0707c38adad12c" /></a></div>
+      <div class="clear"></div>
+</div>
+
+<div class="thick_divider"></div>
+
+
+  <div class="clear"></div>
+
+<div class="yellow-seperator "></div>
+
+<div class="idea-detail-body">
+  <div id="replaceable_header">
+  <div class="project-header">
+      <div id="project-main">
+        <div id="project-title">
+          <h1 class="huge no-rank ">An Open Biology Lab for Everyone</h1>
+            <div class="idea-by">
+                <div class="by"><span class="challange">submission </span><span class="by">by </span><span class="person">ctobin</span></div>
+            </div>
+        </div>
+      </div>
+      <script language="javascript">
+        (function ($) {
+          $('#previous, #next').click(function (e) {
+            var url = this.href;
+            e.preventDefault();
+            $.ajax({
+              url: url,
+              dataType: 'script',
+              success: function () {
+                window.history.pushState('string', 'Title', url);
+              }
+            });
+          });
+        }(jQuery));
+      </script>
+  </div>
+  <div class="clear"></div>
+  <div class="divider"></div>
+    <script language="javascript">
+      jQuery(".yellow-seperator").removeClass("winner");
+      jQuery("#idea-rank").removeClass("winner");
+    </script>
+</div>
+
+  <div id="replaceable_body">
+
+      <div class="user-media">
+          <img alt="An Open Biology Lab for Everyone" src="../..//s3/maker%252Fattachments%252Fproject_photos%252Fimages%252F22859%252Fdisplay%252Fla_biohackers__LA2050_570_345_copy2.jpg=c570x385#" />
+    </div>
+
+
+  
+
+<script language="JavaScript">
+jQuery(document).ready(function(){
+  var clip = new ZeroClipboard( document.getElementById("copy-label"), {
+    moviePath: "/javascripts/vendor/zeroclipboard/ZeroClipboard.swf"
+  } );
+  clip.on( 'complete', function(client, args) {
+    afterClipCopied();
+  } );
+	function afterClipCopied(){
+    jQuery('#challenge-permalink').focus();
+    trackShareContent('copy link');
+	}
+});
+</script>
+
+    
+   <h2 id="the-idea">About Your Organization</h2>
+
+
+     <p>
+           <b>Organization name(s):</b>
+    <p>Los Angeles Biohackers, Inc</p>
+
+       
+     </p>
+
+     <p>
+           <b>Organization website:</b>
+    <p>
+        <a href="http://biohackers.la" rel="external">biohackers.la</a>
+    </p>
+
+       
+     </p>
+
+     <p>
+           <b>Organization Twitter handle:</b>
+    <p>LABiohackers</p>
+
+       
+     </p>
+
+     <p>
+           <b>Organization Facebook page:</b>
+    <p><a class="external" href="https://www.facebook.com/pages/LA-Biohackers/245330182182586">https://www.facebook.com/pages/LA-Biohackers/245330182182586</a></p>
+
+       
+     </p>
+
+     <p>
+           <b>Organization Instagram:</b>
+    <p>None</p>
+
+       
+     </p>
+   <h2 id="the-idea">Describe your organization (Check only one):</h2>
+
+
+     <p>
+       <input type="checkbox" name="79412" id="79412" value="1" disabled="disabled" checked="checked" />
+Nonprofit organization
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79413" id="79413" value="1" disabled="disabled" />
+For-profit organization
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79414" id="79414" value="1" disabled="disabled" />
+Government
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79415" id="79415" value="1" disabled="disabled" />
+Individual
+
+       
+     </p>
+   <h2 id="the-idea">In one sentence, please describe what your organization does.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>LA Biohackers maintains a biotech focused lab open to the community.  People of all ages and education levels are able to use our lab.</p>
+
+       
+     </p>
+   <h2 id="the-idea">Please describe yourself (Check only one): </h2>
+
+
+     <p>
+       <input type="checkbox" name="79416" id="79416" value="1" disabled="disabled" />
+Solo actor (just us on this project!)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79417" id="79417" value="1" disabled="disabled" />
+Proposed collaboration (we want to work with partners!)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79418" id="79418" value="1" disabled="disabled" checked="checked" />
+Collaboration (partners are signed up and ready to hit the ground running!)
+
+       
+     </p>
+   <h2 id="the-idea">In one sentence, please describe your idea or project.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>We plan on expanding both in size and capabilities to serve a larger number of people with a wider variety of interests.</p>
+
+       
+     </p>
+   <h2 id="the-idea">Please write a sample tweet to describe your submission.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>@LABiohackers wants to get more young people involved in the life sciences by making the hobby accessible and fun</p>
+
+       
+     </p>
+   <h2 id="the-idea">Does your project impact Los Angeles County? Check only one.</h2>
+
+
+     <p>
+       <input type="checkbox" name="79422" id="79422" value="1" disabled="disabled" />
+Yes (benefits all of LA County)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79423" id="79423" value="1" disabled="disabled" />
+Yes (benefits a region of LA County)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79424" id="79424" value="1" disabled="disabled" checked="checked" />
+Yes (benefits a population of LA County)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79425" id="79425" value="1" disabled="disabled" />
+No
+
+       
+     </p>
+   <h2 id="the-idea">Which area(s) of LA does your project benefit? Check all that apply.</h2>
+
+
+     <p>
+       <input type="checkbox" name="79426" id="79426" value="1" disabled="disabled" checked="checked" />
+Central LA
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79427" id="79427" value="1" disabled="disabled" checked="checked" />
+East LA
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79428" id="79428" value="1" disabled="disabled" checked="checked" />
+South LA
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79429" id="79429" value="1" disabled="disabled" checked="checked" />
+San Gabriel Valley
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79430" id="79430" value="1" disabled="disabled" checked="checked" />
+San Fernando Valley
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79431" id="79431" value="1" disabled="disabled" checked="checked" />
+South Bay
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79432" id="79432" value="1" disabled="disabled" checked="checked" />
+Westside
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79433" id="79433" value="1" disabled="disabled" />
+Other:
+
+       
+     </p>
+   <h2 id="the-idea">What is your idea/project in more detail?</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>Los Angeles Biohackers is an organization that has built an open community laboratory and meeting space focused on helping people of all ages and education levels gain access to advanced biological equipment and expertise.</p>
+
+<p>In generations past, kids turned to creative toys such as Lego and Erector Set.  But recently kids have been adopting more advanced toys such as Arduinos and Raspberry Pis.  We want to take this further and introduce more young people to biotech as a hobby.</p>
+
+<p>We will expand our current ability to serve the community with more space and more tools for kids and adults alike to learn and have fun together.
+</p>
+
+       
+     </p>
+   <h2 id="the-idea">What will you do to implement this idea/project?</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>To implement this idea, we will grow our organization through a one year expansion plan.  The plan consists of three distinct goals.</p>
+
+<p>1)  Acquire new space so we can accommodate larger amounts of people with more workbenches, equipment and meeting areas.  We are currently self-sustaining in that revenue from classes is able to cover our costs.  But we have a chicken and the egg problem.  In order to expand to accommodate more people we need more money.  In order to bring in more money we need to accommodate more people.  With money from LA2050 we will expand our current facility to 2-3x the current size.  This will provide us more space for work areas and meeting areas.</p>
+
+<p>2)  Acquire more equipment so more people can use it simultaneously and use it in a safer manner.  We currently have a fully functional molecular biology and biochemistry lab.  But while we have many enthusiastic and passionate instructors the limiting factor is often the quantity of equipment.  Additionally, much of the equipment is old and less safe than modern equivalents.   Through this expansion plan we will replace much of our unsafe equipment and also install new safety precautions so that kids and adults can work, play and learn together with fewer injuries.</p>
+
+<p>3)  Expand our class catalog.  While one of our organizations strengths is the open lab that people are free to work independently in, many people without degrees in technical fields need guidance when starting.  LA Biohackers offers introductory classes to alleviate this problem.  But our class selection and frequency is not great enough to satisfy the demand of a larger community.  So we will create new classes based on community demand as well as offer our current classes more often.
+</p>
+
+       
+     </p>
+   <h2 id="the-idea">How will your idea/project help make LA the best place to play today? In 2050?</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>While kids of the past may have tinkered with Lego or Erector Set, kids of today tinker with electronics.  As a result of the miniaturization and decreasing cost of manufacturing, electronics today are more accessible to people of all ages than ever before.  Kids at the LA Makerspace (and makerspaces around the world) build robots, design and solder their own electronics, and program computers as a form of entertainment.</p>
+
+<p>Biotech is currently undergoing the same revolution in price and accessibility.  While practicing biotech as a hobby is not quite as affordable as electronics, progress is being made and lots of young people are getting involved.  We envision a future where kids in LA are just as likely to pick up a pipette as they are a soldering iron.  Playing with biology will be as common place as playing with electronics.</p>
+
+<p>LA Biohackers will make this dream a reality before 2050 by getting young people access to laboratory space and advanced biotech equipment in addition to knowledge and guidance.  We are currently making this happen but with help we can expand our breadth and scope to include more people of all ages.
+</p>
+
+       
+     </p>
+   <h2 id="the-idea">Whom will your project benefit? Please be specific. </h2>
+
+
+     <p>
+           <b>:</b>
+    <p>Our project will benefit anyone in Los Angeles that is interested in biology and biotech.  Our laboratory is not limited by age or earned degrees.  Anyone who can demonstrate the ability to follow safety guidelines can have fun in our space.</p>
+
+       
+     </p>
+   <h2 id="the-idea">Please identify any partners or collaborators who will work with you on this project.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>LA Biohackers has recently been working closely with LabLaunch, another organization submitting a proposal to LA2050 (confirmed, please see their proposal).  We plan on moving in to their facility and becoming the first tenant.</p>
+
+<p>LabLaunch is proposing to create a startup incubator that would help early stage companies.  In the biotech world, early stage companies typically already have a proven concept and venture capital backing.  LA Biohackers, in addition to serving as a common meeting and work space for the community, would also serve as a “pre incubator” for the LabLaunch incubator.  People with a nascent idea can use the pre-incubator to advance their project to the point where it could attract angel investors or venture capital.  The company would then move in to the full incubator.</p>
+
+<p>LA Biohackers benefits from this relationship by gaining access to discounted space that is amenable to hosting a biology lab as well as access to some of their resources.  LabLaunch benefits by having a source of new companies to feed into their incubator.  And we both benefit from the cross pollination of ideas and technical knowledge between the two groups.</p>
+
+<p>Factors that are critical to our success are 1) having a paid employee to work and communicate closely with LabLaunch 2) negotiating a deal that is doable with LA Biohackers’ budget but also compensates LabLaunch appropriately, and 3) working with local universities to get projects from the university into the pre-incubator program.
+</p>
+
+       
+     </p>
+   <h2 id="the-idea">How will your project impact the LA2050 &quot;PLAY&quot; metrics?</h2>
+
+
+     <p>
+       <input type="checkbox" name="79440" id="79440" value="1" disabled="disabled" checked="checked" />
+Access to open space and park facilities
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79441" id="79441" value="1" disabled="disabled" />
+Number of children enrolled in afterschool programs
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79442" id="79442" value="1" disabled="disabled" />
+Per capita crime rates
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79443" id="79443" value="1" disabled="disabled" />
+Percentage of residents that feel safe in their neighborhoods
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79444" id="79444" value="1" disabled="disabled" />
+Attendance at major league sporting events
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79445" id="79445" value="1" disabled="disabled" />
+Residents within 1⁄4 mile of a park (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79446" id="79446" value="1" disabled="disabled" />
+Number of residents with easy access to a “vibrant” park (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79447" id="79447" value="1" disabled="disabled" checked="checked" />
+Number of parks with intergenerational play opportunities (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79448" id="79448" value="1" disabled="disabled" checked="checked" />
+Number (and quality) of informal spaces for play (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79449" id="79449" value="1" disabled="disabled" />
+Other:
+
+       
+     </p>
+
+     <p>
+           <b>Please elaborate on how your project will impact the above metrics.:</b>
+    <p>Currently we are only able to handle a small amount of kids in our lab due to space and equipment constraints.  After the completion of this project we will be able to accommodate more kids and get them enrolled in our classes which, although nontraditional, we consider to be a new form of an “after school program.”</p>
+
+<p>LA Biohackers is diverse in terms of the age of people who use our space.   Jr High students work alongside older more experienced scientists.  As we grow we will be able to increase the quantity of people, both younger and older, that make use of our space.  In this respect we will provide more “intergeneration play opportunities.”</p>
+
+<p>Most people would consider our space “informal” and “nontraditional”.  There are no swing sets or soccer fields.  Kids are free to explore and play in the world of science.  In this regard we will be providing one more place people can use as an “informal space for play.”</p>
+
+       
+     </p>
+   <h2 id="the-idea">Please select which other LA2050 Goals are relevant to your project or organization (check all that apply):</h2>
+
+
+     <p>
+       <input type="checkbox" name="79452" id="79452" value="1" disabled="disabled" checked="checked" />
+LA is the best place to LEARN
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79453" id="79453" value="1" disabled="disabled" />
+LA is the best place to CREATE
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79454" id="79454" value="1" disabled="disabled" />
+LA is the best place to CONNECT
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79455" id="79455" value="1" disabled="disabled" />
+LA is the healthiest place to LIVE
+
+       
+     </p>
+   <h2 id="the-idea">Please explain how you will evaluate your project.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>We will keep track of the number of people attending our classes, both on a per class and a per month basis.  We currently do this through our class signup website.</p>
+
+<p>We will measure the amount of people using the space per day by keeping track with sign in sheets and our electronic keys.</p>
+
+<p>The classes we offer will be tracked by frequency of occurrence and diversity of topics covered.</p>
+
+<p>We will measure the age diversity of our users by collecting data through paper based questionnaires.   We currently do this for classes but we will expand this to include people using the space outside of classes as well.
+</p>
+
+       
+     </p>
+   <h2 id="the-idea">What two lessons have informed your solution or project?</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>When it comes to designing classes we will take note from the large body of literature on teaching methods to guide the curriculum.  Many people before us have discovered methods that work and methods that don’t when it comes to hands-on learning.  This will help us avoid mistakes and keep us from reinventing the wheel when it comes to teaching methods.</p>
+
+<p>We will also learn from our own mistakes and successes when it comes to building our lab.  LA Biohackers has been in existence for 3.5 years and through that time we have built our current lab from nothing.  We have become skilled at finding equipment through local universities and biotech companies.  We have made plenty of mistakes when trying to do more with less, particularly when trying to patch up older damaged equipment for the modern equipment that we really needed.  This acquired wisdom will help us build a much better lab in much less time.
+</p>
+
+       
+     </p>
+   <h2 id="the-idea">Explain how implementing your project within the next twelve months is an achievable goal.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>1)  LA Biohackers has a proven track record of growth within our means, even without any paid employees.  The lab that we currently have was built completely by generous donations of used equipment and through the effort and time of passionate volunteers.  With money to hire a part time manager we will have better organized volunteer efforts that can focus on the exact tasks that need to be accomplished to complete this expansion project.</p>
+
+<p>2)  La Biohackers will be partnering with LabLaunch which will give us access to affordable, properly zoned, real estate.  Without this partnership, finding space that is affordable and also allowed for use as a laboratory is difficult.  This space will be renovated by LabLanch to fit the needs of biologists which takes much of the burden of renovation off of our organization.  Additionally, we will have access to the personal networks of the LabLaunch staff which will aid us in project management and access to sources of equipment.</p>
+
+<p>3)  As previously mentioned our organization runs completely on volunteers.  As a result, new class development is a lengthy process since no one can dedicate a large amount of time to building the curriculum and working out the bugs.  With hired staff that can focus on the project, class development will happen more rapidly which will allow us to serve more people.  This will in turn bring in more revenue through donations which will create a positive feedback loop to help grow LA Biohackers even more. 
+</p>
+
+       
+     </p>
+   <h2 id="the-idea">Please list at least two major barriers/challenges you anticipate. What is your strategy for ensuring a successful implementation?</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>One challenge will be keeping people interested during our transition.  There will be a period where our old lab has been dismantled to the point of not being functional and our new lab has yet to be completed.  People may find it difficult to continue work on their projects during that period.  Since we will be hiring someone part time to manage the project there will be good coordination and communication between LA Biohackers and LabLaunch to make the transition move as quickly and painlessly as possible.  We will also coordinate with specific users of our lab to make sure that the resources they need for ongoing projects are given priority.</p>
+
+<p>Another potential challenge will be creating class curricula that interest the most people.  Since we cater to a wide variety of age groups and education levels, creating activities that are simple enough for the beginner but also interesting enough for the more advanced crowd is quite a task.  We plan on splitting our classes into two difficulty levels, beginner and advanced, so after taking a beginner class on a particular topic, one can then move on to the advanced class on the same topic.  Topics will be chosen through surveys to determine what fields and techniques are in popular demand.
+</p>
+
+       
+     </p>
+   <h2 id="the-idea">What resources does your project need? (check all that apply)</h2>
+
+
+     <p>
+       <input type="checkbox" name="79463" id="79463" value="1" disabled="disabled" checked="checked" />
+Money (financial capital)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79464" id="79464" value="1" disabled="disabled" checked="checked" />
+Volunteers/staff (human capital)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79465" id="79465" value="1" disabled="disabled" />
+Publicity/awareness (social capital)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79466" id="79466" value="1" disabled="disabled" checked="checked" />
+Infrastructure (building/space/vehicles, etc.)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79467" id="79467" value="1" disabled="disabled" />
+Education/training
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79468" id="79468" value="1" disabled="disabled" />
+Technical infrastructure (computers, etc.)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79469" id="79469" value="1" disabled="disabled" checked="checked" />
+Community outreach
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79470" id="79470" value="1" disabled="disabled" />
+Network/relationship support
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="79471" id="79471" value="1" disabled="disabled" />
+Quality improvement research
+
+       
+     </p>
+
+
+    <h2 id="discussion" name="discussion">
+  <div style="float:left;">Discussion</div>
+  <span class="comment-count" style="margin-top:3px">
+    71
+    <img src="../../assets/icons/pink-talk-bubble-tail-c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7.png" alt="Pink talk bubble tail c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7" />
+  </span>
+  <div class="clear"></div>
+</h2>
+
+<div class="clear"></div>
+  <div class="comments">
+    <div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Good Luck!    God bless you</p></div>
+  <div class="by"><span class="by">by </span><span class="person">joseramonfarias</span></div>
+    <span class="posted-at">about 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33655" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="iu9iUwMBc4TC/4oCtT5HNS9J/Wi1asXVzDvvo02meoiXQwqAJw+AKajtplHExw7aNR7JBPlNstX98YiOTbrLDQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33655" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>"I was playing when I invented the aqualung. I think play is the most serious thing in the world." - Jacques Cousteau, Underwater Explorer</p></div>
+  <div class="by"><span class="by">by </span><span class="person">djwri</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33451" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="7rxbUj2ShBCXwVDQohy5atnrHYmsybOF6RHRR3S8mqzzEDOBGZx3vf3TfIPT5fCFw7wp5eDuxIXY27ZqdKArKQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33451" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>This lab should be entered in all the categories, to play, grow, learn, create….. Because it all happens here.
+<br />My son joined last year. He was 11. There are many place in Los Angeles for sports actives and teams, and dance, and art and music too.  But what about a forum for the creative young scientists in the city? LA Biohackers Lab is a place for anyone interested in biology…as a place to learn, and experiment, and play. The people involved are extremely supportive of every other person there, lending advice and assistance, and enjoying the stimulation of other scientifically minded individuals. It's a place where biology and science is FUN!  but serious too. 
+<br />I am so thrilled that my son can be himself and be nourished by these kind folk at the lab. They accept him as one of their own, and share big ideas as they tackle a big project together that they have entered into a synthetic biology competition at MIT. 
+<br />There is no other place like it in LA.  Finally, kids who are science minded  have a place to play too. And in so doing, they learn and grow.
+<br />The world needs scientists. Los Angeles needs a place to grow them….
+<br />Thank you, LABiohackers for doing it so well.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">bitbee</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32870" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5ACnVXd0v+FwgMfWcyVm/gfhKcdtiHZa9S0Nf6M7akz5rM+GU3pMTBqS64UC3C8RHbYdqyGvAVrE52pSoyfbyQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32870" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Good idea, but not ready for prime time.  If your organization was a bit more mature, I would vote for it.  But for now there is no way to tell if this plan is at all reliable.  Most of the funds would be allocated towards expansion, so nothing has actually shown to have worked yet.  I would suggesting growing and managing that first, maybe get a website up and running, and then apply in the next year or two, preferably with a video.  Until then, I'm voting for EnrichLa, an organization that has a history of success, and something that will truly benefit both our youth and city</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ryan.naghi</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33186" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="3pnqmHyNwopaxFM3x/8TMy8OALxhhMeaIBfoQPnzlBLDNYJLWIMxJzDWf2S2BlrcNVk00C2jsJoR3Y9t+e8llw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33186" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>LA needs LABiohackers. Other cities such as Copenhagen and Carlsbad offer free lab space to their local biohackers. They recognize that they are centers for innovation and incubators for high tech jobs. Where else can you learn the latest bioengineering methods and techniques? Maybe some high level Phd program at a major university. Oh wait a minute,LABiohackers is competing in the International Genetic Engineering Machine competition in October at MIT against 244 of the best Universities in the world. </p>
+
+<p>LABiohackers reflect the diversity if LA. I have never worked with a more selfless, dedicated, and compassionate  group. Everyone works so well together. Top notch 
+<br />PhDs from CalTech and USC  assisted in my projects. We have made some discoveries that may have eventually provide a possible treatment for Parkinson's and Schizophrenia. </p></div>
+  <div class="by"><span class="by">by </span><span class="person">djwri</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33215" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5j7MhLoHTqAcOcSCF/swnt4+Mne0axPqcADtb+2rDFz7kqRXngm9DXYr6NFmAnlxxGkGG/hMZOpByopC7be92Q==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33215" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Wow!  You guys have an important mission and seem to be doing astounding work to educate and inform in these so essential fields of biology, technology, and the intersection of both.  Keep it up...you certainly have my vote!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">JustinHicks</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32911" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="y2nAOq6HW5L7CjhlyKt4lNLzUKraYX9+0DTkv84/6MDWxajpiomoP5EYFDa5UjF7yKRkxpZGCH7h/oOSziNZRQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32911" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>The LA Biohackers lab is an excellent resource for all!  Last year my son needed to do a Electrophoresis Run in order to complete his science project.  We went to the lab on their opening day, which was really their meet and greet.  They were very nice in helping my son, Keoni work on his project and helped him complete it that day so he could enter his project in the science fair the next day.  Keoni went on to win the Sweeptakes award (not just first in category but first in ALL categories) at the Orange County Science Fair, he went on to win First place in Microbiology at the CA State Science fair and then to Broadcom Masters National event in Washington DC winning First prize in Science.  All this was made possible by the generous help he received at the LA lab helping him to put the finishing touches on his science project.  Cory at the lab also gave him some great tips about being successful at the State science fair and even came out to see Keoni's project at the fair.  We appreciate all the time and help Keoni has receive from the people at the lab.  They are truly a great bunch of people,  more then willing to share their knowledge and passion about science!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">chris.gandall</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32793" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="gbKt62pzkFaf3caLriYx7Y/7B6nMlpF+joXvzTX7baGcHsU4Tn1j+/XP6tjf33gClawzxYCx5n6/T4jgNefcJA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32793" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>LA2050, you should totally fund this group.  They do amazing work and have accomplished alot with very little money or resources.  They won't let you down.  I'm excited for an even better lab.  The kids that go there are incredible.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">georgiannach</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31919" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="vcT/lPanmCvTlU31igh8otFcCADbhGgcExj3Ql1JEbSgaJdH0qlrhrmHYab78TVNyws8bJejHxwi0pBvXVWgMQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31919" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Good luck!  Thanks for letting me help you out with this incredible opportunity.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">carolschulze</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31922" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="mXKKUnn5GJnxf9TWkr8muuCikotR3oZH87wDRvMyvkSE3uKBXffrNJtt+IXjRm9V+vWm5x358UfCdmRr8y4PwQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31922" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>you guys are awesome!  sorry i haven't been around much.  i voted for you and told all my friends to vote</p></div>
+  <div class="by"><span class="by">by </span><span class="person">jayzillicks</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31856" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="uleY1omgrNEnTui8E4TP1pvfwt/QRgsg1FZp1Ldhjsin+/AFra5ffE1cxO9ifYY5gYj2s5xhfCDlnA75t30/TQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31856" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>LA Biohackers is a wonderful place.  I wish you the best with your plans to expand.  I can't wait to see what you do with it.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">hilary6ldort</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32113" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="hWskY0GlKWUq79qFhM+sh8jPCTloTvL9GLxoEB0/VReYx0ywZavayED99tb1NuVo0pg9VSRphf0pdg89HSPkkg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32113" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>It's been a while since I've been to the LAB lab but it's so much fun.  Best meetup ever.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">clarencechas</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31920" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Obk4zvk4tm+lSegiXH7qgXY6GPg7+BCj2+vs52YyU0YkFVAd3TZFws9bxHEth6NubG0slHffZ6PqIYvKZi7iww==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31920" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Hi!  I'm a grad student at ucla and I never knew you existed.  I'm totally going to visit your lab when i get back from vacation.  I just looked at the photos on your website and it looks like a pretty well equipped place.  Are you going to be working with LabLaunch?  They are also in this LA2050 competition and are building a biotech incubator in LA.  </p></div>
+  <div class="by"><span class="by">by </span><span class="person">suzys</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32005" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="0dt0CtpRmzzYQkvb0tJOdLF8G8I1Or/mbC+FSdVMBmbMdxzZ/l9okbJQZ4ijKwebqysvrnkdyOZd5eJk1VC34w==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32005" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>You people rock!  I hope la2050 works out for you.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">PeteraDerson</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32040" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+36x4iZGwBX85JGl7jMJeXxJcdkvjVHPqFxXBIx4SF3m0tkxAkgzuJb2vfafykCWZh5FtWOqJs+ZljApjGT52A==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32040" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>This place is full of good people.  I have taken my kids before and even though we are not experienced in biology we always fell welcome and we always learn something.</p>
+
+<p>I hope you go far with this</p></div>
+  <div class="by"><span class="by">by </span><span class="person">montym</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31893" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="7PhrjAhn3elnYYr/gn9pZAvZHhnb5yYntPtkqKJkVWbxVANfLGkuRA1zpqzzhiCLEY4qdZfAUSeFMQOFonjk4w==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31893" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>This lab keeps me so excited about science.  Reading science news online bores me, but then I go to LA biohackers and I get so excited about new discoveries.  Probably because everyone there is so excited and encouraging.</p>
+
+<p>Good luck!  </p></div>
+  <div class="by"><span class="by">by </span><span class="person">kaiserupsdel</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31925" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="S2CA3YkASIeZnibGT2jd0WvgxDbZGC8NtfyncVHeEKRWzOgOrQ67KvOMCpU+kZQ+cbfwWpU/WA2ENsBcUcKhIQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31925" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Thanks Cory for finding this opportunity.  I'm sure you'll make LAB even greater.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">KiaraC</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32076" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="zeP1A02tIMAC1bTWIJDv28uSINDvSV4YLjQSwggu81PQT53QaaPTbWjHmIVRaaY00cUUvKNuKRgf/nXvCDJC1g==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32076" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Best wishes.  Your story is really inspiring.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">esperanzamzb</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32114" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Ts/LR3J6eX1JR79CEYJch+tbzTzTZe8dKk/PoI5bTxFTY6OUVnSK0CNVkxFgexVo8Qz5UJ9CmB0bhaiNjkf+lA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32114" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>I live too far away to visit your place very often but it looks like a fantastic resource! I wish my town had a community place like la biohacker.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">jammiebost</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32011" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Lc+BpyZ6bFEWMObfvCEG4BWHZY2X4ITCQmB85wYKsvYwY+l0AnSf/HwiyozN2E8PD9BR4dvH88JzqhvKBhYDcw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32011" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Fantastic resource.  Friendly, helpful and caring people.  My son has learned a ton here.
+</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ArgeO</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32737" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="nwAklkEbDVUar69Cbw4BxdHaTrNQZZR5g08AHoGLJl2CrExFZRX++HC9gxEe90gqy4163xxC43myhWczgZeX2A==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32737" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>I would just like to say that the work Corey and everyone else is doing at LA Biohackers is much needed today more than ever.  They have been working so hard to create an environment that is friendly for everyone (I have seen entire families spending the day there working on projects together) and that's pretty rare.  I'm 100% confident that they will use the money wisely and expand their lab to be great.</p>
+
+<p>They have done so much with so little (financial support) that I can't wait to see what they do if they get the $100,000.  I'm sure it will be put to good use and many people will benefit from it.  Especially the children that use LA Biohackers to work on their science fair projects.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">RazMatazz</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32038" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="VMiJzaa3CZ6MJftjHnwecxjEeEoDwHVhfU0WIkzodm1JZOEegrn6M+Y31zBvhVecApNMJk/nAmFMh3EPTPTH6A==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32038" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>LA Biohackers is great.  A truly collaborative and cooperative community.  </p></div>
+  <div class="by"><span class="by">by </span><span class="person">barbsme</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32085" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ntFjVK/vMbpSpb8Oh8Sj6h1BC0I4yBP+a5qL4covzYuDfQuHi+HCFzi3k132PeoFBxY/LnTvZP5aUOzMyjN8Dg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32085" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>LA Biohackers can help get support for students and teachers to teach ground breaking science in the classroom at an affordable cost, you know, within the meager budgets that California allocates for teacher's classroom resources! How can we make fun, nanoscale experiments inexpensive and truly eye opening to young people and adults alike? I think by continuing to build the DIYBio community is a first step to introducing our youth to what is out there in an exciting and ever expanding field of nano-biotechnology and biomolecular science! Biology is cool, lets fund innovative ways to bring it to all people and empower them!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">diybio_for_all</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32204" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="qlMTyzx9SaOypOzNpswKxCHNbQ15e4aNhTUsFu7QJqm3/3sYGHO6Dti2wJ7XNUMrO5pZYTVc8Y20/0s77syXLA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32204" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>La Biohackers is truely unique place.  Everyone feels welcome to visit/work/play/hangout there even if they don't have a fancy BS or PHD in the sciences.  I can't think of anywhere else like it in the area.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ilana55</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32275" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1jtxclDbr+Ep9gjLyQcY89XpXa+HM1Kb4buLsnidoiXLlxmhdNVcTEPkJJi4/lEcz75pw8sUJZvQceyfeIEToA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32275" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Thanks for making such a wonderful place!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">gareretss</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32265" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="I9Vuv6bz14nECtVqnp3AWyOgswl5G/4ZP2YfHRQznQI+eQZsgv0kJK4Y+TnvZIm0OfeHZTU8iRkOrHgwFC8shw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32265" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Go LA Biohackers!  I'm going to make it to a meeting one off these days I promise.  Good luck!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">BeverleyB</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32270" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="vb6CgaxTrAeGCbiBHc0xv+uOV5YCHoDf2cyVU0VRxKGgEupSiF1fquwblNJsNHhQ8dlj+k4599/oBvJ+RU11JA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32270" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>LAB is my favorite place in LA to hang out at.  Every time I go there I learn something new that I couldn't gleen from the internet.  The people are really nice and always willing to listen to my absurd ideas, even if there is no hope for them.  They always listen and give me useful feedback.  So, thanks! I hope LA2050 treats you well. </p></div>
+  <div class="by"><span class="by">by </span><span class="person">brianlorax</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32282" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="AGvoialzUDFdVdVuFJTGjv16IYs60SBfea3jiry5/nkdx4BajX2jnDdH+T1lbY9h5y0V53b2V19IZ4SnvKVP/A==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32282" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>I just wanted to say that you guys always amaze me.  Some people probably think it's silly to try to beat universities at research but you guys have really shown that it's possible to get it done without Big Money.  Congrats.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">elaines4</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32288" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="q4IHhr96giL2M3Pa2Ge1QR5pxanr+zAZr1ML8iq+WxK2Lm9Vm3Rxj5whX4mpnvyuBD7xxafcRxmemWzfKqLqlw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32288" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>I've only been to LA biohacker's space a couple of times and don't live in the area anymore but it was one of the most mindblowing places I've been.  I was expecting just a bunch of peple sitting around tlaking about biology but they do in fact have a lab and lots of people working in the lab.  Not something you see every day.  At least not in spaces that are open to the public.  Very cool concept and execution.
+<br />-Christian</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ChristianSander</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32712" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="n22lR9YC1fQ0hA6A8WA1qMo32+UWZtrW25BOeu7xvKeCwc2U8gwmWV6WItOAmXxH0GDviVpBrdbqWilX7u0NIg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32712" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Us network hackers and biohackers should work together. There's a ton of cross-over potential between our interest groups and startups!
+<br /><a href="http://myla2050connect.maker.good.is/projects/All_LA_online_faster" target="_blank">http://myla2050connect.maker.good.is/projects/All_LA_online_faster</a></p></div>
+  <div class="by"><span class="by">by </span><span class="person">jaredhardy</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32400" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="UhUUVQH6REHdUNnaAcxtZUxGtrcxElIlqQPYTLCaC75PuXyGJfS37LdC9YlwNSSKVhGC2301JSWYyb9hsIa6Ow==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32400" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Hi!  I'm from Madison and I wish we had a lab like yours out here.  How did you go about starting it?  UW-Madison has some biotech stuff going on but nothing is open to the public.  If you're not in the club then there's nothing available.  Good luck with the voting!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">MandyA</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32033" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YTexsr3ZK2Lg3VVAB58C9u8LecIvEIoExX9CkjKfOpZ8m9lhmdfYz4rPeRN2ZksZ9VxNrmM3/QT0tSW/MoOLEw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32033" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Good luck LA Biohackers!  You guys are doing good work.  I expect you'll put this money to good use.  Can't wait to see what projects come out of this.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">oscarV</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32077" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+UwHw/QPFdme7heXBNJeGObwMIt6+lbNHL+JhCbwx9Pk4G8Q0AHmdPT8O8R1Kxf3/KcE5zbdIc0tde6pJux2Vg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32077" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>La Biohackers is truely unique place.  Everyone feels welcome to visit/work/play/hangout there even if they don't have a fancy BS or PHD in the sciences.  I can't think of anywhere else like it in the area.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ilana55</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32276" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="6rRNxMN9Q8kxsz0qsgj6V50SIzduB+s4+9BPXOudikD3GCUX53OwZFuhEXnD8bO4h0UXWyIgnDjKGihx64E7xQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32276" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>SCIENCE!!!!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">rettax</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32014" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="riHJWG0tYWLH0pMHHSye3z7pe/q70iBuumEaZEsR0YSzjaGLSSOSz63Av1Rs1dcwJL5Plvf1V26Lq31JSw1gAQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32014" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Thanks for everyone's support!  Keep the votes coming!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31995" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ig3NPHf2v8gjwlyDqDusCwhAciAN9z/FTIv2Tm02aBqXoaXvU/hMZUnQcNDZwuXkEhdGTEHQSMV9QZFjbSrZnw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31995" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>I hope this works out well.  I've been a part of the organization for a while now and I've seen it grow and I hope to see it become something even more special if we get this money.  The resources available at LAB are just incredible.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">jeffrymcmast</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31921" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/t3CgtNPDxxV1kjfWLJwt94mdA96nUs9fi/k/jwaHmXjcapR90H8sT/EZIwpSzlYxHFAYza6PD1P5YPTPAav4A==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31921" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Awesome job!  Good luck!  </p></div>
+  <div class="by"><span class="by">by </span><span class="person">mirandascepa</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31918" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Ld4v8HZVviZ6jTqXp/KGC+MA00No3pJzmOfOal76zOQwckcjUltNixCfFsTWC8/k+VfnLyT55XOpLalHXuZ9YQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31918" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Good luck with your expansion plans guys!  I can't wait to see the end result.  You space is really cool as it is but I imagine it will be 10 times better if you have some decent money to execute it with.  It's amazing what you've done with so little money so far.  I'll stop by again soon.  Love chatting with you all.  -paul</p></div>
+  <div class="by"><span class="by">by </span><span class="person">paulfrank227</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31917" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="CxgnwmRYds+DIt0jGck3Nq73u9T4KlixUr08WZG3B8YWtE8RQFaFYukw8XBoMH7ZtKCPuLQNL7Fjd1t0kau2Qw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31917" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>LA Biohackers is really something.  I'm pretty new but I hope to see your lab fluorish.  I've never seen anything like it and the world needs more places to support the scientific endeavors with people not affiliated with traditional scientific intitutions.  </p></div>
+  <div class="by"><span class="by">by </span><span class="person">trevormarkle</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31915" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="89vKde75p37bgZFMnz4ju7hGSg8wv0vpV5DIRBq+Dk7ud6KmyvdU07GTvR/ux2pUohF+Y3yYPOlmWq9pGqK/yw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31915" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>thanks so much for creating a relatively safe and inviting place that I can go and for all the cool stuff you guys have.  Its been very useful in my research.  Keep on growing and getting even better.  I hope you guys win this.  I can't wait to see what you do with a new and improved place.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">mikeconner</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31901" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4XcbhBSYEmmORs1/cWKZJOio+5HDNdhbp+L9ZTmRBSr823NXMJbhxORU4SwAm9DL8v/P/Y8Sr1uWKJpIOY20rw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31901" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>I've learned so much at la biohack.  lotta fun.  so many col projects going on and the young scientists who work/play there are inspiring</p></div>
+  <div class="by"><span class="by">by </span><span class="person">edg1</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31899" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4Dsa+y37gNWac8H/0TKSV1LLZEN+dufb1jWvvvU/EZ79l3IoCfVzePBh7aygy9u4SJxQLzJRkNvn/8iT9SOgGw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31899" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Cool place.  I've had plenty of fun discussions there and no one is too stuck up just because they have a phd and you don't.  I haven't come up with anything to do yet but I sometimes drop in to see what is happening.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">davidhunt</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31898" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+yM3zrlC0p5hLJr/IqNs0TBkA8R1c25RT3Ngdiy9WPPmj18dnUwhMws+tqxTWiU+KjM3qDlUGVF+uQdbLKHpdg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31898" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>The lab this group runs is such a wonderful resource for our community.  I can't wait to see what corey does with the place if they get this grant.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">Tiffnynguyen149</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31817" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="QKAI2YIPZuRA8zMOE2TEnsb+AlLEJUkrDu8V6hBlBCxdDGAKpgGVSSrhH11inY1x3Kk2PogCPis/JXLHEHm1qQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31817" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Thanks to everyone who turned out to vote!  We look forward to seeing you all at our lab some time.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31816" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="73okTI9/FlSa8PqyXemeVKORWlJhCuxQyRA3A6/ww4zy1kyfq3Hl+fDi1uEsENe7ucZuPi0tm1D42lAur+xyCQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31816" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Good luck!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">Magpie239</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31180" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5N1HUS42+9/U0Pb6q9ifGWfxe7dj34ytSV7Eezy2BvL5cS+CCjgIcr7C2qnaIdb2faZP2y/4+614lKNWPKq3dw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31180" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:20px;">
+  <div class="content"><p>Thank so you much for your support and your kind words :)</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33293" style="display:none;;margin-left:20px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="sHhiBkfRd2gPkuWDW68GoVbco3Po3WhaaMgix4mnYoyt1ArVY9+ExWWAydAqVk9OTIuXH6T6H1pZAkXqibvTCQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33293" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:40px;">
+  <div class="content"><p>Hi Ryan, thanks for your marketing tips.  To address a couple of your points...</p>
+
+<p>1) We do in fact have a website.  If you scroll to the top of the page there is a blue link that leads to our website.  It's not the greatest website but it's something.</p>
+
+<p>2) We actually have grown a bit.  We started off as a couple of people meeting at coffee shops 4 years ago and now we have a 1300 square foot fully-functional biology lab that is somewhat self sustaining.  And things have in fact worked.  We've had kids go on to compete and win in top science fair competitions.  Come by our lab sometime and check out what we've done and what were' doing. The street address is on our website - see my first point.</p>
+
+<p>3) EnrichLA is a really great organization so your vote will be well spent.
+</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33290" style="display:none;;margin-left:40px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="AKb8HoTJ7BHFm2tpVNZhxqOdXTtKDXAS1vy7+/JMyYwdCpTNoMcfvK+JRzolLygpucppVwYqBxLnNtzW8lB4CQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33290" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:60px;">
+  <div class="content"><p>Thanks so much for your support and your kind words :)  We are excited for the future of LAB.
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32759" style="display:none;;margin-left:60px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="aFMq18XDbVxGFoYy+oRzV5KbG19PUFCNlGnLxrvQSc51/0IE4c2e8SwEqmGLfTq4iMwvMwN3J42lo6zru8z4Sw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32759" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:80px;">
+  <div class="content"><p>Thank *you*!  I appreciate all the support and kind words we have received throughout this LA2050 event.  Stop by on a Sunday afternoon sometime.  Good times will be had by all.
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32758" style="display:none;;margin-left:80px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="fWc69SvnhECnqssnOnqYthDFJncDDMcLaNHwHCtwf2Ngy1ImD+l37c2453RLg9FZCpISG08rsAtZG5cxK2zO5g==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32758" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:100px;">
+  <div class="content"><p>Thanks for your support!  I am truly amazed by how much support we have received.
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32757" style="display:none;;margin-left:100px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="MpKQdo+tyoYQ6QaLBMBtApkvhSxw8GrJgjllgSCoXfwvPvilq6M5K3r7Kth1OSTtg3ixQDzXHcmz8wKsILTseQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32757" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:120px;">
+  <div class="content"><p>Thanks for your support, Hilary.  I can't wait either.  We will be bigger and better and more inclusive than ever before.
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32756" style="display:none;;margin-left:120px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="g3Wp3r2goLpG9H5I4pTOBh1opipH+2T1UfOVRZ+q1ime2cENma5TFyzmUhuTbYfpBz+SRgvcE/VgOfJon7ZnrA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32756" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:140px;">
+  <div class="content"><p>I'm glad you like our meetups.  They aren't very structured (at all) but everyone seems to have fun and learn a thing or two.  Stop by again sometime.
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32755" style="display:none;;margin-left:140px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="vN6PRbn2y1YYWxDo9sPkavh2RBV9Si3LQdry8L+deDuhcueWnfg4+3JJPLuHOq2F4iFweTFtWstwEJXdv4HJvg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32755" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:160px;">
+  <div class="content"><p>Hi Suzy, definitely stop by our lab sometime.  We always welcome fresh faces.  There are some other UCLA phd students currently in our group so you may see some familiar people here.  Yes, assuming LabLaunch is able to launch, we will definitely be working with together.  My vision is for LAB to be a permanent resident within LabLaunch so we can share equipment and knowledge.  I am excited for the future.  So while you're here make sure to vote for LabLaunch too! 
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32754" style="display:none;;margin-left:160px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="i0jYiCRk7cyHBHGa18Q2B5Cunip0lhUUz6nN1cBRk+qW5LBbAGoeYe0WXcmmPX/oivmqRjixYhT+Y6r4wE0ibw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32754" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:180px;">
+  <div class="content"><p>Hi Petera,  thanks for your support!
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32752" style="display:none;;margin-left:180px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ryKpI+5g5MS3gUQJE7S+YKZe/fuQaU4x7iu/v7muaHCyjsHwym4Xad2TaFpiTfePvAnJl9xOOTHf4diSubLZ9Q==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32752" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:200px;">
+  <div class="content"><p>I'm glad you feel welcome at or lab.  That is one of our primary goals - make science accessible to everyone.  And make it fun :)  Thanks for your support.  Tell your friends to vote!
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32742" style="display:none;;margin-left:200px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="9ollMM4gR1P4BmaBle+rKJrF9aJrUPIegTeSNqvmhYnrJQ3j6i60/pIUStLkFuLHgJLBzid3hR6w/fUbq/o0DA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32742" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:220px;">
+  <div class="content"><p>Thanks for your kind words.  I'm glad you find our lab exciting :)  Hopefully we continue to make science exciting for everyone as we grow.
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32741" style="display:none;;margin-left:220px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="6Mc5s3BYKc/b5SZb4ldOSxiHoPWVg+yPmxZz3PRV4w/1a1FgVFbaYrH3CgiTrgekAtCUmdmkm4+q3BTx9ElSig==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32741" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:240px;">
+  <div class="content"><p>Hi Kiara,  thanks for your support.  LAB will for sure only getter better with age.  We may never have the financial resources of big-time university labs but I hope we can at least make similar resources available to non-affiliated scientists and enthusiasts.
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32740" style="display:none;;margin-left:240px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="FR3ozc8182GjIUHCQYKgZT6t0KKtlBD2qd3fXBx+EDEIsYAe6zsAzMkzbZEwe+mKJPrkzuGzZ/aYF7hxHGKhtA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32740" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:260px;">
+  <div class="content"><p>Thanks you for your kind words.  I hope you can make it to our lab some time.
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32739" style="display:none;;margin-left:260px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ZsN/VMA8VmA3OnCgQv01lWj9OL+ecxBCjUzEb85f7qB7bxeH5DKlzV0oXPMzBHx6cqoM09JUZ0K8hqNCzkNfJQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32739" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:280px;">
+  <div class="content"><p>Hi Jammie,  if you want one in your town someone has to start it and it might as well be you!  Email me (cory.tobin@gmail.com) if you want to chat about creating a diybio community.  I'd be happy to help out as much as I can remotely.
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32738" style="display:none;;margin-left:280px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1TDRfhMRizUPolgc4K4WtX3mjg4uNuljg6Z6/n46pq/InLmtNx94mGWwdE+RV19aZ7G6YmIRnmOybB3TfiYXKg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32738" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:300px;">
+  <div class="content"><p>Thanks so much for your kind words and support.  I'm glad you have found our community welcoming.  We would definitely put the money to good use - more science for everyone!
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32736" style="display:none;;margin-left:300px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="d6J+ZW5wUeOhVKaqHaa/Bwb/B6f+WMIZ/nG5Z7VhkAdqDha2Sn6iTstGivlsX/boHKgzy7J/tRnPu95KtX0hgg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32736" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:320px;">
+  <div class="content"><p>Thanks for your support.  I hope to see you around the lab soon.
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32734" style="display:none;;margin-left:320px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="jOhTSaX0xxtegzAZ7VKVQRrQOPjfHNJwwb1p5RtfkxmRRDuagfo0tjSRHEqcq9yuAIcMlJM7pXDwdw7IG0MinA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32734" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:340px;">
+  <div class="content"><p>Couldn't have said it better myself.
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32733" style="display:none;;margin-left:340px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="sY/2hKjCPMXGP2qU/DWIi0HrlqStFNS1Kmi0YWP38GCsI55XjMzPaKwtRseNzMFkW7yiyOEzo7UbotNMY+tB5Q==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32733" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:360px;">
+  <div class="content"><p>Hi Ilana,  there are similar places in other cities.  Genspace in Brooklyn, Counter Culture labs in Oakland, Biocurious in Sunnyvale(?), BTnB in Carlsbad, Bosslabs, BUGGS, and plenty more.  We're the only one in LA and I'm happy to be a part of it and help everyone (even the common folk without fancy degrees:) get the resources they need to do cool stuff.
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32732" style="display:none;;margin-left:360px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="d24UCZ8hCQ7ytiPEhlNlX6/AaIbr5wyJsetktmfXyrtqwnzauy/6o5ikD5f3qiywtZdc6qfAe4mAIQObZ8t7Pg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32732" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:380px;">
+  <div class="content"><p>You're welcome and thank you for your support.  I hope to make it even better.
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32730" style="display:none;;margin-left:380px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Me2T9JSohQ3LpaSm9tlWnLTCQlEXQHMlVLyutlG8EScsQfsnsKZ2oKG3iPWHIB9zrpV2PVtnBCVldsmbUaCgog==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32730" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:400px;">
+  <div class="content"><p>Thanks Beverley.  Come by any time (that someone is present).  We always enjoy more people.
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32728" style="display:none;;margin-left:400px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="dvQHnrEDJg2TlNO4X6DlPLiEl2WWtItdYFsq5YUjMMprWG9NlQ3VoPmG/+suWazTotOjCdqT/F1RkU3IhT+BTw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32728" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:420px;">
+  <div class="content"><p>Hi Brian,  thanks for your support.  You and your son are always welcome to come and use the lab.  We enjoy your company and I think the learning is mutual.
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32727" style="display:none;;margin-left:420px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="xMlBCUTRidTzXEafk+IAQHZQv1arhmONOl/htOX9G1fZZSnaYN96eZlOasziG0mvbAeLOuehFI0LlYaZ5eGq0g==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32727" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:440px;">
+  <div class="content"><p>Hi Elaine,  hopefully we can work side by side with universities.  I don't see it as a zero-sum game.  Hopefully we can all benefit from each others' physical and intellectual resources.  We are definitely underfunded compared to university labs.  Maybe they can learn a thing or two about cost cutting from us :)
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32726" style="display:none;;margin-left:440px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KufpVgEQ9cneVIwCthcuJKzmRxQI/c/kZqyufYLA5b83S4GFJR4GZLRGoFHH7mfLtrFzeETauORXZslQgtxUOg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32726" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:460px;">
+  <div class="content"><p>Hi Christian,  thanks for your support and kind words.  If you've ever in town again please stop by.  I enjoyed talking with you.
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32725" style="display:none;;margin-left:460px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="WdME+AgYK3bWTz+qkNK/xzDNAYwIx/oNT0pxhSZUPelEf2wrLBbY27xdE/nhK/YoKpo14ETgjQ1+gBaoJkiMbA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32725" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:480px;">
+  <div class="content"><p>Hi Jared,  yes definitely.  Where do we begin?  I am totally interested in what you guys are doing.  </p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32724" style="display:none;;margin-left:480px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="olt7ruT+5TAx7cPJHF8vI6KTBuk6LUanBA54zCmYvPu/9xN9wPAWnVv/75ptpmbMuMQyhXYKMac1xB/hKYQNfg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32724" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:500px;">
+  <div class="content"><p>Hi Mandy,  it started by a few of us local biologists (and biology enthusiasts) meeting up to talk shop.  Once we had a critical mass we moved into an existing hackerspace in LA until we had grown enough to get our own place.  Now we have a 1300sqft lab.  Everything was either donated or bought by us.  It's been a 100% grass roots movement.  A lot of effort by everyone.  If you're looking for stuff in Madison, I would send out an email to the DIYbio mailing list and ask if anyone is in the area.  From there just start spreading the word locally until you get enough people interested that it becomes self supportive.  Good luck!
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32722" style="display:none;;margin-left:500px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="W2KkHu6GBpZlxxYHTXZBM0garNHbRAf9kijAuiD/iEFGzszNyoj1Ow/VOlQ8jwjcUk2YvZdjcP2j4qeXIOM5xA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32722" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:520px;">
+  <div class="content"><p>Thanks so much Oscar,  We sure would put it to good use.  Better safety, more space, more equipment, more people.  If you haven't seen the projects we've been working on lately stop by on a Sunday afternoon
+<br />-Cory</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ctobin</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32720" style="display:none;;margin-left:520px;">
+  <form class="new_comment" id="new_comment" action="LAB.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Zz4tzV6q9KgnMxwKPXo0OCwcIjNdE367axNafMCo04F6kkUeeqQHBU0hMFlMg33XNksWXxE0Cbta2T1RwLRiBA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32720" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+
+  </div>
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+  $(".comment_content").bind('focus', function(){
+    $(this).siblings('label.comment-tip').hide();
+  });
+  $(".comment_content").bind('blur', function(){
+    if ($(this).val().length == 0){
+      $(this).siblings('label.comment-tip').show();
+    }
+  });
+  $('.reply').bind('click', function(){
+    $(this).parent().next('.add_comment_form').slideToggle();
+  });
+});
+</script>
+
+</div>
+
+</div>
+
+  
+
+
+<script language="javascript">
+
+  
+  function vote_success(project_name, twitter_link, facebook_link){
+    trackNewVote();
+    message = 'some stuff'
+    project_message_dialog('good-vote-dialog', message, twitter_link, facebook_link);
+  }
+
+  function vote_already_cast( project_name, twitter_link, facebook_link ) {
+    project_message_dialog( 'good-vote-dialog-recast per_challenge', "Your vote has already been cast for " + project_name, twitter_link, facebook_link);
+  }
+
+  function project_message_dialog(type, message, twitter_link, facebook_link) {
+    content = '<div class="message">' + message + '</div>';
+
+    jQuery('<div></div>').html(content).dialog({
+      dialogClass: type,
+      width: 530,
+      buttons: {}
+    });
+  }
+</script>
+
+<script>
+//<![CDATA[
+setMixPanelDetails('maker submission')
+//]]>
+</script>
+
+<script type="text/javascript">
+  jQuery('external').bind('click', function(){
+    link = jQuery(this).attr('href')
+    _gaq.push(['_trackPageview', link]);
+  });
+</script>
+
+      <br style="clear:both">
+    </div>
+    <div class="right-column">
+        
+
+  
+<div id="award_box">
+  <div id="award_icon">
+    <img src="../../assets/icons/pink-ribbon-award-box-icon-45b87e779c93f5099a48378c2aadc0fcd51184974daecf76e3f5c50034ea21fb.png" alt="Pink ribbon award box icon 45b87e779c93f5099a48378c2aadc0fcd51184974daecf76e3f5c50034ea21fb" />
+  </div>
+  <div id="award_text">
+    <img src="../../assets/icons/award_topvotedidea-5a5ae14e3d56a10363ea2a398cece46cf4df891213cbe68677c19d8903a1932a.png" alt="Award topvotedidea 5a5ae14e3d56a10363ea2a398cece46cf4df891213cbe68677c19d8903a1932a" />
+  </div>
+
+      <div id="award_prize_money">
+        $100,000
+      </div>
+
+  <div class="vertical-padding"></div>
+</div>
+
+  <div id="challenge_phases">
+  
+<div id="submission_phase" class="phase">
+  <div class="phase-header">
+      <img class="step-phase" src="../../assets/icons/circle-1-inactive-e7784182a1bd5eace578987db27fc19ec6337f418c48c6c8732605b9043d50d0.png" alt="Circle 1 inactive e7784182a1bd5eace578987db27fc19ec6337f418c48c6c8732605b9043d50d0" />
+      <img class="step-title" src="../../assets/icons/step1-title-submission-inactive-cde083e53089b973e7c9dc80a44a038c1ce4cf3b2650aeb5549157d1ed58a2d9.png" alt="Step1 title submission inactive cde083e53089b973e7c9dc80a44a038c1ce4cf3b2650aeb5549157d1ed58a2d9" />
+
+    <div id="step1_plus" class="step-expand" onclick="expandStep1();"><div class="phases-orange-plus"></div></div>
+    <div id="step1_minus" class="step-expand" onclick="collapseStep1();" style="display:none;"><div class="phases-orange-minus"></div></div>
+    <div style="clear:both;"></div>
+  </div>
+
+  <div id="submission_phase_detail" class="phase-detail">
+
+    <div class="phase-dates deadline">
+      <p>Submission Began<br>
+      <span class="upcoming_date_with_day">Tuesday, July 01, 2014</span><br>
+      <p>Submission Ended<br>
+      <span class="upcoming_date_with_day">Thursday, July 31, 2014</span><br><span>at 07:00 PM UTC</span></p>
+    </div>
+  </div>
+</div>
+
+
+
+<script language="javascript">
+  function expandStep1()
+  {
+    jQuery("#step1_plus").hide();
+    jQuery("#step1_minus").show();
+
+    jQuery("#submission_phase_detail").show();
+  }
+
+  function collapseStep1()
+  {
+    jQuery("#step1_plus").show();
+    jQuery("#step1_minus").hide();
+
+    jQuery("#submission_phase_detail").hide();
+  }
+
+</script>
+
+  
+<div id="voting_phase" class="phase">
+  <div class="phase-header">
+      <img class="step-phase" src="../../assets/icons/circle-2-inactive-74a43088831beb43fdbd7591ef5d50a5a7a26ff92c9e8ed489782459fa31a8d9.png" alt="Circle 2 inactive 74a43088831beb43fdbd7591ef5d50a5a7a26ff92c9e8ed489782459fa31a8d9" />
+      <img class="step-title" src="../../assets/icons/step2-title-voting-inactive-96be722f53c417edddb5742ba9a6dc2fd403f7e4f6c19dbe883d50d20d93689d.png" alt="Step2 title voting inactive 96be722f53c417edddb5742ba9a6dc2fd403f7e4f6c19dbe883d50d20d93689d" />
+
+
+    <div id="step2_plus" class="step-expand" onclick="expandStep2();"><div class="phases-blue-plus"></div></div>
+    <div id="step2_minus" class="step-expand" onclick="collapseStep2();" style="display:none;"><div class="phases-blue-minus"></div></div>
+    <div style="clear:both;"></div>
+  </div>
+
+  <div id="voting_phase_detail" class="phase-detail">
+
+    <div class="phase-dates deadline">
+        <p>Voting Began<br>
+      <span class="upcoming_date_with_day">Tuesday, September 02, 2014</span><br>
+      <p>Voting Ended<br>
+      <span class="upcoming_date_with_day">Tuesday, September 16, 2014</span><br><span>at 07:00 PM UTC</span></p>
+    </div>
+  </div>
+</div>
+
+
+
+<script language="javascript">
+  function expandStep2()
+  {
+    jQuery("#step2_plus").hide();
+    jQuery("#step2_minus").show();
+
+    jQuery("#voting_phase_detail").show();
+  }
+
+  function collapseStep2()
+  {
+    jQuery("#step2_plus").show();
+    jQuery("#step2_minus").hide();
+
+    jQuery("#voting_phase_detail").hide();
+  }
+
+</script>
+  <div id="winner_phase" class="phase">
+  <div class="phase-header">
+    <img class="step-phase" src="../../assets/icons/circle-3-83da7a9432aeea960e1a9e9ee93e7ea1221af6c8f42b27964f2e9999d94b2b8d.png" alt="Circle 3 83da7a9432aeea960e1a9e9ee93e7ea1221af6c8f42b27964f2e9999d94b2b8d" />
+    <img class="step-title" src="../../assets/icons/step3-title-3d9e2a65d6ea1ad301f8fc607f5f828bd96362932c71d81c0da5b1fd964422b0.png" alt="Step3 title 3d9e2a65d6ea1ad301f8fc607f5f828bd96362932c71d81c0da5b1fd964422b0" />
+
+    <div id="step3_plus" class="step-expand" onclick="expandStep3();"><div class="phases-red-plus"></div></div>
+    <div id="step3_minus" class="step-expand" onclick="collapseStep3();" style="display:none;"><div class="phases-red-minus"></div></div>
+
+    <div style="clear:both;"></div>
+  </div>
+
+  <div id="winner_phase_detail" class="phase-detail">
+        <div class="winner_contents">
+          <a href="enrichla.html">    <div class="user-media">
+        	<img alt="75 School Gardens in Los Angeles Schools!" src="../..//s3/youtube/vi/3CNwJdOyIDQ/0.jpg=c280x170#" />
+
+    </div>
+
+</a>
+          <div class="title">
+             <div class="byline">
+                 <span class="idea">winning submission</span>
+                 <span class="by">by</span>
+                 <span class="author">shanaenrichla</span>
+
+             </div>
+             <a href="enrichla.html">75 School Gardens in Los Angeles Schools!</a>
+          </div>
+        </div>
+
+    <div class="phase-dates deadline">
+      <p>Winner Announced<br>
+      <span class="upcoming_date_with_day">Tuesday, September 30, 2014</span><br>
+    </div>
+  </div>
+
+</div>
+
+<script language="javascript">
+  function expandStep3()
+  {
+    jQuery("#step3_plus").hide();
+    jQuery("#step3_minus").show();
+
+    jQuery("#winner_phase_detail").show();
+  }
+
+  function collapseStep3()
+  {
+    jQuery("#step3_plus").show();
+    jQuery("#step3_minus").hide();
+
+    jQuery("#winner_phase_detail").hide();
+  }
+
+    expandStep3();
+</script>
+
+</div>
+
+    </div>
+    <br style="clear:both">
+    <div class="ad-footer">
+        <div class="clear"></div>
+
+    </div>
+  </div>
+</div>
+
+
+      <footer id="footer">
+  <div class="footer-content">
+    <div class="links">
+      <h2>Creative Solutions for Living Well + Doing Good.</h2>
+      <ul>
+        <li><a href="http://www.good.is/about">About</a></li>
+        <li><a href="http://www.good.is/about/contact">Contact</a></li>
+        <li><a href="http://support.good.is/">Support</a></li>
+        <li><a href="http://www.good.is/about/advertise">Advertise</a></li>
+        <li><a href="http://good.theresumator.com">Jobs</a></li>
+        <li><a href="https://subscribe.goodmagazine.com">Subscriptions</a></li>
+        <li><a href="http://shop.good.is">Online Store</a></li>
+        <li><a href="http://www.goodcorps.com">GOODcorps</a></li>
+        <li><a href="http://www.good.is/about/privacy">Privacy</a></li>
+        <li><a href="http://www.good.is/about/terms">Terms</a></li>
+      </ul>
+    </div>
+    <div class="social">
+      <h2>Connect with us</h2>
+      <ul>
+        <li class="facebook"><a href="http://www.facebook.com/GOODHQ" target="_blank">Facebook</a></li>
+        <li class="twitter"><a href="http://twitter.com/good" target="_blank">Twitter</a></li>
+        <li class="instagram"><a href="http://instagram.com/goodhq" target="_blank">Instagram</a></li>
+        <li class="tumblr"><a href="http://good.tumblr.com/" target="_blank">Tumblr</a></li>
+      </ul>
+    </div>
+    <p class= "legal"> Copyright © 2015 GOOD Worldwide Inc </p>
+  </div>
+</footer>
+
+      
+
+      <script type="text/javascript">
+        function good_warn( message )
+        {
+          jQuery('<div></div>').html( message.replace('.', '.<br>') ).dialog({
+            dialogClass: "good-alert",
+            width: 330,
+            buttons: {
+              "OK": function() {
+                jQuery(this).dialog("close");
+              }
+            }
+          });
+        }
+
+        function good_confirm( message, executeFunction )
+        {
+          jQuery('<div></div>').html( message ).dialog({
+            dialogClass: "good-alert",
+            height: 170,
+            width: 330,
+            buttons: {
+              "Cancel": function() {
+                jQuery(this).dialog("close");
+              },
+              "Yes, I'm sure": function() {
+                executeFunction();
+                jQuery(this).dialog("close");
+              }
+
+            }
+          });
+        }
+
+      </script>
+
+      <!-- GA -->
+      <script type="text/javascript">
+        jQuery(document).ready(function() {
+          setCustomVisitorVariable();
+        });
+
+        function setCustomVisitorVariable() {
+          if (typeof(_gat) == 'object') {
+            if (typeof(user.attributes["login"]) == 'undefined') {
+              if (!_gat._getTrackerByName()._getVisitorCustomVar(1)) {
+                _gaq.push(['_setCustomVar', 1, 'Visitor_Type', 'Visitor', 1]);
+              }
+            }
+            else {
+              if (_gat._getTrackerByName()._getVisitorCustomVar(1) == 'Visitor') {
+                _gaq.push(['_setCustomVar', 1, 'Visitor_Type', 'Member', 1]);
+              }
+            }
+          }
+        }
+      </script>
+
+  </body>
+</html>
+

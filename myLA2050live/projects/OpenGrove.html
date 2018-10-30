@@ -1,0 +1,1832 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <title>Open Grove</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en" />
+
+      <link rel="stylesheet" media="all" href="../../assets/reset.self-c24ee0aa1527df85ac03c8d941cc1366e21748a09c41555f3392555f39e1f308.css%3Fbody=1.css" />
+<link rel="stylesheet" media="all" href="../../assets/text.self-39c860465e6a5da40781e13fcf84bb75c7f471d94b6cfe9c29560089d0b181f5.css%3Fbody=1.css" />
+<link rel="stylesheet" media="all" href="../../assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css%3Fbody=1.css" />
+      <!--[if IE 6]>
+      <link rel="stylesheet" media="all" href="/stylesheets/ie6.css" />
+      <![endif]-->
+      <!--[if IE 7]>
+      <link rel="stylesheet" media="all" href="/stylesheets/ie7.css" />
+      <![endif]-->
+      <!--[if lt IE 9]>
+      <script src="/javascripts/IE9.js"></script>
+      <![endif]-->
+      <script src="../../assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js%3Fbody=1"></script>
+<script src="../../assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js%3Fbody=1"></script>
+<script src="../../assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js%3Fbody=1"></script>
+      <script src="../../javascripts/plugins/jquery.scrollto.min.js"></script>
+      <script src="../../javascripts/plugins/jquery.autogrow.js"></script>
+      <script src="../../javascripts/plugins/jquery.simplemodal.js"></script>
+      <script src="http://cdn.jquerytools.org/1.2.5/all/jquery.tools.min.js"></script>
+
+      <script src="../../javascripts/compiled/ui_elements.js"></script>
+      <script src="../../javascripts/compiled/mixpanel.js"></script>
+      <script src="../../javascripts/compiled/comments.js"></script>
+      <script src="../../javascripts/vendor/ajaxfileupload/ajaxfileupload.js"></script>
+
+      <!-- For custom alert boxes and background color fade in/out -->
+      <!-- And for jquery ui datepicker -->
+      <script src="../../javascripts/plugins/jquery-ui-1.9.2.custom.min.js"></script>
+      <link rel="stylesheet" media="screen" href="../../assets/ui-dialog/jquery-ui-dialog.custom.self-3c9c895313a1b7eb8a344aebe697c558a084668e4499bb77df7b700ee0c4a23d.css%3Fbody=1.css" />
+      <link rel="stylesheet" media="screen" href="../../stylesheets/smoothness/jquery-ui-1.9.2.custom.css" />
+
+      <link rel="stylesheet" media="screen" href="../../stylesheets/imgareaselect-animated.css" />
+
+      <script src="../../javascripts/vendor/imgareaselect/jquery.imgareaselect.min.js"></script>
+
+      <script type="text/javascript">
+        $.noConflict();
+      </script>
+
+
+      <link rel="icon" type="image/vnd.microsoft.icon" href="../../favicon.ico" />
+          <meta property="og:title" content="Open Grove"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="/myLA2050live/projects/OpenGrove"/>
+      <meta property="og:image" content="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/project_photos/images/21247/display/271142_126746457409396_123727814377927_212920_3369410_n.jpg?1406793422" />
+    <meta property="og:site_name" content="How would you use $100K to make LA the healthiest place to live? by GOOD Maker"/>
+    <meta property="fb:app_id" content="590727534352624"/>
+    <meta property="fb:admins" content="100004372031382"/>
+    <meta property="og:description" content=""/>
+        <link rel="img_src" href="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/fund_photos/images/20126/display/LA2050-MAKER-4.jpg?1403013820" />
+	<script src="../../javascripts/vendor/zeroclipboard/ZeroClipboard.js"></script>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=590727534352624";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+        window.twttr = (function (d,s,id) {
+          var t, js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+          js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+          return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+        }(document, "script", "twitter-wjs"));
+
+        window.fbAsyncInit = function() {
+          FB.Event.subscribe('edge.create', function(response) {
+            trackShareContent('facebook');
+          });
+        };
+
+        twttr.ready(function (twttr) {
+          twttr.events.bind('click', function(event) {
+            trackShareContent('twitter');
+          });
+        });
+        </script>
+  <link rel="stylesheet" media="screen" href="../../assets/shared/goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/shared/menubar.self-c6f399247e564168b1e87cc3598006147e2610b99a1df88849bd36740110f282.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/shared/footer.self-d5c5909d3f1a927d51ca2f6a93e55566ff415acdbe5208d6ced368f0e74b57c2.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/goodmaker_new.self-a0c54ca7154c11a512cc4ec4597f6e3e0eb6c0470daae13eefc1c665698b8bad.css%3Fbody=1.css" />
+  
+  <script src="../../assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js%3Fbody=1"></script>
+<script src="../../assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js%3Fbody=1"></script>
+<script src="../../assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js%3Fbody=1"></script>
+
+
+    <script src="../../javascripts/vendor/backbone/underscore-min.js"></script>
+    <script src="../../javascripts/vendor/backbone/backbone-min.js"></script>
+
+      
+      <!-- GA -->
+      <script type="text/javascript">
+        function removeRootGACookies() {
+            var ca = document.cookie.split(';'),
+                re = /^(__utm.)=/;
+            for(var i=0; i<ca.length; i++) {
+                var c = ca[i].trim();
+                var m = c.match(re)
+                if (m) {
+                  // Deletes cookies only if they are on root domain, does nothing otherwise
+                  document.cookie = m[1] + "=;path=/;domain=.good.is;expires=Thu, 01 Jan 1970 00:00:01 GMT;"
+                }
+            }
+        }
+        // Delete GA cookies on .good.is, this code can be removed on 6/1/2016 (GA cookies last 2 years)
+        removeRootGACookies()
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'doesntmatter']);
+        _gaq.push(['_setDomainName', '.maker.good.is']);
+        _gaq.push(['_trackPageview']);
+
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      </script>
+
+      <!-- start Mixpanel -->
+      <script type="text/javascript">(function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");
+    b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+
+    '//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';d=c.getElementsByTagName("script")[0];
+    d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){
+    var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(
+    Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?g=a[f]=[]:
+    f="mixpanel";g.people=g.people||[];h=['disable','track','track_pageview','track_links',
+    'track_forms','register','register_once','unregister','identify','alias','name_tag','set_config',
+    'people.set','people.set_once','people.increment','people.track_charge','people.append'];
+    for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.2;})(document,window.mixpanel||[]);
+      mixpanel.init("doesntmatter", {cookie_name: "gd_doesntmatter"});
+      </script>
+
+      <!-- end Mixpanel -->
+
+    </head>
+
+    <body class="normal projects show">
+      
+  <div id="header-background"></div>
+<div id="menu-bar-background"></div>
+
+<div id="global-header">
+ <div id='menu-bar'>
+  <div id='good-header'>
+    <a class="good-logo" href="http://www.good.is"></a>
+    <div id='slogan'>
+      <a href="../../index.html">Go to Maker Home</a>
+    </div>
+  </div>
+  <div id='template-container'>
+    <div id='template-profile-area'></div>
+  </div>
+</div>
+<div class='clear'></div>
+
+ 
+<!---->
+
+ 
+
+
+
+ <div class="clear"></div>
+</div>
+
+  <script language="javascript">
+    jQuery("#header-background").css("background", "#fff url(/images/layout/diagonals/Diagonals_GREY.png) repeat 50% 30px");
+  </script>
+
+
+
+<div class="container">
+  <div class="contents">
+    
+    
+    <div class="left-column">
+      <link rel="canonical" href="http://myLA2050live.localhost:3000/myLA2050live/projects/OpenGrove">
+
+
+<link rel="stylesheet" media="screen" href="../../assets/projects/show_idea.self-5bc5c3f78c6f4ba36ebfd7d5a30f6785c124fb14711fda201f5f93d8fbb589d3.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/projects/index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/tooltip/idea.self-eb971c9298d1548bdc93a859b4c2aee01537301a065c4c3f91eb9e871731fdfc.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/tooltip/form.self-55ce5cc1a9a95e48bb274b3a10bad6e4e69738bd4896a43e48d242aff4a5df2d.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/projects.self-8bba53b365ba017996583893f85c89a8b6899ebc86f5b8e0d3a4291b6b2de81e.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/show_idea.self-d2fefe18a71da57eee2141bce760e3400d33f26242847bd68d9762dbdc4b21de.css%3Fbody=1.css" />
+
+
+
+    <div class="challenge-header">
+  <div class="challenge-media" >
+
+    <div class="user-media">
+      <a href="../../myLA2050live.html"><img alt="How would you use $100K to make LA the healthiest place to live?" src="../..//s3/maker%252Fattachments%252Ffund_photos%252Fimages%252F20126%252Fdisplay%252FLA2050-MAKER-4.jpg=c160x96#" /></a>
+    </div>
+</div>
+
+  <div class="challenge-title">
+    <a href="../../myLA2050live.html">LA is the healthiest place to live</a></div>
+      <div class="learn-more">
+        <a href="../../myLA2050live.html">Learn More <img src="../../assets/icons/arrow_green-def7b8dfadd0dcc5f118e5cd10ed5e1ca25ff0794100c0b16b0707c38adad12c.png" alt="Arrow green def7b8dfadd0dcc5f118e5cd10ed5e1ca25ff0794100c0b16b0707c38adad12c" /></a></div>
+      <div class="clear"></div>
+</div>
+
+<div class="thick_divider"></div>
+
+
+  <div class="clear"></div>
+
+<div class="yellow-seperator "></div>
+
+<div class="idea-detail-body">
+  <div id="replaceable_header">
+  <div class="project-header">
+      <div id="project-main">
+        <div id="project-title">
+          <h1 class="huge no-rank ">Open Grove</h1>
+            <div class="idea-by">
+                <div class="by"><span class="challange">submission </span><span class="by">by </span><span class="person">devbee</span></div>
+            </div>
+        </div>
+      </div>
+      <script language="javascript">
+        (function ($) {
+          $('#previous, #next').click(function (e) {
+            var url = this.href;
+            e.preventDefault();
+            $.ajax({
+              url: url,
+              dataType: 'script',
+              success: function () {
+                window.history.pushState('string', 'Title', url);
+              }
+            });
+          });
+        }(jQuery));
+      </script>
+  </div>
+  <div class="clear"></div>
+  <div class="divider"></div>
+    <script language="javascript">
+      jQuery(".yellow-seperator").removeClass("winner");
+      jQuery("#idea-rank").removeClass("winner");
+    </script>
+</div>
+
+  <div id="replaceable_body">
+
+      <div class="user-media">
+          <img alt="Open Grove" src="../..//s3/maker%252Fattachments%252Fproject_photos%252Fimages%252F21247%252Fdisplay%252F271142_126746457409396_123727814377927_212920_3369410_n.jpg=c570x385#" />
+    </div>
+
+
+  
+
+<script language="JavaScript">
+jQuery(document).ready(function(){
+  var clip = new ZeroClipboard( document.getElementById("copy-label"), {
+    moviePath: "/javascripts/vendor/zeroclipboard/ZeroClipboard.swf"
+  } );
+  clip.on( 'complete', function(client, args) {
+    afterClipCopied();
+  } );
+	function afterClipCopied(){
+    jQuery('#challenge-permalink').focus();
+    trackShareContent('copy link');
+	}
+});
+</script>
+
+    
+   <h2 id="the-idea">About Your Organization</h2>
+
+
+     <p>
+           <b>Organization name(s):</b>
+    <p>Netiya + Seeds of Hope</p>
+
+       
+     </p>
+
+     <p>
+           <b>Organization website:</b>
+    <p>
+        <a href="http://www.netiya.org" rel="external">www.netiya.org</a>
+    </p>
+
+       
+     </p>
+
+     <p>
+           <b>Organization Twitter handle:</b>
+    <p><a class="external" href="http://www.twitter.com/NetiyaLA">www.twitter.com/NetiyaLA</a></p>
+
+       
+     </p>
+
+     <p>
+           <b>Organization Facebook page:</b>
+    <p><a class="external" href="http://www.facebook.com/NetiyaLA">www.facebook.com/NetiyaLA</a></p>
+
+       
+     </p>
+   <h2 id="the-idea">Describe your organization (check only one):</h2>
+
+
+     <p>
+       <input type="checkbox" name="78424" id="78424" value="1" disabled="disabled" checked="checked" />
+Nonprofit organization
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78425" id="78425" value="1" disabled="disabled" />
+For-profit organization
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78426" id="78426" value="1" disabled="disabled" />
+Government
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78427" id="78427" value="1" disabled="disabled" />
+Individual
+
+       
+     </p>
+   <h2 id="the-idea">Please describe yourself (check only one):</h2>
+
+
+     <p>
+       <input type="checkbox" name="78428" id="78428" value="1" disabled="disabled" />
+Solo actor (just us on this project!)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78429" id="78429" value="1" disabled="disabled" />
+Proposed collaboration (we want to work with partners!)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78430" id="78430" value="1" disabled="disabled" checked="checked" />
+Collaboration (partners are signed up and ready to hit the ground running!)
+
+       
+     </p>
+   <h2 id="the-idea">In one sentence, please describe what your organization does.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>Netiya advances institutional collaboration around food procurement and food relief to grow community food security.</p>
+
+       
+     </p>
+   <h2 id="the-idea">In one sentence, please describe your idea or project.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>Open Grove harnesses the institutional power of congregations by repurposing fallow land into orchards.</p>
+
+       
+     </p>
+   <h2 id="the-idea">Does your project impact Los Angeles County? Check only one.</h2>
+
+
+     <p>
+       <input type="checkbox" name="78434" id="78434" value="1" disabled="disabled" checked="checked" />
+Yes (benefits all of LA County)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78435" id="78435" value="1" disabled="disabled" />
+Yes (benefits a region of LA County)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78436" id="78436" value="1" disabled="disabled" />
+Yes (benefits a population of LA County)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78437" id="78437" value="1" disabled="disabled" />
+No
+
+       
+     </p>
+   <h2 id="the-idea">Please write a sample tweet to describe your submission.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>We at @NetiyaLA convert unused land into urban orchards at congregations in order to tithe food to grow community food security.</p>
+
+       
+     </p>
+   <h2 id="the-idea">Which area(s) of LA does your project benefit? Check all that apply.</h2>
+
+
+     <p>
+       <input type="checkbox" name="78438" id="78438" value="1" disabled="disabled" checked="checked" />
+Central LA
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78439" id="78439" value="1" disabled="disabled" checked="checked" />
+East LA
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78440" id="78440" value="1" disabled="disabled" checked="checked" />
+South LA
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78441" id="78441" value="1" disabled="disabled" />
+San Gabriel Valley
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78442" id="78442" value="1" disabled="disabled" checked="checked" />
+San Fernando Valley
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78443" id="78443" value="1" disabled="disabled" />
+South Bay
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78444" id="78444" value="1" disabled="disabled" checked="checked" />
+Westside
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78445" id="78445" value="1" disabled="disabled" />
+Other:
+
+       
+     </p>
+   <h2 id="the-idea">What is your idea/project in more detail?</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>Mosques, synagogues and churches are our greatest source of ready-to-repurpose open spaces in the city. We harness the institutional power of congregations by repurposing fallow land into orchards. Project Open Grove transforms the urban landscape with a simple idea rooted in ancient texts: tithing harvests. Tithing is the act of donating 10% of one’s resources to address the needs of the under-resourced within and around our communities.
+</p>
+
+       
+     </p>
+   <h2 id="the-idea">What will you do to implement this idea/project?</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>The collaboration of Netiya and Seeds of Hope through Open Grove involves engaging the untapped power of our faith-based institutions around food justice. As a combined network of close to 250 institutions, we start with accessing willing partners that can offer acreage, resources, and volunteers from our institutions. We build out a collaborative network wherein Open Grove offers institutions with deeply rooted and, in many cases, shared ethics, an opportunity to become powerfully aligned with one another around food justice in LA. </p>
+
+<p>The viability of our 2050 vision will be demonstrated within the next year by taking on the following measurables:</p>
+
+<p>1) Develop three pilot orchard projects at three faith-based institutions representing geographic, religious, socioeconomic, and land-use diversity. Complete experiential and educational orchard installs and have the three institutions coordinating their own sustainable garden maintenance plans.</p>
+
+<p>2) Initiate large-scale interfaith food justice collaboration through institutional engagement by convening a one-day, interfaith food awareness summit targeted toward religious and lay leaders across institutions, building upon the Seeds of Hope conference that was held in May 2014. This conference will focus on shmita - the religious commandment of leaving the land fallow every seven years (from September 2014-2015). We’ll hold interfaith discussions about how to improve upon our food growing operations so the recipients of the food relief become more empowered - and focus on food sovereignty rather than furthering hand outs.</p>
+
+<p>3) Convene an “Interfaith Council” that meets twice a year to collaborate and support ongoing food production efforts, building upon Netiya’s successful model Council. Hold meetings sharing best practices on food procurement and food security with interfaith clergy and lay leadership.</p>
+
+<p>4) Develop and distribute a “Your Congregation's Sustainable, Water-Wise Orchard Resource Guide.” Perhaps it will have a shorter title! The guide will give tools to our network institutions to plant and maintain orchards on their properties and contribute the produce to grow community food security.</p>
+
+       
+     </p>
+   <h2 id="the-idea">How will your idea/project help make LA the healthiest place to live today? In 2050?</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>Converting faith-based institutions’ unused land into productive green space will expand urban green areas and bring about related environmental benefits. These include temperature reduction, energy conservation, fewer smog and red alert days, improved water quality, and sequestering of greenhouse gases. In particular, there is an acute awareness of the need for more green space in low-income urban environments. In this way, Open Grove’s approach can have a particularly powerful impact on the health of these communities, as religious institutions are very strong players and can become a starting point for cultivating new and improved access to green spaces. </p>
+
+<p>Open Grove’s other benefits result from shifting towards local sustainable food systems, as a response to food safety and food access issues, as well as national epidemics of hunger and obesity. The focus on planting urban orchards is intentional, as we assert that urban orchards can have a much more significant effect on the long-term food system than annual vegetable gardens. Once established and producing, orchards can produce food for decades, and, in the case of nut trees, can produce healthy food with high caloric value. Orchards are also significantly easier to maintain once established, need far less material (compost, mulch, plastic irrigation supplies), water, and labor than annual gardens, and many orchards will produce food even if they are left alone for years. And Open Grove will work with gleaning networks in LA that already work on private and public orchards to provide food to local pantries.</p>
+
+       
+     </p>
+   <h2 id="the-idea">Whom will your project benefit? Please be specific. </h2>
+
+
+     <p>
+           <b>:</b>
+    <p>Open Grove recognizes its place in a much larger urban sustainability movement in Los Angeles that provides environmental, economic, and societal benefits to Angelenos. By funding two networks to collaborate on installing Urban Orchards on institutional land, this project will effectively free up more unused land to increase food production. It will also do two vital things: 1) it will enhance the food justice collaboration between secular and religious sectors and 2) it will give voice to the religious and spiritual people / institutions in LA that have not yet been harnessed and serve to literally and figuratively “feed” this growing food movement. Specifically, Open Grove is part of the much larger urban greening, local food production, and food justice movements. By engaging powerful faith-based allies across the city in planting urban orchards, Open Grove will amplify the social and environmental benefits of tree planting for food, creating positive effects that will last for decades. 
+<br />Converting faith-based institutions’ unused land into productive green space will expand urban green areas and bring about related environmental benefits. These include temperature reduction, energy conservation, fewer smog and red alert days, improved water quality, and sequestering of greenhouse gases. In particular, there is an acute awareness of the need for more green space in low-income urban environments. In this way, Open Grove’s approach can have a particularly powerful impact on the health of these communities, as religious institutions are very strong players and can become a starting point for cultivating new and improved access to green spaces. 
+<br />Open Grove’s other benefits result from shifting towards local sustainable food systems, as a response to food safety and food access issues, as well as national epidemics of hunger and obesity. The focus on planting urban orchards is intentional, as we assert that urban orchards can have a much more significant effect on the long-term food system than annual vegetable gardens. Once established and producing, orchards can produce food for decades, and, in the case of nut trees, can produce healthy food with high caloric value. Orchards are also significantly easier to maintain once established, need far less material (compost, mulch, plastic irrigation supplies), water, and labor than annual gardens, and many orchards will produce food even if they are left alone for years. </p>
+
+       
+     </p>
+   <h2 id="the-idea">Please identify any partners or collaborators who will work with you on this project.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>Specific partners that have been identified are the Metropolitan Water District, Greywater Corps, The River Project, LA Community Garden Council, New Horizon Muslim School in Pasadena, the New Community Jewish High School, Temple Beth Hillel, the North Hollywood Interfaith Food Pantry, the Unitarian Universalist Church, Temple Beth Ohr, All Saints Episcopal Church, Temple Beth Israel of Highland Park and Eagle Rock, the Prince of Peace Episcopal Church and the West Valley Food Pantry as a demonstration orchard and a model of the direct orchard-to-pantry model. </p>
+
+<p>Some partners do advocacy, some provide funding, others provide land, and still others find the materials needed to install the orchards.</p>
+
+<p>We have very specific membership and partnership terms for all collaborations. We work towards a model of empowerment and reciprocity. We are happy to forward a PDF with our terms for your perusal. </p>
+
+<p>Potential partners may come from the public or private sector, including corporations, academia, water agencies, other food and environmental nonprofits, and workforce development agencies. We would specifically expect to continue to engage our network partner institutions, UC Master Gardener, Master Composter, and Master Food Preserver volunteers, Brown Mountain CSA, Social Justice Learning Institute, Food Forward, Tree People, the Million Trees Initiative, the Yale University Urban Resources Initiative, SOVA and the NoHo interfaith food pantry. We will also bring in community organizations and youth groups to help start up and manage the orchards in their local neighborhoods, potentially establishing new community hubs in areas with limited access to fresh food.</p>
+
+<p>The collaboration with Seeds of Hope is confirmed - this is Netiya main partner. The food justice ministry of the Episcopal Diocese of LA established to repurpose church property and facilities for the production and distribution of food in underserved communities across the six-county diocese. The program currently grows food at nearly 100 locations and operates 60 food pantries and 50 feeding programs as well as providing nutrition and fitness education. Executive Director, Tim Alderson, came to Seeds of Hope from a lifetime in agriculture. He was the founder and former CEO of AgriGator, Inc., a multinational soil amendment company and the founding chairman of the California School Garden Network, a statewide network of public and private sector organizations united in support of school gardens.
+</p>
+
+       
+     </p>
+   <h2 id="the-idea">How will your project impact the LA2050 &quot;LIVE&quot; metrics?</h2>
+
+
+     <p>
+       <input type="checkbox" name="78452" id="78452" value="1" disabled="disabled" checked="checked" />
+Access to healthy food
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78453" id="78453" value="1" disabled="disabled" />
+Healthcare access
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78454" id="78454" value="1" disabled="disabled" checked="checked" />
+Exposure to air toxins
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78455" id="78455" value="1" disabled="disabled" checked="checked" />
+Number of households below the self-sufficiency standard
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78456" id="78456" value="1" disabled="disabled" checked="checked" />
+Percent of imported water
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78457" id="78457" value="1" disabled="disabled" />
+Obesity rates
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78458" id="78458" value="1" disabled="disabled" />
+Rates of homelessness
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78459" id="78459" value="1" disabled="disabled" />
+Walk/bike/transit score
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78460" id="78460" value="1" disabled="disabled" />
+Acres and miles of polluted waterways
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78461" id="78461" value="1" disabled="disabled" />
+Rates of mental illnesses
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78462" id="78462" value="1" disabled="disabled" />
+Prevalence of adverse childhood experience (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78463" id="78463" value="1" disabled="disabled" checked="checked" />
+Percentage of LA communities that are resilient (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78464" id="78464" value="1" disabled="disabled" />
+Percentage of residents receiving coordinated healthcare services (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78465" id="78465" value="1" disabled="disabled" checked="checked" />
+Percentage of tree canopy cover (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78466" id="78466" value="1" disabled="disabled" />
+Other:
+
+       
+     </p>
+
+     <p>
+           <b>Please elaborate on how your project will impact the above metrics.:</b>
+    <p>By 2050 we estimate that Open Grove will:</p>
+
+<p>*Create 50 acres of new open/green space that is fertile and productive land. Previously neglected, now helping to increase property values in neighborhoods around the city </p>
+
+<p>*Improve community health, particularly among the “food insecure” by adding over 23 million servings of fresh fruits and nuts to local food pantries.</p>
+
+<p>*Remove 4,500 tons of CO2 from the atmosphere</p>
+
+<p>*Reduce stormwater run-off by 185 million gallons</p>
+
+<p>*Conserve 2.3 billion gallons of water (by converting turf and ornamentals to trees)</p>
+
+<p>*Improve LA’s water quality by capturing and slowing water runoff at our institutions so it percolates into underground aquifers</p>
+
+<p>*Improve the quality of life in our communities by developing alternative food access in and around our geographically-diverse congregations, decreasing noise, air pollution, and temperatures, while increasing open space and property values.</p>
+
+<p>*It is hoped that Open Grove will also help reduce medical costs associated with obesity, diabetes, and smog-related health issues as community members spend more time outdoors doing physical activity.</p>
+
+<p>*Fifty acres of new orchards in LA would significantly increase the percentage of tree canopy cover and likely reduce the ambient heat in parts of the city.</p>
+
+<p>*In addition the orchards will create hubs for educational programming, leadership building, as well as opportunities to create continuous sources for healthy, local food that can be donated or used within the community</p>
+
+       
+     </p>
+   <h2 id="the-idea">Please select which other LA2050 Goals are relevant to your project or organization (check all that apply):</h2>
+
+
+     <p>
+       <input type="checkbox" name="78469" id="78469" value="1" disabled="disabled" checked="checked" />
+LA is the best place to CREATE
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78470" id="78470" value="1" disabled="disabled" checked="checked" />
+LA is the best place to PLAY
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78471" id="78471" value="1" disabled="disabled" checked="checked" />
+LA is the best place to CONNECT
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78472" id="78472" value="1" disabled="disabled" checked="checked" />
+LA is the best place to LEARN
+
+       
+     </p>
+   <h2 id="the-idea">Please explain how you will evaluate your project.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>Number of institutions. Our goal is to have 500 faith-based institutions involved by 2050 with an average of ten trees planted at each participating congregation's property.</p>
+
+<p>Geographic distribution. Our goal is to have a practical, positive and measurable impact on the health of individuals and the environment throughout every region in the county. We will quantify the geographic distribution of our orchards with particular interest in areas of greater food insecurity and environmental stresses.</p>
+
+<p>Demographic diversity. We aim to involve Angelenos  of every cultural, ethnic, and socioeconomic  background. We will quantify success by comparing our participants with the overall diversity of Los Angeles.</p>
+
+<p>Acreage converted. Each orchard will be measured and added to the total to identify whether we will meet or exceed our goal of converting 50 acres to open space.</p>
+
+<p>Trees planted. Our goal is to plant 5,000 fruit and nut trees by 2050. Trees planted will be inventoried using GPS coordinates and tracked carefully for their positive impacts on the environment and local food production.</p>
+
+<p>People served. Produce from our orchards will be distributed to neighbors in need through our volunteer network, and local food pantries. The amount of fruit or nuts distributed to each recipient will be recorded to track how many people are served.</p>
+
+<p>Pollutants removed from the air. Each tree has the potential to remove approximately 50 pounds per year of CO2 from the atmosphere. This could amount to over 4,500 tons of CO2 removed from our air by 2050. In partnership with the Urban Resources Initiative at the Yale School of Forestry and Environmental Studies, using their technology we will precisely measure the total quantity of pollutants each tree removes from the surrounding air.</p>
+
+<p>Water saved. Before converting a property to orchard production, we will record the water consumption for its prior use. After conversion, water usage will be documented to determine water savings in this drought.</p>
+
+<p>Volunteers participating. Community involvement is a key determinant of the sustainability. We will quantify the number of congregations and participants over time and the average length of personal engagement. We will also look for indicators to predict a person’s willingness or resistance to participation and motivators for long-term involvement.</p>
+
+<p>Additional, somewhat less quantifiable, impacts such as stormwater runoff and decreases in temperature will also be observed.</p>
+
+       
+     </p>
+   <h2 id="the-idea">What two lessons have informed your solution or project?</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>“There are, it seems, two muses: the Muse of Inspiration, who gives us inarticulate visions and desires, and the Muse of Realization, who returns again and again to say "It is yet more difficult than you thought." 
+<br />― Wendell Berry</p>
+
+<p>1) Our existing congregational gardens after three years are not producing high yields, they do however, have high educational value for the congregations. We've learned there are more effective ways of using land.</p>
+
+<p>2) Annual gardening can also prove extremely humbling and very frustrating for volunteer gardeners that have irregular schedules and competing priorities. We've learned that orchard maintenance is much more suitable and rewarding for our congregants. They feel more connected to the program when there is more productive source for their labors.</p>
+
+<p>To this end, we have shifted to planting high yield nut and fruit trees and offering educational programming to supplement fruit tree care.</p>
+
+<p>We've also learned from Wendell Berry, 
+<br />"Put your faith in the two inches of humus
+<br />that will build under the trees
+<br />every thousand years."</p>
+
+<p>We know intimately the successes and failures of our attempts to influence nature and will continue to share this concept time and again with our communities. Plants thrive or wither despite our willful application of effort. </p>
+
+<p>Remembering this lesson, that of keeping at it anyway, despite the setbacks and course corrections, has helped us continue. We believe this reframing will be a win-win: more productive yields for recipients of emergency food relief will tend to galvanize the congregations more over time, and that in turn will keep the congregant volunteers more connected to sustaining their efforts over time.</p>
+
+       
+     </p>
+   <h2 id="the-idea">Explain how implementing your project within the next twelve months is an achievable goal. </h2>
+
+
+     <p>
+           <b>:</b>
+    <p>We are two organizations with strong and engaged community networks. We have three shovel-ready sites waiting for project implementation. Netiya and Seeds of Hope both possess proven track records with many combined years of experience working in partnership with communities both installing and sustaining gardens and orchards. This is evidence of our ability to continue to build out a successful and sustainable garden program that is fully integrated into the conventions of the institution.
+<br />The viability of our 2050 vision will be demonstrated within the next year by taking on the following measurables:</p>
+
+<p>1) Develop three pilot orchard projects at three faith-based institutions representing geographic, religious, socioeconomic, and land-use diversity. We will aim to build community ownership at the same time we build the gardens. One will be an interfaith food pantry that feeds over 160,000 people a year. Combined with the other two gardens, we estimate reaching an additional 500 families with fresh produce. We plan to complete the three empowering educational and experiential garden builds within the community and have the three institutions coordinate their own sustainable garden maintenance plans. This will serve as a replicable model that can be expanded upon in 2015-2016.</p>
+
+<p>2) Initiate large-scale interfaith food justice collaboration through institutional engagement by convening a one-day, interfaith food awareness summit targeted toward religious and lay leaders across institutions, building upon the Seeds of Hope conference that was held in May 2014. This conference will focus on shmita - the religious commandment of leaving the land fallow every seven years (from September 2014-2015). We’ll hold an interfaith discussion likely in May 2015 about how to improve upon the sustainability of our food growing operations so the recipients of the food relief become more empowered - and focus on food sovereignty rather than furthering hand outs.</p>
+
+<p>3) Convene an expanded “Interfaith Council” to meet twice a year to collaborate and support ongoing food production efforts, building upon Netiya’s successful model Council. Hold meetings sharing best practices on food procurement and food security with professional facilitation.</p>
+
+<p>4) Develop and distribute an “Interfaith Resource Guide” to give tools to our network institutions to plant and maintain orchards on their properties and contribute the produce to grow community food security.</p>
+
+       
+     </p>
+   <h2 id="the-idea">Please list at least two major barriers/challenges you anticipate. What is your strategy for ensuring a successful implementation?</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>
+One major barrier I foresee could involve the timeframe. In several cases our network members have been given green lights from their administration to launch garden installs, only to have a committee within their institution review the plans and request a delay and more than once the delay has been many months. Establishing a firm time frame to meet the needs of this grant may make sense to all our project partners at the outset and in reality may prove difficult to fulfill. The success of Open Grove depends on timely implementation on the part of our institutional collaborators - which cannot always operate within tightly scheduled parameters!
+<br />Our second major barrier is the drought. We intend to plant orchards with significant amounts of mulch and compost, as well as berms and swayles to sink and store as much groundwater as possible for the trees. Open Grove will source 2 year-old trees and they will need watering in their first years in order to survive the drought. If the drought intensifies, we will meet the expected challenges with implementation by amplifying our drought-tolerant and water-wise educational series in partnership with the Metropolitan Water District and other community partners to drive strong content through the congregations.</p>
+
+<p>Our water-wise educational component is critical for the longevity of Open Grove sites. Our proven curriculum ensures that community partners are equipped and able to maintain these orchards as their own.</p>
+
+       
+     </p>
+   <h2 id="the-idea">What resources does your project need? (check all that apply)</h2>
+
+
+     <p>
+       <input type="checkbox" name="78480" id="78480" value="1" disabled="disabled" checked="checked" />
+Money (financial capital)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78481" id="78481" value="1" disabled="disabled" />
+Volunteers/staff (human capital)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78482" id="78482" value="1" disabled="disabled" checked="checked" />
+Publicity/awareness (social capital)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78483" id="78483" value="1" disabled="disabled" />
+Infrastructure (building/space/vehicles, etc.)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78484" id="78484" value="1" disabled="disabled" />
+Education/training
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78485" id="78485" value="1" disabled="disabled" />
+Technical infrastructure (computers, etc.)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78486" id="78486" value="1" disabled="disabled" />
+Community outreach
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78487" id="78487" value="1" disabled="disabled" checked="checked" />
+Network/relationship support
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="78488" id="78488" value="1" disabled="disabled" checked="checked" />
+Quality improvement research
+
+       
+     </p>
+
+
+    <h2 id="discussion" name="discussion">
+  <div style="float:left;">Discussion</div>
+  <span class="comment-count" style="margin-top:3px">
+    36
+    <img src="../../assets/icons/pink-talk-bubble-tail-c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7.png" alt="Pink talk bubble tail c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7" />
+  </span>
+  <div class="clear"></div>
+</h2>
+
+<div class="clear"></div>
+  <div class="comments">
+    <div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Love the idea of re-purposing fallow land into useful orchards and gardens that can be harvested for the under-resourced in our communities. Plus, what a brilliant team to implement! #opengrove</p></div>
+  <div class="by"><span class="by">by </span><span class="person">Dlight3</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33459" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="y2R/U3aK5Jv6cji+Kq6oWkVDqu+IqhRVCggi+cDID+nWyBeAUoQXNpBgFO1bV+G1XxSeg8SNY1U7wkXUwNS+bA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33459" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>What a fantastic, beautiful idea - creating food security using fallow land, while building interfaith collaboration.  #opengrove</p></div>
+  <div class="by"><span class="by">by </span><span class="person">Tsgetzug</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33448" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="F3trBfTVu6ffNxAugA9TGDL2Mt5eAAOMwcz1QX0DaDsK1wPW0NtICrUlPH3x9hr3KKEGshIndIzwBpJsfR/Zvg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33448" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>This is such a simple, beautiful idea.  I've often thought that "urban forests" were great, but would be even better if the trees also produced fruit. Seems like a no-brainer to me!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">andrewwilder</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33447" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="bodQySWwh19CgmB/hs13SDhB7ZROUW2r4GZPUpl0sy5zKzgaAb508iiQTCz3ND6nIhbZ+AJ2GqvRrCh/mWgCqw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33447" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Eze 36:30                              
+<br />And I will multiply the fruit of the tree, and the increase of the field, that you shall receive no more reproach of hunger among the people.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">devbee</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33438" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ukeo8lKh8oicvFfWLIv4zWtIMV/Jkwpe0s3mlFCCR8Wn68Ahdq8BJfaue4VdcrEicR8FM4W0fV7jB4G5UJ72QA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33438" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Of the deciduous fruit trees, we can provide the brown matter for composting. The institutions could perhaps provide a service to help the local homeowners accelerate their composting process. Perhaps the maintenance person could operate a shredder/chipper, so the homeowner doesn't have to invest in their own, but still benefit from quicker composting techniques that they can learn at each site.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">KBadger</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33443" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Usl+zFmr8JIW+tr3X6Wz5o3f0WSxcpWfhm75hpXTzl5PZRYffaUDP3zo9qQuXPoJl4jlCP1V4p+3pJ6rlc9/2w==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33443" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Unpave our parking lots and put up a paradise. #OpenGrove</p></div>
+  <div class="by"><span class="by">by </span><span class="person">devbee</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33439" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NBph9cEFfSxXyiezp0be1MPsC99DK3NLjAs/o7wcRBIptgkm5QuOgT3YC+DWv5c72bs/sw8MBEu9wViOvAD1lw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33439" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>I approve of this mission, because it provides community service on so many levels.
+<br />Ezek 34:27
+<br />And the tree of the field shall yield her fruit, and the earth shall yield her increase, and they shall be safe in their land,</p></div>
+  <div class="by"><span class="by">by </span><span class="person">KBadger</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33440" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YRLsInOdgUH1G7q9b7Fty03DkhzrmyHnqQU+wNPGY3l8voTxV5Ny7J8Jlu4eSCQkV5SmcKe8VueYz1nt09rS/A==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33440" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>An economy genuinely local and neighborly offers to localities a measure of security that they cannot derive from a national or a global economy controlled by people who, by principle, have no local commitment.
+<br />Wendell Berry
+</p></div>
+  <div class="by"><span class="by">by </span><span class="person">devbee</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33437" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="7nxIbx050CknF+YjOdkU8R4oUfe1HnM82kbte4lIRd7z0CC8OTcjhE0FynBIIF0eBH9lm/k5BDzrjIpWiVT0Ww==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33437" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Interfaith collaboration is so important for food justice and for peace in our world!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">JulieHMorris</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32260" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/xzNP1iqA7VwZshixP3GTAdFfNZAxdD7bc0+BeOlVNfisKXsfKTwGBp05DG1BI+jHRJIugzip/tcB1ko47nlUg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32260" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Looks like you have one Moslem school participating -- what other Islamic institutions are involved? The rest are Christian or Jewish organizations. Why do you say "mosques, churches, and synagogues" are participating when you have only one Moslem school?</p></div>
+  <div class="by"><span class="by">by </span><span class="person">vegielover71</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_30878" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="bPgFk2kBT0rVF5i2F8sw9bBvQ/JbVo9NvLp+RhnP+PFxVG1ATQ+8578FtOVmMnkaqjh3nhdx+E2NcBlrGdNJdA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="30878" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Do you know of unused congregational land in your neighborhood? Let us know!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">devbee</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_30879" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="R/owPUmqswEo4AocH/PwnOmMjbuFNGXj+MIhLAdSvsRaVljubaRArELyJk9uCrlz89u518kTEuPJCEYBB04PQQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="30879" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Faith based institutions which produce organic food and are sustainable, can be great sources of strength to its local community and members.  It is a staffed and its purpose is to minister to its community and those in need.  Sustainability and Urban Agriculture is more vital than ever, and it makes sense that the ministries will make this a bigger part of their work.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">KBadger</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33433" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="BLk/efP80JP/A2wU726RchtaJ+xMDyhGijkhrgw4xG4ZFVeq1/IjPpURQEeel9idAQ0TgAAoX0a780aDDCR16w==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33433" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p> “The future of mankind is dependent on every human being intimately associated
+<br />with a half acre of ground.” -- Frank Lloyd Wright (American architect, 1867 – 1959) </p></div>
+  <div class="by"><span class="by">by </span><span class="person">KSchaeffler</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33422" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="AwP1RRzab0WfEJfRB1BxrV2nfMU4bxjGsz4uG/Qf2MMer52WONSc6PUCu4J2qThCR/BIqXRIb8aC9Ek29ANpRg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33422" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>PLAY:  Play is found when we spend time cultivating passion. “Passion does not arrive on videotape or on a CD; passion is personal. Passion is lifted from the earth itself by the muddy hands of the young, it travels along grass-stained sleeves to the heart. " — Richard Louv, Last Child in the Woods, 2005
+<br />Growing edible food helps bring us to a sense of play which is deeply restorative.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">KSchaeffler</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33421" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="RZmUxWuOElF1Jgg99dyaP+F90mS+6bh7U2FkX5EgftdYNfwWT4Dh/B80JG6EJdPQ+yrmCPLOz3tiqwNykTzPUg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33421" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>“Put your faith in the two inches of humus that will build under the trees every thousand years." Wendell Berry</p></div>
+  <div class="by"><span class="by">by </span><span class="person">devbee</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33416" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="LA25wJz+nIhDYAQl3M5q3QuL1yrdnAHzQ4RUhmxJXcUxodETuPBvJSlyKHatNyMyEdzjRpG7dvNyTjOrbFXsQA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33416" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>What does mysticism have to do with orchards? Check it: <a href="http://en.wikipedia.org/wiki/Pardes_(Jewish_exegesis)" target="_blank">http://en.wikipedia.org/wiki/Pardes_(Jewish_exegesis)</a></p></div>
+  <div class="by"><span class="by">by </span><span class="person">devbee</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33415" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="HuZ0PATyU4Fy6OfgoHoHM1SaFRI238Nmplxy/wb3fRQDShzvIPygLBj6y7PRg07cTs0hfnr4tGaXlhXSBuvMkQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33415" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>The study of trees of the holy scriptures of Islam, Judaism and Christianity, and the observation that trees are presented as a resource from God, leads to the question of how those who revere the holy scriptures are handling trees.”</p>
+
+<p>Read this excellent piece on the place of trees in our shared traditions.
+<br /><a href="http://www.fao.org/docrep/005/y9882e/y9882e11.htm" target="_blank">http://www.fao.org/docrep/005/y9882e/y9882e11.htm</a>
+</p></div>
+  <div class="by"><span class="by">by </span><span class="person">devbee</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33414" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="aVekOH+ws1F36fbkWMjsDEkM3wjKYgKMuyMdDjK1uNd0+8zrW75A/B372rcpMaXjU1vrZIZFdYyK6XojMqkJUg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33414" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>CREATING: Of the Open Grove candidate Institutions, at at least one, there are already people who meet there to support creative entrepreneurial endeavors. There is also a group who invites and practices inter-faith worship for understanding and peace.  That campus project will help more than one creative start-up be noticed, and it will include creative projects as it plans to include mindful gardens and a labyrinth in engaging ways.  They have already begun to engage in conversation with the neighbors who would are willing and interested.  Possible techniques used could include <a href="http://TED.com" target="_blank">TED.com</a> speaker/artist  Candy Chang's "I wish this was a...." signs.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">KSchaeffler</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33413" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="I9g5/WOpMcxSvc30bxmcU1wuPZoLQm0clfePKZgU5EU+dFEuR6fCYTiv4ace4NW8RnkJ9kdlGhykPegEmAhVwA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33413" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>CONNECTING: It is known that one of the Open Grove candidate Institutions plans to include a wide variety of people to participate in its projects.  They would be including not only its congregation, but also invite volunteers from the local neighborhood, and various schools including: a preschool, an elementary school (public), a middle school (private), and a High School (private), as well as inter-faith groups, and volunteers from various groups who already use the campus for meetings, including possible seniors who have used the campus as part of a daycare center.  The social benefits from gardening in groups includes: increased cooperation, forming bonds, social interaction, Healthier patterns of social function, group cohesiveness, integration into the community, Re-ignite other social interests, social skills, employability and decreased isolation, decreased feelings of exclusion.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">KSchaeffler</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33410" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="U5K3LrZnxI6vf3pQUW59zYybn25/13mbPMAjVoAwFslOPt/9kmk3I8VtVgMglzQilsyrAjPwDpsNCkR7gCynTA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33410" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>LEARNING: This Project has benefits across all the LA2050 Categories: Besides live, Learning is big: People will learn about the natural world, sustainability, urban agriculture besides how to garden. They will learn about better nutrition, and water conservation as well.  They will also learn about themselves andbe taught by nature. The metaphors of nature are rich, and they come to us when we spend time working with the earth on an intimate level.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">KSchaeffler</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33409" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Ojfu+qncaZkDI9lJxgMmYVCono15eT/o2Yax9UIYu4Anm4YpjdKaNGkx9Rq3+m+OSv+q4TVeSOjoTNbYQgQKBQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33409" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>This project will keep on spawning additional projects: One of the Faith centers (FPCVV) hoping to partner with Netiya and seeds of hope for this project, but it would be the jump start they need to get started on other beneficial related projects including:  Striving to make its campus as sustainable as possible via rain water capture, solar powering it's campus, installing drought tolerant native plants in parts of its campus, creating mindful healing gardens, and teaching to the local community about all of this.  Holistic Nutrition classes have also been taught at this site.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">KSchaeffler</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33408" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NfkMY3B40epc5brpMjBItQPC1XRn6o+mWFlLBNYQcNEoVWSwVHYiRzb3lrpDyQFaGZXhGCvN+KZpkywp1gzBVA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33408" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>More places to grow food in raised containers for fixed income seniors and physically disabled IS  a critical missing part  as many of us are on med special diets and foodbanks dont assist - and CA says no foodstamps  with  below poverty level SSI.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">DCMatthews</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_32610" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="T+llgZkUL9sRShWbATArpgWi+g4vPGgr7uQFHqpFa7FSRQ1SvRrcdntYOchwyWJJH/XOYmMbHyvfLmIzqlnaNA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="32610" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>What an amazing way to support a communities health and happiness </p></div>
+  <div class="by"><span class="by">by </span><span class="person">radical123</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31222" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KitYWYKSHqi5/9LrzqxmlSFSBPnVTh/NW5CeEFXr/5A3hzCKppztBdPt/ri/VS96OwUwlZlpaM1qWvk9VfdOFQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31222" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>@vegielover71 We are definitely actively looking to extend our reach. If you can think of any additional congregations to join Open Grove please do send em our way!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">ayastava</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_31036" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="zOznSLLdzKVKyLZuii5GB8fGqbDbXfgv5hmNKFWOOQHRQI+bltM/CCDamj371w/o3ZGd3Jd6jy/X0+oFVZKIhA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="31036" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Can you imagine growing food at that massive grassy lawn of the Mormon University?!!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">devbee</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_30880" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="rSbZIiZ4e8D/VqufvhR8eAR/gBHGfJaMRBLAsNHxm8WwirHxAnaIbZVEh8zP7TWXHii0fYpb4Yx12Ked0e0qQA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="30880" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>More land to grow more food for more people to eat more healthfully in our city...spread the GOOD word.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">devbee</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_30762" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Be8eF8aV1Urtl2vkdT8OLkOterfFqWBT+13WtPo8TQMYQ3bE4psm54eFR7cExkfBWfpO24mOF1PKl7GZ+iD8hg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="30762" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Fantastic way to 'spread the gospel' of wise stewardship in these climate challenged times.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">wuddaworld</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_30760" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="HUXOXs3PvPbgMk+ZQp2Y5gYvQN2xuvP+hkohSuJmSzQA6aaN6cFPW4ogY8ozZNEJHHh0sf2dhP63gEZn4nr6sQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="30760" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>What a great way to bring people of different faiths together - and a great way to provide food for those in need!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">payton.hoegh</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_30646" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="EDDwV50sWmMn4HRFxlh6rGKj+Pyf5iAZYTScGnW/79kNnJiEuSKpzk3yWBa3oTNDePTMkNPBVxlQ/vs3daNeXA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="30646" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Amazingly cool -- and actually feasible -- idea!  Way to go!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">fifer</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_30623" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="E8/+jGF5JILO1IEAuke5+qoPs87DP6SrMwlDuHEHV8YOY5ZfRXfXL6TGrVPLvvAVsFiHoo8Y06sCwySVcRvmQw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="30623" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:20px;">
+  <div class="content"><p>Valencia Orange Trees can have multiple crops per year.  I remember seeing 5 crops in various stages on my backyard tree at a time when I really needed it too!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">KBadger</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33446" style="display:none;;margin-left:20px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NaK861TxALjSnW0JIrFf2gtwUfGpT+dqSCZRWoFW9Q0oDtQ4cP/zFbiPQVpTSBY1ESdlneVokGp57DZ3gUpEiA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33446" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:40px;">
+  <div class="content"><p>and use creative means to make this work, which will probably also yield new solutions, entrepreneurial enterprise, and maybe even more jobs and revenue for the city!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">KBadger</span></div>
+    <span class="posted-at">over 1 year ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33441" style="display:none;;margin-left:40px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="i6g9l2r9wy2wZUAod4GtDHBBnKrheGRzlt9No4KKieKWBFVETvMwgNp3bHsGeOTjahaoxq1fE3OnFSqOgpY4Zw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33441" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:60px;">
+  <div class="content"><p>Yes! Inter-faith, inter-institution teamwork (schools with faith-based as joint community service projects), and inter-generational as well.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">KBadger</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33436" style="display:none;;margin-left:60px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="QCc+i7vWE0CrVDPihFL5D/xAgsxMuYlGJmGzXJ33R2pdi1ZYn9jg7cFGH7H1q7Dg5he2oACe/kYXq9Rxnev27w==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33436" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:80px;">
+  <div class="content"><p>Thanks for noticing that!  They are a growing organization, and as new people find out about it, those new people can help make the connections to more faith-based institutions which may be interested in the mission.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">KBadger</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33435" style="display:none;;margin-left:80px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="UESQMOANmEL9OjCuXzsCRu/YiReF8aotFVC1UjtOAqdN6PjjxANr75coHP0uwkup9Y+9e8nW3S0kmtJ/O1KzIg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33435" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:100px;">
+  <div class="content"><p>Yes, and keep in mind that even if there doesn't look like much land, there are ways to capture rain off rooves, and create vertical gardens, and espalied fruit trees.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">KBadger</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33434" style="display:none;;margin-left:100px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="kkUK+c8g55ooXd76qHLMIeVl5Uh2vtMWh4VbbLnhkDiP6WIq6y4UN0JP8qnZi4XO/zLRJDqZpBa2TzxBuf0hvQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33434" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:120px;">
+  <div class="content"><p> “Nature should be considered a critical variable in the design of all childhood
+<br />habitats, including homes, childcare centers, schools, places of worship, and
+<br />neighborhoods, and in the many other community places where children go with family and
+<br />friends:" - Robin Moore, Natural Learning
+<br />Initiative,</p></div>
+  <div class="by"><span class="by">by </span><span class="person">KSchaeffler</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33423" style="display:none;;margin-left:120px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="zsDsICsLoj4/HSeG1GurZFOA5092SYDXuXKj+Y2vIrbTbITzDwVRk1UPC9WlkuKLSdfTIzpu99eIuMTUjbOTMw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33423" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:140px;">
+  <div class="content"><p>Yes, This project helps in so many ways: A healthy edible garden, and working in it, can improve people's health on many levels; Besides the nutrition from organic edibles, the physical act of working in the garden has proven to have medical benefits as well: Lowers cortisol, lower blood-pressure, lower anxiety, lower heart rate, stress reduction, improved strength, circulation, fitness, improved immune response, longevity, hand-eye coordination, fine morot skills.</p></div>
+  <div class="by"><span class="by">by </span><span class="person">KSchaeffler</span></div>
+    <span class="posted-at">over 1 year ago</span>
+</div>
+
+<div class="add_comment_form" id="reply_to_33407" style="display:none;;margin-left:140px;">
+  <form class="new_comment" id="new_comment" action="OpenGrove.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="b96Ok9dS7aDvXgzuSnHYgdTtzWhal/PfmvA9wsOfnm9ycuZA81weDYVMIL07iJFuzrr5BBawhN+rOlrvw4Mv6g==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="33407" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+
+  </div>
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+  $(".comment_content").bind('focus', function(){
+    $(this).siblings('label.comment-tip').hide();
+  });
+  $(".comment_content").bind('blur', function(){
+    if ($(this).val().length == 0){
+      $(this).siblings('label.comment-tip').show();
+    }
+  });
+  $('.reply').bind('click', function(){
+    $(this).parent().next('.add_comment_form').slideToggle();
+  });
+});
+</script>
+
+</div>
+
+</div>
+
+  
+
+
+<script language="javascript">
+
+  
+  function vote_success(project_name, twitter_link, facebook_link){
+    trackNewVote();
+    message = 'some stuff'
+    project_message_dialog('good-vote-dialog', message, twitter_link, facebook_link);
+  }
+
+  function vote_already_cast( project_name, twitter_link, facebook_link ) {
+    project_message_dialog( 'good-vote-dialog-recast per_challenge', "Your vote has already been cast for " + project_name, twitter_link, facebook_link);
+  }
+
+  function project_message_dialog(type, message, twitter_link, facebook_link) {
+    content = '<div class="message">' + message + '</div>';
+
+    jQuery('<div></div>').html(content).dialog({
+      dialogClass: type,
+      width: 530,
+      buttons: {}
+    });
+  }
+</script>
+
+<script>
+//<![CDATA[
+setMixPanelDetails('maker submission')
+//]]>
+</script>
+
+<script type="text/javascript">
+  jQuery('external').bind('click', function(){
+    link = jQuery(this).attr('href')
+    _gaq.push(['_trackPageview', link]);
+  });
+</script>
+
+      <br style="clear:both">
+    </div>
+    <div class="right-column">
+        
+
+  
+<div id="award_box">
+  <div id="award_icon">
+    <img src="../../assets/icons/pink-ribbon-award-box-icon-45b87e779c93f5099a48378c2aadc0fcd51184974daecf76e3f5c50034ea21fb.png" alt="Pink ribbon award box icon 45b87e779c93f5099a48378c2aadc0fcd51184974daecf76e3f5c50034ea21fb" />
+  </div>
+  <div id="award_text">
+    <img src="../../assets/icons/award_topvotedidea-5a5ae14e3d56a10363ea2a398cece46cf4df891213cbe68677c19d8903a1932a.png" alt="Award topvotedidea 5a5ae14e3d56a10363ea2a398cece46cf4df891213cbe68677c19d8903a1932a" />
+  </div>
+
+      <div id="award_prize_money">
+        $100,000
+      </div>
+
+  <div class="vertical-padding"></div>
+</div>
+
+  <div id="challenge_phases">
+  
+<div id="submission_phase" class="phase">
+  <div class="phase-header">
+      <img class="step-phase" src="../../assets/icons/circle-1-inactive-e7784182a1bd5eace578987db27fc19ec6337f418c48c6c8732605b9043d50d0.png" alt="Circle 1 inactive e7784182a1bd5eace578987db27fc19ec6337f418c48c6c8732605b9043d50d0" />
+      <img class="step-title" src="../../assets/icons/step1-title-submission-inactive-cde083e53089b973e7c9dc80a44a038c1ce4cf3b2650aeb5549157d1ed58a2d9.png" alt="Step1 title submission inactive cde083e53089b973e7c9dc80a44a038c1ce4cf3b2650aeb5549157d1ed58a2d9" />
+
+    <div id="step1_plus" class="step-expand" onclick="expandStep1();"><div class="phases-orange-plus"></div></div>
+    <div id="step1_minus" class="step-expand" onclick="collapseStep1();" style="display:none;"><div class="phases-orange-minus"></div></div>
+    <div style="clear:both;"></div>
+  </div>
+
+  <div id="submission_phase_detail" class="phase-detail">
+
+    <div class="phase-dates deadline">
+      <p>Submission Began<br>
+      <span class="upcoming_date_with_day">Tuesday, July 01, 2014</span><br>
+      <p>Submission Ended<br>
+      <span class="upcoming_date_with_day">Thursday, July 31, 2014</span><br><span>at 07:00 PM UTC</span></p>
+    </div>
+  </div>
+</div>
+
+
+
+<script language="javascript">
+  function expandStep1()
+  {
+    jQuery("#step1_plus").hide();
+    jQuery("#step1_minus").show();
+
+    jQuery("#submission_phase_detail").show();
+  }
+
+  function collapseStep1()
+  {
+    jQuery("#step1_plus").show();
+    jQuery("#step1_minus").hide();
+
+    jQuery("#submission_phase_detail").hide();
+  }
+
+</script>
+
+  
+<div id="voting_phase" class="phase">
+  <div class="phase-header">
+      <img class="step-phase" src="../../assets/icons/circle-2-inactive-74a43088831beb43fdbd7591ef5d50a5a7a26ff92c9e8ed489782459fa31a8d9.png" alt="Circle 2 inactive 74a43088831beb43fdbd7591ef5d50a5a7a26ff92c9e8ed489782459fa31a8d9" />
+      <img class="step-title" src="../../assets/icons/step2-title-voting-inactive-96be722f53c417edddb5742ba9a6dc2fd403f7e4f6c19dbe883d50d20d93689d.png" alt="Step2 title voting inactive 96be722f53c417edddb5742ba9a6dc2fd403f7e4f6c19dbe883d50d20d93689d" />
+
+
+    <div id="step2_plus" class="step-expand" onclick="expandStep2();"><div class="phases-blue-plus"></div></div>
+    <div id="step2_minus" class="step-expand" onclick="collapseStep2();" style="display:none;"><div class="phases-blue-minus"></div></div>
+    <div style="clear:both;"></div>
+  </div>
+
+  <div id="voting_phase_detail" class="phase-detail">
+
+    <div class="phase-dates deadline">
+        <p>Voting Began<br>
+      <span class="upcoming_date_with_day">Tuesday, September 02, 2014</span><br>
+      <p>Voting Ended<br>
+      <span class="upcoming_date_with_day">Tuesday, September 16, 2014</span><br><span>at 07:00 PM UTC</span></p>
+    </div>
+  </div>
+</div>
+
+
+
+<script language="javascript">
+  function expandStep2()
+  {
+    jQuery("#step2_plus").hide();
+    jQuery("#step2_minus").show();
+
+    jQuery("#voting_phase_detail").show();
+  }
+
+  function collapseStep2()
+  {
+    jQuery("#step2_plus").show();
+    jQuery("#step2_minus").hide();
+
+    jQuery("#voting_phase_detail").hide();
+  }
+
+</script>
+  <div id="winner_phase" class="phase">
+  <div class="phase-header">
+    <img class="step-phase" src="../../assets/icons/circle-3-83da7a9432aeea960e1a9e9ee93e7ea1221af6c8f42b27964f2e9999d94b2b8d.png" alt="Circle 3 83da7a9432aeea960e1a9e9ee93e7ea1221af6c8f42b27964f2e9999d94b2b8d" />
+    <img class="step-title" src="../../assets/icons/step3-title-3d9e2a65d6ea1ad301f8fc607f5f828bd96362932c71d81c0da5b1fd964422b0.png" alt="Step3 title 3d9e2a65d6ea1ad301f8fc607f5f828bd96362932c71d81c0da5b1fd964422b0" />
+
+    <div id="step3_plus" class="step-expand" onclick="expandStep3();"><div class="phases-red-plus"></div></div>
+    <div id="step3_minus" class="step-expand" onclick="collapseStep3();" style="display:none;"><div class="phases-red-minus"></div></div>
+
+    <div style="clear:both;"></div>
+  </div>
+
+  <div id="winner_phase_detail" class="phase-detail">
+        <div class="winner_contents">
+          <a href="UCLAHotterLA.html">    <div class="user-media">
+        	<img alt="Thriving in a Hotter Los Angeles—100% Sustainability by 2050" src="../..//s3/youtube/vi/DITouRhKW80/0.jpg=c280x170#" />
+
+    </div>
+
+</a>
+          <div class="title">
+             <div class="byline">
+                 <span class="idea">winning submission</span>
+                 <span class="by">by</span>
+                 <span class="author">Futterpop</span>
+
+             </div>
+             <a href="UCLAHotterLA.html">Thriving in a Hotter Los Angeles—100% Sustainability by 2050</a>
+          </div>
+        </div>
+
+    <div class="phase-dates deadline">
+      <p>Winner Announced<br>
+      <span class="upcoming_date_with_day">Tuesday, September 30, 2014</span><br>
+    </div>
+  </div>
+
+</div>
+
+<script language="javascript">
+  function expandStep3()
+  {
+    jQuery("#step3_plus").hide();
+    jQuery("#step3_minus").show();
+
+    jQuery("#winner_phase_detail").show();
+  }
+
+  function collapseStep3()
+  {
+    jQuery("#step3_plus").show();
+    jQuery("#step3_minus").hide();
+
+    jQuery("#winner_phase_detail").hide();
+  }
+
+    expandStep3();
+</script>
+
+</div>
+
+    </div>
+    <br style="clear:both">
+    <div class="ad-footer">
+        <div class="clear"></div>
+
+    </div>
+  </div>
+</div>
+
+
+      <footer id="footer">
+  <div class="footer-content">
+    <div class="links">
+      <h2>Creative Solutions for Living Well + Doing Good.</h2>
+      <ul>
+        <li><a href="http://www.good.is/about">About</a></li>
+        <li><a href="http://www.good.is/about/contact">Contact</a></li>
+        <li><a href="http://support.good.is/">Support</a></li>
+        <li><a href="http://www.good.is/about/advertise">Advertise</a></li>
+        <li><a href="http://good.theresumator.com">Jobs</a></li>
+        <li><a href="https://subscribe.goodmagazine.com">Subscriptions</a></li>
+        <li><a href="http://shop.good.is">Online Store</a></li>
+        <li><a href="http://www.goodcorps.com">GOODcorps</a></li>
+        <li><a href="http://www.good.is/about/privacy">Privacy</a></li>
+        <li><a href="http://www.good.is/about/terms">Terms</a></li>
+      </ul>
+    </div>
+    <div class="social">
+      <h2>Connect with us</h2>
+      <ul>
+        <li class="facebook"><a href="http://www.facebook.com/GOODHQ" target="_blank">Facebook</a></li>
+        <li class="twitter"><a href="http://twitter.com/good" target="_blank">Twitter</a></li>
+        <li class="instagram"><a href="http://instagram.com/goodhq" target="_blank">Instagram</a></li>
+        <li class="tumblr"><a href="http://good.tumblr.com/" target="_blank">Tumblr</a></li>
+      </ul>
+    </div>
+    <p class= "legal"> Copyright © 2015 GOOD Worldwide Inc </p>
+  </div>
+</footer>
+
+      
+
+      <script type="text/javascript">
+        function good_warn( message )
+        {
+          jQuery('<div></div>').html( message.replace('.', '.<br>') ).dialog({
+            dialogClass: "good-alert",
+            width: 330,
+            buttons: {
+              "OK": function() {
+                jQuery(this).dialog("close");
+              }
+            }
+          });
+        }
+
+        function good_confirm( message, executeFunction )
+        {
+          jQuery('<div></div>').html( message ).dialog({
+            dialogClass: "good-alert",
+            height: 170,
+            width: 330,
+            buttons: {
+              "Cancel": function() {
+                jQuery(this).dialog("close");
+              },
+              "Yes, I'm sure": function() {
+                executeFunction();
+                jQuery(this).dialog("close");
+              }
+
+            }
+          });
+        }
+
+      </script>
+
+      <!-- GA -->
+      <script type="text/javascript">
+        jQuery(document).ready(function() {
+          setCustomVisitorVariable();
+        });
+
+        function setCustomVisitorVariable() {
+          if (typeof(_gat) == 'object') {
+            if (typeof(user.attributes["login"]) == 'undefined') {
+              if (!_gat._getTrackerByName()._getVisitorCustomVar(1)) {
+                _gaq.push(['_setCustomVar', 1, 'Visitor_Type', 'Visitor', 1]);
+              }
+            }
+            else {
+              if (_gat._getTrackerByName()._getVisitorCustomVar(1) == 'Visitor') {
+                _gaq.push(['_setCustomVar', 1, 'Visitor_Type', 'Member', 1]);
+              }
+            }
+          }
+        }
+      </script>
+
+  </body>
+</html>
+

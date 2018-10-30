@@ -1,0 +1,601 @@
+/* line 3, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_filters.scss */
+.filters {
+  background-color: #efefef;
+  overflow: hidden;
+  margin: 10px 0 -5px;
+  padding: 0 0 5px;
+}
+/* line 9, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_filters.scss */
+.filters a {
+  float: left;
+  display: block;
+  font-size: 11px;
+  color: #929292;
+  font-weight: bold;
+  height: 20px;
+  line-height: 20px;
+  width: 120px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 10px 0 0;
+  position: relative;
+}
+/* line 24, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_filters.scss */
+.filters a.selected, .filters a[active="true"] {
+  color: #fff;
+  background: #ff5572;
+}
+/* line 27, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_filters.scss */
+.filters a.selected .triangle, .filters a[active="true"] .triangle {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 46%;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #ff5572;
+}
+/* line 32, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_filters.scss */
+.filters a.selected:hover, .filters a[active="true"]:hover {
+  color: #fff;
+}
+/* line 35, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_filters.scss */
+.filters a .triangle {
+  display: none;
+}
+/* line 37, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_filters.scss */
+.filters a:hover {
+  color: #ff5572;
+}
+
+/* line 43, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_filters.scss */
+.filters-container {
+  width: 110%;
+  background-color: #efefef;
+  margin-left: -20px;
+  margin-top: -19px;
+  margin-bottom: 20px;
+  padding: 5px 0px 15px 0px;
+}
+/* line 51, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_filters.scss */
+.filters-container .section-title {
+  color: #515254;
+  font-size: 17px;
+  margin-right: 18px;
+  padding-bottom: 8px;
+  text-transform: none;
+}
+/* line 58, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_filters.scss */
+.filters-container .section-title span {
+  padding-right: 5px;
+}
+
+@font-face {
+  font-family: "TradeGothicLTStdBoldCondensed18";
+  src: url("../../stylesheets/fonts/tradegothicltstd-bdcn18-webfont.eot%3F") format("eot"), url("../../stylesheets/fonts/tradegothicltstd-bdcn18-webfont.woff") format("woff"), url("../../stylesheets/fonts/tradegothicltstd-bdcn18-webfont.ttf") format("truetype"), url("../../stylesheets/fonts/tradegothicltstd-bdcn18-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 9, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+.contents {
+  padding-left: 20px !important;
+}
+
+/* line 14, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#takeover .title {
+  margin: 19px 0 0;
+  text-align: center;
+  color: #231f20;
+}
+/* line 18, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#takeover .title h2 {
+  font-size: 36px;
+  font-family: "TradeGothicLTStdBoldCondensed18";
+  text-transform: none;
+  font-weight: normal;
+  margin: 0 0 -7px;
+}
+/* line 26, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#takeover .title label {
+  font-size: 13px;
+}
+/* line 31, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#takeover ol#steps {
+  overflow: hidden;
+  background: #fff url(../../images/sprites/steps-bg.png) no-repeat 22px -18px;
+  padding: 0 0 27px;
+  margin: 30px 0;
+  width: 931px;
+  list-style-type: none;
+}
+/* line 39, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#takeover ol#steps .step {
+  border-right: 1px solid #DEDEDE;
+  float: left;
+  margin: 0;
+}
+/* line 44, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#takeover ol#steps .step span {
+  display: block;
+  padding: 136px 40px 0 22px;
+  text-decoration: none;
+  width: 169px;
+}
+/* line 51, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#takeover ol#steps .step.last {
+  border: none;
+}
+/* line 53, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#takeover ol#steps .step.last span {
+  width: 172px;
+}
+/* line 58, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#takeover ol#steps .step label {
+  font-size: 22px;
+  line-height: 22px;
+  color: #231f20;
+  font-family: "TradeGothicLTStdBoldCondensed18";
+}
+/* line 63, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#takeover ol#steps .step label em {
+  text-decoration: underline;
+  font-style: normal;
+}
+/* line 68, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#takeover ol#steps .step p {
+  font-size: 11px;
+  line-height: 1.3em;
+  color: #231F20;
+  margin: 6px 0 0;
+}
+
+/* line 94, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+.left-column {
+  background: transparent !important;
+  padding: 0 !important;
+  width: 930px !important;
+}
+
+/* line 100, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage {
+  /* challenges partial */
+}
+/* line 102, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges {
+  /* end items */
+}
+/* line 103, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items {
+  margin: 10px 0 0;
+}
+/* line 105, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .item {
+  border: 1px solid #ddd;
+  border-bottom: 4px solid #d7d7d7;
+  margin: 0 0 9px;
+}
+/* line 109, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .item .head {
+  padding: 11px 10px 8px 23px;
+  overflow: hidden;
+  border-bottom: 2px solid #d4d4d4;
+  background: white url(../../images/layout/bg.png) no-repeat -5px 0;
+}
+/* line 114, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .item .head .about {
+  width: 340px;
+  float: left;
+  overflow: hidden;
+}
+/* line 118, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .item .head .about label {
+  font-weight: bold;
+  color: #515254;
+  font-size: 12px;
+  float: left;
+  margin: 0 0 4px;
+}
+/* line 124, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .item .head .about label em {
+  font-style: italic;
+  color: #848484;
+  font-family: "Georgia";
+  font-size: 12px;
+  font-weight: normal;
+}
+/* line 132, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .item .head .about a {
+  display: block;
+  clear: both;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 20px;
+  color: #47cab3;
+  border: none;
+  line-height: 24px;
+  text-decoration: none;
+}
+/* line 147, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .item .head .challenge-meta {
+  border: 1px solid #ebebeb;
+  float: right;
+  background-color: #fff;
+  height: 67px;
+  position: relative;
+  color: #5c5c5c;
+  font-weight: bold;
+  font-family: arial;
+}
+/* line 157, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .item .head .challenge-meta.dollar-prize {
+  width: 152px;
+  line-height: 0px;
+  font-size: 27px;
+}
+/* line 163, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .item .head .challenge-meta.other-prize-short {
+  width: 223px;
+  font-size: 19px;
+  line-height: 0px;
+}
+/* line 168, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .item .head .challenge-meta.other-prize-short .prize-award {
+  padding-top: 7px;
+}
+/* line 173, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .item .head .challenge-meta.other-prize-long {
+  width: 223px;
+  font-size: 13px;
+  line-height: 16px;
+}
+/* line 178, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .item .head .challenge-meta.other-prize-long .prize-award {
+  margin-top: -16px;
+}
+/* line 183, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .item .head .challenge-meta .ribbon {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+/* line 189, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .item .head .challenge-meta .prize-text {
+  margin: 10px;
+}
+/* line 193, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .item .head .challenge-meta .prize-award {
+  padding-top: 10px;
+  width: 100%;
+  text-align: left;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 205px;
+}
+/* line 204, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .body {
+  padding: 16px 16px 12px 23px;
+  background: #fff;
+  overflow: hidden;
+}
+/* line 208, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .body .media {
+  width: 240px;
+  height: 145px;
+  float: left;
+  margin: 0 16px 0 0;
+  overflow: hidden;
+  position: relative;
+  top: 4px;
+}
+/* line 217, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .body .description {
+  float: left;
+  width: 310px;
+  height: 160px;
+}
+/* line 221, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .body .description p {
+  width: 310px;
+  color: #515254;
+  font-size: 13px;
+  line-height: 19px;
+  height: 92px;
+  margin: 0 0 22px;
+  overflow: hidden;
+}
+/* line 230, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .body .description .lightbulb_interact_wrapper {
+  position: relative;
+  height: 70px;
+  top: -36px;
+}
+/* line 235, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .body .description .lightbulb {
+  background: url(../../images/icons/lightbulb.png) no-repeat 0px 0px;
+  padding: 2px 0px 10px 20px;
+  font-size: 12px;
+  position: relative;
+  top: 22%;
+}
+/* line 242, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .body .description .interact {
+  border-top: 2px solid #efefef;
+  height: 35px;
+  padding: 5px 0 0;
+  position: relative;
+  top: -60px;
+}
+/* line 248, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .body .description .interact label {
+  font-size: 12px;
+  padding: 0 0 0 20px;
+  background: url(../../images/icons/clock.png) no-repeat 0 4px;
+  display: block;
+  float: left;
+  line-height: 26px;
+  height: 24px;
+}
+/* line 257, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .body .description .interact label.closed {
+  background: url(../../images/icons/red-clock.png) no-repeat 0 4px;
+}
+/* line 259, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .body .description .interact label.closed strong {
+  color: #515254;
+}
+/* line 262, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .body .description .interact a.button {
+  float: right;
+  display: block;
+  background: #47cab3;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 1px solid #00af90;
+  text-align: center;
+  height: 24px;
+  line-height: 24px;
+  width: 124px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: arial;
+}
+/* line 45, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
+#homepage .challenges .items .body .description .interact a.button:hover {
+  cursor: pointer;
+  background: #34b7a0;
+}
+/* line 267, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .items .body .description .interact a.link {
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  color: #47cab3;
+  background: url(../../images/layout/right-arrow-green.png) no-repeat 100% 5px;
+  margin: 4px 0 0;
+  padding: 0 10px 0 0;
+}
+/* line 281, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .empty {
+  text-align: center;
+  padding: 40px;
+  font-size: 22px;
+  margin: 8px 0 0;
+  font-family: "TradeGothicLTStdBoldCondensed18";
+  color: #929292;
+}
+/* line 290, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .pagination {
+  margin: 30px 0;
+  border-top: 1px solid #ff5572;
+  width: 610px;
+  height: 22px;
+  padding: 5px 0 0;
+  color: #666364;
+  text-align: center;
+  font-family: "Georgia";
+  font-style: italic;
+}
+/* line 300, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .pagination a, #homepage .challenges .pagination strong {
+  font-family: arial;
+  font-style: normal;
+}
+/* line 304, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .pagination a {
+  color: #666364;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+/* line 310, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .pagination a.prev {
+  background: url(../../images/icons/prev-arrow.png) no-repeat 0 4px;
+  padding: 0 0 0 12px;
+  float: left;
+}
+/* line 315, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .pagination a.next {
+  background: url(../../images/icons/next-arrow.png) no-repeat 100% 4px;
+  float: right;
+  padding: 0 12px 0 0;
+}
+/* line 320, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage .challenges .pagination a .more {
+  float: left;
+}
+/* line 327, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+#homepage span.comment-count {
+  margin-top: 1px;
+}
+
+/* line 332, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+.rail {
+  width: 300px;
+  float: right;
+  /* sign up partial */
+  /* end sign up partial */
+  /* share maker partial */
+  /* end share maker partial */
+}
+/* line 336, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+.rail .block {
+  margin: 0 0 26px;
+}
+/* line 341, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+.rail #fund_prospects_form {
+  background: #fff;
+  padding: 26px 20px 20px;
+  position: relative;
+}
+/* line 346, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+.rail #fund_prospects_form .message {
+  display: none;
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+  -moz-opacity: 0.9;
+  -khtml-opacity: 0.9;
+  opacity: 0.9;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 270px;
+}
+/* line 363, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+.rail #fund_prospects_form h3 {
+  font-family: "TradeGothicLTStdBoldCondensed18";
+  color: #231f20;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 24px;
+  text-decoration: underline;
+  height: 36px;
+}
+/* line 372, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+.rail #fund_prospects_form label {
+  color: #231f20;
+  font-size: 11px;
+  display: block;
+  line-height: 14px;
+  margin: 0 0 16px;
+}
+/* line 380, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+.rail #fund_prospects_form form input[type=text] {
+  border: none;
+  border-bottom: 2px solid #d7d7d7;
+  padding: 5px 5px 5px 0;
+  font-size: 12px;
+  width: 252px;
+  margin: 0 0 12px;
+}
+/* line 388, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+.rail #fund_prospects_form form input[type=submit] {
+  background: #47cab3;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 1px solid #00af90;
+  text-align: center;
+  height: 24px;
+  line-height: 24px;
+  width: 124px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: arial;
+  width: 140px;
+  height: 33px;
+  line-height: 22px;
+  margin: 8px auto 0;
+  display: block;
+}
+/* line 45, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
+.rail #fund_prospects_form form input[type=submit]:hover {
+  cursor: pointer;
+  background: #34b7a0;
+}
+/* line 401, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+.rail #share_goodmaker {
+  padding-bottom: 30px;
+}
+/* line 403, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+.rail #share_goodmaker p {
+  font-size: 12px;
+  color: #231f20;
+  line-height: 15px;
+  margin: 16px 0;
+}
+/* line 411, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+.rail #share_goodmaker .buttons a.twitter {
+  display: block;
+  font-size: 11px;
+  padding: 0 0 0 14px;
+  width: 130px;
+  height: 30px;
+  color: #fff;
+  line-height: 30px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: #3cc9f6 url(../../images/icons/twitter.png) no-repeat 11px 9px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #21b4e3;
+  float: left;
+}
+/* line 151, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
+.rail #share_goodmaker .buttons a.twitter:hover {
+  background-color: #1db9ea;
+  cursor: pointer;
+}
+/* line 415, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/welcome/index.scss */
+.rail #share_goodmaker .buttons a.facebook {
+  display: block;
+  font-size: 11px;
+  padding: 0 0 0 10px;
+  width: 130px;
+  height: 30px;
+  color: #fff;
+  line-height: 30px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: #3a5997 url(../../images/icons/facebook.png) no-repeat 11px 9px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #1f4089;
+  float: right;
+}
+/* line 171, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
+.rail #share_goodmaker .buttons a.facebook:hover {
+  background-color: #2a467e;
+  cursor: pointer;
+}

@@ -1,0 +1,173 @@
+
+    /* FOOTER
+    ------------------------------
+    This is a nearly exact copy of the styles in for the community site (www.good.is)
+
+    The changes made were:
+    * Change the selector from “footer” to “#footer” (to quarantine the styles from other stylesheets on the site).
+    * Added some reset styles, to override those intended for other areas of maker
+    ------------------------------ */
+
+
+    @font-face {
+      font-family: "Icons";
+      src: url(../site-icons.eot);
+      src: url(../site-icons.eot%3F) format("eot"),
+           url(../site-icons.woff)       format("woff"),
+           url(../site-icons.ttf)        format("truetype"),
+           url(../site-icons.svg)  format("svg");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    /* Reset styles*/
+    #footer .footer-content {
+      width: 970px;
+    }
+    #footer h2 {
+      margin-left: 0;
+      margin-bottom: 0;
+    }
+    #footer li {
+      margin-left: 0;
+    }
+
+
+    /* Styles copied from www.good.is */
+    #footer {
+      clear: both;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    #footer {
+      border-top: 1px solid #dadce0;
+      display: block;
+      margin: 0;
+      padding: 0;
+      font-size: 100%;
+      vertical-align: baseline;
+    }
+
+    #footer .footer-content {
+      width: 1065px;
+      min-height: 50px;
+      max-height: 115px;
+      margin: 40px auto 70px;
+      background-color: #fff;
+    }
+
+    #footer .footer-content .links {
+      display: inline-block;
+      float: left;
+      width: 790px;
+    }
+
+    #footer .links ul {
+      display: inline;
+      float: left;
+      margin-top: 12px;
+      list-style: none;
+    }
+
+    #footer .links ul li {
+      width: auto;
+      padding-right: 15px;
+    }
+
+    #footer .footer-content li {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    #footer .footer-content .social {
+      display: inline-block;
+      float: right;
+      width: 242px;
+    }
+
+    #footer .footer-content .social ul {
+      display: inline;
+      float: left;
+      margin-top: 15px;
+      list-style: none;
+    }
+
+    #footer .footer-content h2 {
+      line-height: 19.2px;
+      color: #2a2b2c;
+      font-family: Helvetica;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    #footer .footer-content li a {
+      color: #454747;
+      font-weight: bold;
+      font-family: Helvetica,Arial,sans-serif;
+      line-height: 2.4em;
+      text-decoration: none;
+    }
+
+    #footer .footer-content .social ul li a {
+      display: inline-block;
+      height: 20px;
+    }
+
+    /* FOOTER ICONS */
+    #footer .footer-content .social ul {
+      font-size: 0.75em;
+    }
+
+    #footer .footer-content .social ul,
+    #footer .footer-content .social ul li {
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+    #footer .footer-content .social ul li {
+      display:inline;
+      margin-right:1em;
+      font-size:16px;
+    }
+
+    #footer .footer-content .social ul li.facebook  a,
+    #footer .footer-content .social ul li.twitter   a,
+    #footer .footer-content .social ul li.instagram a,
+    #footer .footer-content .social ul li.tumblr    a {
+
+      /* @icon-ligatures */
+      font-family: "Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+      /* Enable Ligatures */
+      -webkit-font-feature-settings: "liga";
+         -moz-font-feature-settings: "liga=1";
+         -moz-font-feature-settings: "liga";
+          -ms-font-feature-settings: "liga" 1;
+           -o-font-feature-settings: "liga";
+              font-feature-settings: "liga";
+
+      color: rgb(70, 70, 70); /* @iron */
+      font-weight: normal;
+      line-height: 1
+    }
+
+    #footer li a:hover,
+    #footer li a:active,
+    #footer li a:focus,
+    #footer .footer-content .social ul li a:hover,
+    #footer .footer-content .social ul li a:active,
+    #footer .footer-content .social ul li a:focus {
+      color: rgb(47, 132, 218); /* @ocean */
+      transition: color 0.2s, background-color 0.2s, border-color 0.2s, opacity 0.2s;
+    }
+
+    #footer .legal {
+      clear: both;
+      padding-top: 20px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      color: rgb(153, 153, 153); /* @aluminum */
+    }

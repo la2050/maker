@@ -1,0 +1,833 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <title>GOOD Maker
+</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en" />
+
+      <link rel="stylesheet" media="all" href="assets/reset.self-c24ee0aa1527df85ac03c8d941cc1366e21748a09c41555f3392555f39e1f308.css%3Fbody=1.css" />
+<link rel="stylesheet" media="all" href="assets/text.self-39c860465e6a5da40781e13fcf84bb75c7f471d94b6cfe9c29560089d0b181f5.css%3Fbody=1.css" />
+<link rel="stylesheet" media="all" href="assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css%3Fbody=1.css" />
+      <!--[if IE 6]>
+      <link rel="stylesheet" media="all" href="/stylesheets/ie6.css" />
+      <![endif]-->
+      <!--[if IE 7]>
+      <link rel="stylesheet" media="all" href="/stylesheets/ie7.css" />
+      <![endif]-->
+      <!--[if lt IE 9]>
+      <script src="/javascripts/IE9.js"></script>
+      <![endif]-->
+      <script src="assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js%3Fbody=1"></script>
+<script src="assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js%3Fbody=1"></script>
+<script src="assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js%3Fbody=1"></script>
+      <script src="javascripts/plugins/jquery.scrollto.min.js"></script>
+      <script src="javascripts/plugins/jquery.autogrow.js"></script>
+      <script src="javascripts/plugins/jquery.simplemodal.js"></script>
+      <script src="http://cdn.jquerytools.org/1.2.5/all/jquery.tools.min.js"></script>
+
+      <script src="javascripts/compiled/ui_elements.js"></script>
+      <script src="javascripts/compiled/mixpanel.js"></script>
+      <script src="javascripts/compiled/comments.js"></script>
+      <script src="javascripts/vendor/ajaxfileupload/ajaxfileupload.js"></script>
+
+      <!-- For custom alert boxes and background color fade in/out -->
+      <!-- And for jquery ui datepicker -->
+      <script src="javascripts/plugins/jquery-ui-1.9.2.custom.min.js"></script>
+      <link rel="stylesheet" media="screen" href="assets/ui-dialog/jquery-ui-dialog.custom.self-3c9c895313a1b7eb8a344aebe697c558a084668e4499bb77df7b700ee0c4a23d.css%3Fbody=1.css" />
+      <link rel="stylesheet" media="screen" href="stylesheets/smoothness/jquery-ui-1.9.2.custom.css" />
+
+      <link rel="stylesheet" media="screen" href="stylesheets/imgareaselect-animated.css" />
+
+      <script src="javascripts/vendor/imgareaselect/jquery.imgareaselect.min.js"></script>
+
+      <script type="text/javascript">
+        $.noConflict();
+      </script>
+
+
+      <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+      <meta content='GOOD Maker' property='og:title'>
+<meta content="GOOD Maker is a platform that makes good things happen giving individuals and organizations the ability to tap into the public's creativity and energy to address an issue that's important to them." property='og:description'>
+<meta content='http://maker.good.is/images/icons/MakerFBImage.jpg' property='og:image'>
+        <link rel="img_src" href="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/fund_photos/images/23106/display/main_live.png?1434492032" />
+        <link rel="img_src" href="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/fund_photos/images/23105/display/main_learn.png?1434490237" />
+        <link rel="img_src" href="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/fund_photos/images/23104/display/main_create.png?1434489958" />
+        <link rel="img_src" href="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/fund_photos/images/23103/display/main_connect.png?1434489224" />
+        <link rel="img_src" href="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/fund_photos/images/23098/display/main_play.png?1434140299" />
+        <link rel="img_src" href="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/fund_photos/images/20126/display/LA2050-MAKER-4.jpg?1403013820" />
+        <link rel="img_src" href="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/fund_photos/images/20124/display/LA2050-MAKER-2.jpg?1403008560" />
+        <link rel="img_src" href="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/fund_photos/images/20122/display/LA2050-MAKER-3.jpg?1403007053" />
+        <link rel="img_src" href="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/fund_photos/images/20120/display/LA2050-MAKER-5.jpg?1403006294" />
+        <link rel="img_src" href="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/fund_photos/images/20118/display/LA2050-MAKER-1.jpg?1402985513" />
+        <link rel="img_src" href="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/fund_photos/images/16055/display/Maker-13.png?1362769299" />
+  <link rel="stylesheet" media="screen" href="assets/shared/goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="assets/shared/menubar.self-c6f399247e564168b1e87cc3598006147e2610b99a1df88849bd36740110f282.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="assets/shared/footer.self-d5c5909d3f1a927d51ca2f6a93e55566ff415acdbe5208d6ced368f0e74b57c2.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="assets/goodmaker_new.self-a0c54ca7154c11a512cc4ec4597f6e3e0eb6c0470daae13eefc1c665698b8bad.css%3Fbody=1.css" />
+  
+  <script src="assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js%3Fbody=1"></script>
+<script src="assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js%3Fbody=1"></script>
+<script src="assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js%3Fbody=1"></script>
+
+
+    <script src="javascripts/vendor/backbone/underscore-min.js"></script>
+    <script src="javascripts/vendor/backbone/backbone-min.js"></script>
+
+      
+      <!-- GA -->
+      <script type="text/javascript">
+        function removeRootGACookies() {
+            var ca = document.cookie.split(';'),
+                re = /^(__utm.)=/;
+            for(var i=0; i<ca.length; i++) {
+                var c = ca[i].trim();
+                var m = c.match(re)
+                if (m) {
+                  // Deletes cookies only if they are on root domain, does nothing otherwise
+                  document.cookie = m[1] + "=;path=/;domain=.good.is;expires=Thu, 01 Jan 1970 00:00:01 GMT;"
+                }
+            }
+        }
+        // Delete GA cookies on .good.is, this code can be removed on 6/1/2016 (GA cookies last 2 years)
+        removeRootGACookies()
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'doesntmatter']);
+        _gaq.push(['_setDomainName', '.maker.good.is']);
+        _gaq.push(['_trackPageview']);
+
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      </script>
+
+      <!-- start Mixpanel -->
+      <script type="text/javascript">(function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");
+    b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+
+    '//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';d=c.getElementsByTagName("script")[0];
+    d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){
+    var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(
+    Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?g=a[f]=[]:
+    f="mixpanel";g.people=g.people||[];h=['disable','track','track_pageview','track_links',
+    'track_forms','register','register_once','unregister','identify','alias','name_tag','set_config',
+    'people.set','people.set_once','people.increment','people.track_charge','people.append'];
+    for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.2;})(document,window.mixpanel||[]);
+      mixpanel.init("doesntmatter", {cookie_name: "gd_doesntmatter"});
+      </script>
+
+      <!-- end Mixpanel -->
+
+    </head>
+
+    <body class="normal welcome index">
+      
+
+
+<div class="container">
+  <div class="contents">
+    <div id='takeover'>
+  <div class='title'>
+    <h2>GOOD Maker is a tool to help you make good things happen.</h2>
+    <label>GOOD Maker gives individuals and organizations the ability to tap into the public's creativity and energy to address an issue that's important to them.</label>
+  </div>
+  <ol id='steps'>
+    <li class='step' id='one'>
+      <span>
+        <label>
+          It simply starts with a
+          <em>challenge</em>
+        </label>
+        <p>Organizations create challenges for the community, asking for whatever is needed to drive meaningful impact.</p>
+      </span>
+    </li>
+    <li class='step' id='two'>
+      <span>
+        <label>
+          Anyone can submit their
+          <em>ideas</em>
+        </label>
+        <p>The community submits ideas, plans, and designs to meet a given challenge.</p>
+      </span>
+    </li>
+    <li class='step' id='three'>
+      <span>
+        <label>
+          Then it is up to the community to
+          <em>vote</em>
+        </label>
+        <p>The community then votes on the idea they believe meets the challenge best.</p>
+      </span>
+    </li>
+    <li class='step last' id='four'>
+      <span>
+        <label>
+          Challenge creators
+          <em>reward</em>
+          the best idea
+        </label>
+        <p>The winner is provided an award to activate their idea into real-world impact.</p>
+      </span>
+    </li>
+  </ol>
+</div>
+
+    
+    <div class="left-column">
+      <link rel="stylesheet" media="screen" href="assets/welcome/index.self-ed5e65ea92752ca41b9fec92cde05756887525dc58c23b5282c7c4d772c6e1eb.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="assets/welcome/reset.self-c24ee0aa1527df85ac03c8d941cc1366e21748a09c41555f3392555f39e1f308.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="assets/welcome/text.self-39c860465e6a5da40781e13fcf84bb75c7f471d94b6cfe9c29560089d0b181f5.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="assets/welcome.self-f96156d3404239d44fa2a5f1bd9ba5adc50af66c6773afeff10e061b425dbbe4.css%3Fbody=1.css" />
+<div id='homepage'>
+  <div class='challenges'>
+    <a name='challenges'></a>
+    <div class='section-title'>
+      Challenges
+      <div class='more'></div>
+    </div>
+    <div class='items'>
+      <div class='item'>
+        <div class='head'>
+          <div class='about'>
+            <label>
+              <img style="vertical-align: top;" src="assets/icons/featured_challenge-e8f30d76fbaaf75524f77b214d2502f3f2045e31b44d66348bcab1107745e476.png" alt="Featured challenge e8f30d76fbaaf75524f77b214d2502f3f2045e31b44d66348bcab1107745e476" />
+              CHALLENGE
+              <em>by</em>
+              Goldhirsh Foundation
+            </label>
+            <span class='comment-count'>
+              6
+              <img src="assets/icons/pink-talk-bubble-tail-c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7.png" alt="Pink talk bubble tail c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7" />
+            </span>
+            <a href="myla2050live2015.html">Submit an idea to win $100K to make LA the best place to live.</a>
+          </div>
+          <div class='challenge-meta dollar-prize'>
+            <div class='ribbon'>
+              <img src="assets/icons/award-91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471.png" alt="Award 91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471" />
+            </div>
+            <img class="prize-text" src="assets/icons/topvotedidea-3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe.png" alt="Topvotedidea 3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe" />
+            <div class='prize-award'>$100,000</div>
+          </div>
+        </div>
+        <div class='body'>
+          <div class='media'>
+            <div class="challenge-media" >
+            
+                <div class="user-media">
+                  <a href="myla2050live2015.html"><img alt="Submit an idea to win $100K to make LA the best place to live." src="/s3/maker%252Fattachments%252Ffund_photos%252Fimages%252F23106%252Fdisplay%252Fmain_live.png=c240x145#" /></a>
+                </div>
+            </div>
+          </div>
+          <div class='description'>
+            <p>
+              How can we make Los Angeles a place where all residents can live active, healthy lives, and benefit from a sustainable environment?
+            </p>
+            <div class='lightbulb_interact_wrapper'>
+              <div class="lightbulb"><strong>71 submissions</strong></div>
+            </div>
+            <div class='interact'>
+              <label>
+                <strong>Awarded on</strong>
+                Dec 08, 2015
+              </label>
+              <a class="link" href="myla2050live2015/projects/DroppingKnowledgeLA.html">See Winner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='item'>
+        <div class='head'>
+          <div class='about'>
+            <label>
+              <img style="vertical-align: top;" src="assets/icons/featured_challenge-e8f30d76fbaaf75524f77b214d2502f3f2045e31b44d66348bcab1107745e476.png" alt="Featured challenge e8f30d76fbaaf75524f77b214d2502f3f2045e31b44d66348bcab1107745e476" />
+              CHALLENGE
+              <em>by</em>
+              Goldhirsh Foundation
+            </label>
+            <span class='comment-count'>
+              7
+              <img src="assets/icons/pink-talk-bubble-tail-c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7.png" alt="Pink talk bubble tail c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7" />
+            </span>
+            <a href="myla2050learn2015.html">Submit an idea to win $100K to make LA the best place to learn.</a>
+          </div>
+          <div class='challenge-meta dollar-prize'>
+            <div class='ribbon'>
+              <img src="assets/icons/award-91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471.png" alt="Award 91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471" />
+            </div>
+            <img class="prize-text" src="assets/icons/topvotedidea-3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe.png" alt="Topvotedidea 3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe" />
+            <div class='prize-award'>$100,000</div>
+          </div>
+        </div>
+        <div class='body'>
+          <div class='media'>
+            <div class="challenge-media" >
+            
+                <div class="user-media">
+                  <a href="myla2050learn2015.html"><img alt="Submit an idea to win $100K to make LA the best place to learn." src="/s3/maker%252Fattachments%252Ffund_photos%252Fimages%252F23105%252Fdisplay%252Fmain_learn.png=c240x145#" /></a>
+                </div>
+            </div>
+          </div>
+          <div class='description'>
+            <p>
+              How can we make Los Angeles a place where people of all ages have opportunities for lifelong learning?
+            </p>
+            <div class='lightbulb_interact_wrapper'>
+              <div class="lightbulb"><strong>78 submissions</strong></div>
+            </div>
+            <div class='interact'>
+              <label>
+                <strong>Awarded on</strong>
+                Dec 08, 2015
+              </label>
+              <a class="link" href="myla2050learn2015/projects/CITIZENSOFTHEWORLD.html">See Winner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='item'>
+        <div class='head'>
+          <div class='about'>
+            <label>
+              <img style="vertical-align: top;" src="assets/icons/featured_challenge-e8f30d76fbaaf75524f77b214d2502f3f2045e31b44d66348bcab1107745e476.png" alt="Featured challenge e8f30d76fbaaf75524f77b214d2502f3f2045e31b44d66348bcab1107745e476" />
+              CHALLENGE
+              <em>by</em>
+              Goldhirsh Foundation
+            </label>
+            <span class='comment-count'>
+              7
+              <img src="assets/icons/pink-talk-bubble-tail-c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7.png" alt="Pink talk bubble tail c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7" />
+            </span>
+            <a href="myla2050create2015.html">Submit an idea to win $100K to make LA the best place to create.</a>
+          </div>
+          <div class='challenge-meta dollar-prize'>
+            <div class='ribbon'>
+              <img src="assets/icons/award-91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471.png" alt="Award 91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471" />
+            </div>
+            <img class="prize-text" src="assets/icons/topvotedidea-3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe.png" alt="Topvotedidea 3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe" />
+            <div class='prize-award'>$100,000</div>
+          </div>
+        </div>
+        <div class='body'>
+          <div class='media'>
+            <div class="challenge-media" >
+            
+                <div class="user-media">
+                  <a href="myla2050create2015.html"><img alt="Submit an idea to win $100K to make LA the best place to create." src="/s3/maker%252Fattachments%252Ffund_photos%252Fimages%252F23104%252Fdisplay%252Fmain_create.png=c240x145#" /></a>
+                </div>
+            </div>
+          </div>
+          <div class='description'>
+            <p>
+              How can we make Los Angeles a place where people of all ages are empowered to harness their creativity?
+            </p>
+            <div class='lightbulb_interact_wrapper'>
+              <div class="lightbulb"><strong>51 submissions</strong></div>
+            </div>
+            <div class='interact'>
+              <label>
+                <strong>Awarded on</strong>
+                Dec 08, 2015
+              </label>
+              <a class="link" href="myla2050create2015/projects/LARB.html">See Winner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='item'>
+        <div class='head'>
+          <div class='about'>
+            <label>
+              <img style="vertical-align: top;" src="assets/icons/featured_challenge-e8f30d76fbaaf75524f77b214d2502f3f2045e31b44d66348bcab1107745e476.png" alt="Featured challenge e8f30d76fbaaf75524f77b214d2502f3f2045e31b44d66348bcab1107745e476" />
+              CHALLENGE
+              <em>by</em>
+              Goldhirsh Foundation
+            </label>
+            <span class='comment-count'>
+              4
+              <img src="assets/icons/pink-talk-bubble-tail-c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7.png" alt="Pink talk bubble tail c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7" />
+            </span>
+            <a href="myla2050connect2015.html">Submit an idea to win $100K to make LA the best place to connect.</a>
+          </div>
+          <div class='challenge-meta dollar-prize'>
+            <div class='ribbon'>
+              <img src="assets/icons/award-91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471.png" alt="Award 91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471" />
+            </div>
+            <img class="prize-text" src="assets/icons/topvotedidea-3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe.png" alt="Topvotedidea 3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe" />
+            <div class='prize-award'>$100,000</div>
+          </div>
+        </div>
+        <div class='body'>
+          <div class='media'>
+            <div class="challenge-media" >
+            
+                <div class="user-media">
+                  <a href="myla2050connect2015.html"><img alt="Submit an idea to win $100K to make LA the best place to connect." src="/s3/maker%252Fattachments%252Ffund_photos%252Fimages%252F23103%252Fdisplay%252Fmain_connect.png=c240x145#" /></a>
+                </div>
+            </div>
+          </div>
+          <div class='description'>
+            <p>
+              How can we make Los Angeles a place where every resident has the opportunity to engage and interact with other Angelenos?
+            </p>
+            <div class='lightbulb_interact_wrapper'>
+              <div class="lightbulb"><strong>64 submissions</strong></div>
+            </div>
+            <div class='interact'>
+              <label>
+                <strong>Awarded on</strong>
+                Dec 08, 2015
+              </label>
+              <a class="link" href="myla2050connect2015/projects/Young_Ethnographers.html">See Winner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='item'>
+        <div class='head'>
+          <div class='about'>
+            <label>
+              <img style="vertical-align: top;" src="assets/icons/featured_challenge-e8f30d76fbaaf75524f77b214d2502f3f2045e31b44d66348bcab1107745e476.png" alt="Featured challenge e8f30d76fbaaf75524f77b214d2502f3f2045e31b44d66348bcab1107745e476" />
+              CHALLENGE
+              <em>by</em>
+              Goldhirsh Foundation
+            </label>
+            <span class='comment-count'>
+              3
+              <img src="assets/icons/pink-talk-bubble-tail-c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7.png" alt="Pink talk bubble tail c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7" />
+            </span>
+            <a href="myla2050play2015.html">Submit an idea to win $100K to make LA the best place to play.</a>
+          </div>
+          <div class='challenge-meta dollar-prize'>
+            <div class='ribbon'>
+              <img src="assets/icons/award-91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471.png" alt="Award 91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471" />
+            </div>
+            <img class="prize-text" src="assets/icons/topvotedidea-3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe.png" alt="Topvotedidea 3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe" />
+            <div class='prize-award'>$100,000</div>
+          </div>
+        </div>
+        <div class='body'>
+          <div class='media'>
+            <div class="challenge-media" >
+            
+                <div class="user-media">
+                  <a href="myla2050play2015.html"><img alt="Submit an idea to win $100K to make LA the best place to play." src="/s3/maker%252Fattachments%252Ffund_photos%252Fimages%252F23098%252Fdisplay%252Fmain_play.png=c240x145#" /></a>
+                </div>
+            </div>
+          </div>
+          <div class='description'>
+            <p>
+              How can we make Los Angeles a place where people of all ages have opportunities for play?
+            </p>
+            <div class='lightbulb_interact_wrapper'>
+              <div class="lightbulb"><strong>38 submissions</strong></div>
+            </div>
+            <div class='interact'>
+              <label>
+                <strong>Awarded on</strong>
+                Dec 08, 2015
+              </label>
+              <a class="link" href="myla2050play2015/projects/acoolergrandpark.html">See Winner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='item'>
+        <div class='head'>
+          <div class='about'>
+            <label>
+              CHALLENGE
+              <em>by</em>
+              Goldhirsh Foundation
+            </label>
+            <span class='comment-count'>
+              7
+              <img src="assets/icons/pink-talk-bubble-tail-c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7.png" alt="Pink talk bubble tail c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7" />
+            </span>
+            <a href="myLA2050live.html">How would you use $100K to make LA the healthiest place to live?</a>
+          </div>
+          <div class='challenge-meta dollar-prize'>
+            <div class='ribbon'>
+              <img src="assets/icons/award-91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471.png" alt="Award 91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471" />
+            </div>
+            <img class="prize-text" src="assets/icons/topvotedidea-3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe.png" alt="Topvotedidea 3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe" />
+            <div class='prize-award'>$100,000</div>
+          </div>
+        </div>
+        <div class='body'>
+          <div class='media'>
+            <div class="challenge-media" >
+            
+                <div class="user-media">
+                  <a href="myLA2050live.html"><img alt="How would you use $100K to make LA the healthiest place to live?" src="/s3/maker%252Fattachments%252Ffund_photos%252Fimages%252F20126%252Fdisplay%252FLA2050-MAKER-4.jpg=c240x145#" /></a>
+                </div>
+            </div>
+          </div>
+          <div class='description'>
+            <p>
+              How would you use $100,000 to make LA2050 the healthiest place to live? Submit an application for your chance to make it happen in 2014.
+            </p>
+            <div class='lightbulb_interact_wrapper'>
+              <div class="lightbulb"><strong>59 submissions</strong></div>
+            </div>
+            <div class='interact'>
+              <label>
+                <strong>Awarded on</strong>
+                Sep 30, 2014
+              </label>
+              <a class="link" href="myLA2050live/projects/UCLAHotterLA.html">See Winner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='item'>
+        <div class='head'>
+          <div class='about'>
+            <label>
+              CHALLENGE
+              <em>by</em>
+              Goldhirsh Foundation
+            </label>
+            <span class='comment-count'>
+              15
+              <img src="assets/icons/pink-talk-bubble-tail-c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7.png" alt="Pink talk bubble tail c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7" />
+            </span>
+            <a href="myLA2050play.html">How would you use $100K to make LA the best place to play?</a>
+          </div>
+          <div class='challenge-meta dollar-prize'>
+            <div class='ribbon'>
+              <img src="assets/icons/award-91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471.png" alt="Award 91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471" />
+            </div>
+            <img class="prize-text" src="assets/icons/topvotedidea-3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe.png" alt="Topvotedidea 3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe" />
+            <div class='prize-award'>$100,000</div>
+          </div>
+        </div>
+        <div class='body'>
+          <div class='media'>
+            <div class="challenge-media" >
+            
+                <div class="user-media">
+                  <a href="myLA2050play.html"><img alt="How would you use $100K to make LA the best place to play?" src="/s3/maker%252Fattachments%252Ffund_photos%252Fimages%252F20124%252Fdisplay%252FLA2050-MAKER-2.jpg=c240x145#" /></a>
+                </div>
+            </div>
+          </div>
+          <div class='description'>
+            <p>
+              How would you use $100,000 to make LA2050 the best place to play? Submit an application for your chance to make it happen in 2014.
+            </p>
+            <div class='lightbulb_interact_wrapper'>
+              <div class="lightbulb"><strong>30 submissions</strong></div>
+            </div>
+            <div class='interact'>
+              <label>
+                <strong>Awarded on</strong>
+                Sep 30, 2014
+              </label>
+              <a class="link" href="myLA2050play/projects/enrichla.html">See Winner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='item'>
+        <div class='head'>
+          <div class='about'>
+            <label>
+              CHALLENGE
+              <em>by</em>
+              Goldhirsh Foundation
+            </label>
+            <span class='comment-count'>
+              30
+              <img src="assets/icons/pink-talk-bubble-tail-c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7.png" alt="Pink talk bubble tail c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7" />
+            </span>
+            <a href="myLA2050create.html">How would you use $100K to make LA the best place to create?</a>
+          </div>
+          <div class='challenge-meta dollar-prize'>
+            <div class='ribbon'>
+              <img src="assets/icons/award-91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471.png" alt="Award 91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471" />
+            </div>
+            <img class="prize-text" src="assets/icons/topvotedidea-3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe.png" alt="Topvotedidea 3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe" />
+            <div class='prize-award'>$100,000</div>
+          </div>
+        </div>
+        <div class='body'>
+          <div class='media'>
+            <div class="challenge-media" >
+            
+                <div class="user-media">
+                  <a href="myLA2050create.html"><img alt="How would you use $100K to make LA the best place to create?" src="/s3/maker%252Fattachments%252Ffund_photos%252Fimages%252F20122%252Fdisplay%252FLA2050-MAKER-3.jpg=c240x145#" /></a>
+                </div>
+            </div>
+          </div>
+          <div class='description'>
+            <p>
+              How would you use $100,000 to make LA2050 the best place to create? Submit an application for your chance to make it happen in 2014.
+            </p>
+            <div class='lightbulb_interact_wrapper'>
+              <div class="lightbulb"><strong>63 submissions</strong></div>
+            </div>
+            <div class='interact'>
+              <label>
+                <strong>Awarded on</strong>
+                Sep 30, 2014
+              </label>
+              <a class="link" href="myLA2050create/projects/streetcraftla.html">See Winner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='item'>
+        <div class='head'>
+          <div class='about'>
+            <label>
+              CHALLENGE
+              <em>by</em>
+              Goldhirsh Foundation
+            </label>
+            <span class='comment-count'>
+              2
+              <img src="assets/icons/pink-talk-bubble-tail-c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7.png" alt="Pink talk bubble tail c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7" />
+            </span>
+            <a href="myLA2050connect.html">How would you use $100K to make LA the best place to connect?</a>
+          </div>
+          <div class='challenge-meta dollar-prize'>
+            <div class='ribbon'>
+              <img src="assets/icons/award-91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471.png" alt="Award 91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471" />
+            </div>
+            <img class="prize-text" src="assets/icons/topvotedidea-3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe.png" alt="Topvotedidea 3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe" />
+            <div class='prize-award'>$100,000</div>
+          </div>
+        </div>
+        <div class='body'>
+          <div class='media'>
+            <div class="challenge-media" >
+            
+                <div class="user-media">
+                  <a href="myLA2050connect.html"><img alt="How would you use $100K to make LA the best place to connect?" src="/s3/maker%252Fattachments%252Ffund_photos%252Fimages%252F20120%252Fdisplay%252FLA2050-MAKER-5.jpg=c240x145#" /></a>
+                </div>
+            </div>
+          </div>
+          <div class='description'>
+            <p>
+              How would you use $100,000 to make LA2050 the best place to connect? Submit an application for your chance to make it happen in 2014.
+            </p>
+            <div class='lightbulb_interact_wrapper'>
+              <div class="lightbulb"><strong>55 submissions</strong></div>
+            </div>
+            <div class='interact'>
+              <label>
+                <strong>Awarded on</strong>
+                Sep 30, 2014
+              </label>
+              <a class="link" href="myLA2050connect/projects/LA2015.html">See Winner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='item'>
+        <div class='head'>
+          <div class='about'>
+            <label>
+              CHALLENGE
+              <em>by</em>
+              Goldhirsh Foundation
+            </label>
+            <span class='comment-count'>
+              3
+              <img src="assets/icons/pink-talk-bubble-tail-c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7.png" alt="Pink talk bubble tail c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7" />
+            </span>
+            <a href="myLA2050learn.html">How would you use $100K to make LA the best place to learn?</a>
+          </div>
+          <div class='challenge-meta dollar-prize'>
+            <div class='ribbon'>
+              <img src="assets/icons/award-91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471.png" alt="Award 91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471" />
+            </div>
+            <img class="prize-text" src="assets/icons/topvotedidea-3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe.png" alt="Topvotedidea 3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe" />
+            <div class='prize-award'>$100,000</div>
+          </div>
+        </div>
+        <div class='body'>
+          <div class='media'>
+            <div class="challenge-media" >
+            
+                <div class="user-media">
+                  <a href="myLA2050learn.html"><img alt="How would you use $100K to make LA the best place to learn?" src="/s3/maker%252Fattachments%252Ffund_photos%252Fimages%252F20118%252Fdisplay%252FLA2050-MAKER-1.jpg=c240x145#" /></a>
+                </div>
+            </div>
+          </div>
+          <div class='description'>
+            <p>
+              How would you use $100,000 to make LA2050 the best place to learn? Submit an application for your chance to make it happen in 2014.
+            </p>
+            <div class='lightbulb_interact_wrapper'>
+              <div class="lightbulb"><strong>59 submissions</strong></div>
+            </div>
+            <div class='interact'>
+              <label>
+                <strong>Awarded on</strong>
+                Sep 30, 2014
+              </label>
+              <a class="link" href="myLA2050learn/projects/CYLAPLAS.html">See Winner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='item'>
+        <div class='head'>
+          <div class='about'>
+            <label>
+              CHALLENGE
+              <em>by</em>
+              Goldhirsh Foundation
+            </label>
+            <span class='comment-count'>
+              53
+              <img src="assets/icons/pink-talk-bubble-tail-c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7.png" alt="Pink talk bubble tail c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7" />
+            </span>
+            <a href="myla2050.html">My LA2050</a>
+          </div>
+          <div class='challenge-meta other-prize-long'>
+            <div class='ribbon'>
+              <img src="assets/icons/award-91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471.png" alt="Award 91fa4e31803492ed94835da0a58cddc0dce00a541516b9bf7326176de31c3471" />
+            </div>
+            <img class="prize-text" src="assets/icons/topvotedidea-3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe.png" alt="Topvotedidea 3d9791af57d1a1302a7ec081e617f2d306cd1ee05e168868701f79ebbc44e2fe" />
+            <div class='prize-award'>$1,000,000 in total grants</div>
+          </div>
+        </div>
+        <div class='body'>
+          <div class='media'>
+            <div class="challenge-media" >
+            
+                <div class="user-media">
+                  <a href="myla2050.html"><img alt="My LA2050" src="/s3/maker%252Fattachments%252Ffund_photos%252Fimages%252F16055%252Fdisplay%252FMaker-13.png=c240x145#" /></a>
+                </div>
+            </div>
+          </div>
+          <div class='description'>
+            <p>
+              How would you use $100,000 to shape the future of Los Angeles? Submit an application for your chance to make it happen in 2013.
+            </p>
+            <div class='lightbulb_interact_wrapper'>
+              <div class="lightbulb"><strong>279 submissions</strong></div>
+            </div>
+            <div class='interact'>
+              <label>
+                <strong>Awarded on</strong>
+                May 08, 2013
+              </label>
+              <a class="link" href="myla2050/projects/homeboyindustries.html">See Winner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='rail'></div>
+</div>
+<script>
+//<![CDATA[
+setMixPanelDetails('maker homepage')
+//]]>
+</script>
+
+      <br style="clear:both">
+    </div>
+    <div class="right-column">
+      
+    </div>
+    <br style="clear:both">
+    <div class="inner-footer">A big thanks to the team at Brighter Planet whose technology contributed to and inspired the development of GOOD Maker</div>
+  </div>
+</div>
+
+
+      <footer id="footer">
+  <div class="footer-content">
+    <div class="links">
+      <h2>Creative Solutions for Living Well + Doing Good.</h2>
+      <ul>
+        <li><a href="http://www.good.is/about">About</a></li>
+        <li><a href="http://www.good.is/about/contact">Contact</a></li>
+        <li><a href="http://support.good.is/">Support</a></li>
+        <li><a href="http://www.good.is/about/advertise">Advertise</a></li>
+        <li><a href="http://good.theresumator.com">Jobs</a></li>
+        <li><a href="https://subscribe.goodmagazine.com">Subscriptions</a></li>
+        <li><a href="http://shop.good.is">Online Store</a></li>
+        <li><a href="http://www.goodcorps.com">GOODcorps</a></li>
+        <li><a href="http://www.good.is/about/privacy">Privacy</a></li>
+        <li><a href="http://www.good.is/about/terms">Terms</a></li>
+      </ul>
+    </div>
+    <div class="social">
+      <h2>Connect with us</h2>
+      <ul>
+        <li class="facebook"><a href="http://www.facebook.com/GOODHQ" target="_blank">Facebook</a></li>
+        <li class="twitter"><a href="http://twitter.com/good" target="_blank">Twitter</a></li>
+        <li class="instagram"><a href="http://instagram.com/goodhq" target="_blank">Instagram</a></li>
+        <li class="tumblr"><a href="http://good.tumblr.com/" target="_blank">Tumblr</a></li>
+      </ul>
+    </div>
+    <p class= "legal"> Copyright © 2015 GOOD Worldwide Inc </p>
+  </div>
+</footer>
+
+      
+
+      <script type="text/javascript">
+        function good_warn( message )
+        {
+          jQuery('<div></div>').html( message.replace('.', '.<br>') ).dialog({
+            dialogClass: "good-alert",
+            width: 330,
+            buttons: {
+              "OK": function() {
+                jQuery(this).dialog("close");
+              }
+            }
+          });
+        }
+
+        function good_confirm( message, executeFunction )
+        {
+          jQuery('<div></div>').html( message ).dialog({
+            dialogClass: "good-alert",
+            height: 170,
+            width: 330,
+            buttons: {
+              "Cancel": function() {
+                jQuery(this).dialog("close");
+              },
+              "Yes, I'm sure": function() {
+                executeFunction();
+                jQuery(this).dialog("close");
+              }
+
+            }
+          });
+        }
+
+      </script>
+
+      <!-- GA -->
+      <script type="text/javascript">
+        jQuery(document).ready(function() {
+          setCustomVisitorVariable();
+        });
+
+        function setCustomVisitorVariable() {
+          if (typeof(_gat) == 'object') {
+            if (typeof(user.attributes["login"]) == 'undefined') {
+              if (!_gat._getTrackerByName()._getVisitorCustomVar(1)) {
+                _gaq.push(['_setCustomVar', 1, 'Visitor_Type', 'Visitor', 1]);
+              }
+            }
+            else {
+              if (_gat._getTrackerByName()._getVisitorCustomVar(1) == 'Visitor') {
+                _gaq.push(['_setCustomVar', 1, 'Visitor_Type', 'Member', 1]);
+              }
+            }
+          }
+        }
+      </script>
+
+  </body>
+</html>
+

@@ -1,0 +1,1133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <title>The Peer Mediation Network</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en" />
+
+      <link rel="stylesheet" media="all" href="../../assets/reset.self-c24ee0aa1527df85ac03c8d941cc1366e21748a09c41555f3392555f39e1f308.css%3Fbody=1.css" />
+<link rel="stylesheet" media="all" href="../../assets/text.self-39c860465e6a5da40781e13fcf84bb75c7f471d94b6cfe9c29560089d0b181f5.css%3Fbody=1.css" />
+<link rel="stylesheet" media="all" href="../../assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css%3Fbody=1.css" />
+      <!--[if IE 6]>
+      <link rel="stylesheet" media="all" href="/stylesheets/ie6.css" />
+      <![endif]-->
+      <!--[if IE 7]>
+      <link rel="stylesheet" media="all" href="/stylesheets/ie7.css" />
+      <![endif]-->
+      <!--[if lt IE 9]>
+      <script src="/javascripts/IE9.js"></script>
+      <![endif]-->
+      <script src="../../assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js%3Fbody=1"></script>
+<script src="../../assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js%3Fbody=1"></script>
+<script src="../../assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js%3Fbody=1"></script>
+      <script src="../../javascripts/plugins/jquery.scrollto.min.js"></script>
+      <script src="../../javascripts/plugins/jquery.autogrow.js"></script>
+      <script src="../../javascripts/plugins/jquery.simplemodal.js"></script>
+      <script src="http://cdn.jquerytools.org/1.2.5/all/jquery.tools.min.js"></script>
+
+      <script src="../../javascripts/compiled/ui_elements.js"></script>
+      <script src="../../javascripts/compiled/mixpanel.js"></script>
+      <script src="../../javascripts/compiled/comments.js"></script>
+      <script src="../../javascripts/vendor/ajaxfileupload/ajaxfileupload.js"></script>
+
+      <!-- For custom alert boxes and background color fade in/out -->
+      <!-- And for jquery ui datepicker -->
+      <script src="../../javascripts/plugins/jquery-ui-1.9.2.custom.min.js"></script>
+      <link rel="stylesheet" media="screen" href="../../assets/ui-dialog/jquery-ui-dialog.custom.self-3c9c895313a1b7eb8a344aebe697c558a084668e4499bb77df7b700ee0c4a23d.css%3Fbody=1.css" />
+      <link rel="stylesheet" media="screen" href="../../stylesheets/smoothness/jquery-ui-1.9.2.custom.css" />
+
+      <link rel="stylesheet" media="screen" href="../../stylesheets/imgareaselect-animated.css" />
+
+      <script src="../../javascripts/vendor/imgareaselect/jquery.imgareaselect.min.js"></script>
+
+      <script type="text/javascript">
+        $.noConflict();
+      </script>
+
+
+      <link rel="icon" type="image/vnd.microsoft.icon" href="../../favicon.ico" />
+          <meta property="og:title" content="The Peer Mediation Network"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="/myla2050learn2015/projects/peermediationnetwork"/>
+      <meta property="og:image" content="http://img.youtube.com/vi/69OXVYZ15kU/0.jpg" />
+    <meta property="og:site_name" content="Submit an idea to win $100K to make LA the best place to learn. by GOOD Maker"/>
+    <meta property="fb:app_id" content="590727534352624"/>
+    <meta property="fb:admins" content="100004372031382"/>
+    <meta property="og:description" content=""/>
+        <link rel="img_src" href="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/fund_photos/images/23105/display/main_learn.png?1434490237" />
+	<script src="../../javascripts/vendor/zeroclipboard/ZeroClipboard.js"></script>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=590727534352624";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+        window.twttr = (function (d,s,id) {
+          var t, js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+          js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+          return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+        }(document, "script", "twitter-wjs"));
+
+        window.fbAsyncInit = function() {
+          FB.Event.subscribe('edge.create', function(response) {
+            trackShareContent('facebook');
+          });
+        };
+
+        twttr.ready(function (twttr) {
+          twttr.events.bind('click', function(event) {
+            trackShareContent('twitter');
+          });
+        });
+        </script>
+  <link rel="stylesheet" media="screen" href="../../assets/shared/goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/shared/menubar.self-c6f399247e564168b1e87cc3598006147e2610b99a1df88849bd36740110f282.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/shared/footer.self-d5c5909d3f1a927d51ca2f6a93e55566ff415acdbe5208d6ced368f0e74b57c2.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/goodmaker_new.self-a0c54ca7154c11a512cc4ec4597f6e3e0eb6c0470daae13eefc1c665698b8bad.css%3Fbody=1.css" />
+  
+  <script src="../../assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js%3Fbody=1"></script>
+<script src="../../assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js%3Fbody=1"></script>
+<script src="../../assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js%3Fbody=1"></script>
+
+
+    <script src="../../javascripts/vendor/backbone/underscore-min.js"></script>
+    <script src="../../javascripts/vendor/backbone/backbone-min.js"></script>
+
+      
+      <!-- GA -->
+      <script type="text/javascript">
+        function removeRootGACookies() {
+            var ca = document.cookie.split(';'),
+                re = /^(__utm.)=/;
+            for(var i=0; i<ca.length; i++) {
+                var c = ca[i].trim();
+                var m = c.match(re)
+                if (m) {
+                  // Deletes cookies only if they are on root domain, does nothing otherwise
+                  document.cookie = m[1] + "=;path=/;domain=.good.is;expires=Thu, 01 Jan 1970 00:00:01 GMT;"
+                }
+            }
+        }
+        // Delete GA cookies on .good.is, this code can be removed on 6/1/2016 (GA cookies last 2 years)
+        removeRootGACookies()
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'doesntmatter']);
+        _gaq.push(['_setDomainName', '.maker.good.is']);
+        _gaq.push(['_trackPageview']);
+
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      </script>
+
+      <!-- start Mixpanel -->
+      <script type="text/javascript">(function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");
+    b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+
+    '//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';d=c.getElementsByTagName("script")[0];
+    d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){
+    var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(
+    Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?g=a[f]=[]:
+    f="mixpanel";g.people=g.people||[];h=['disable','track','track_pageview','track_links',
+    'track_forms','register','register_once','unregister','identify','alias','name_tag','set_config',
+    'people.set','people.set_once','people.increment','people.track_charge','people.append'];
+    for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.2;})(document,window.mixpanel||[]);
+      mixpanel.init("doesntmatter", {cookie_name: "gd_doesntmatter"});
+      </script>
+
+      <!-- end Mixpanel -->
+
+    </head>
+
+    <body class="normal projects show">
+      
+  <div id="header-background"></div>
+<div id="menu-bar-background"></div>
+
+<div id="global-header">
+ <div id='menu-bar'>
+  <div id='good-header'>
+    <a class="good-logo" href="http://www.good.is"></a>
+    <div id='slogan'>
+      <a href="../../index.html">Go to Maker Home</a>
+    </div>
+  </div>
+  <div id='template-container'>
+    <div id='template-profile-area'></div>
+  </div>
+</div>
+<div class='clear'></div>
+
+ 
+<!---->
+
+ 
+
+
+
+ <div class="clear"></div>
+</div>
+
+
+
+
+<div class="container">
+  <div class="contents">
+    
+    
+    <div class="left-column">
+      <link rel="canonical" href="http://myla2050learn2015.localhost:3000/myla2050learn2015/projects/peermediationnetwork">
+
+
+<link rel="stylesheet" media="screen" href="../../assets/projects/show_idea.self-5bc5c3f78c6f4ba36ebfd7d5a30f6785c124fb14711fda201f5f93d8fbb589d3.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/projects/index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/tooltip/idea.self-eb971c9298d1548bdc93a859b4c2aee01537301a065c4c3f91eb9e871731fdfc.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/tooltip/form.self-55ce5cc1a9a95e48bb274b3a10bad6e4e69738bd4896a43e48d242aff4a5df2d.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/projects.self-8bba53b365ba017996583893f85c89a8b6899ebc86f5b8e0d3a4291b6b2de81e.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/show_idea.self-d2fefe18a71da57eee2141bce760e3400d33f26242847bd68d9762dbdc4b21de.css%3Fbody=1.css" />
+
+
+
+    <div class="challenge-header">
+  <div class="challenge-media" >
+
+    <div class="user-media">
+      <a href="../../myla2050learn2015.html"><img alt="Submit an idea to win $100K to make LA the best place to learn." src="../..//s3/maker%252Fattachments%252Ffund_photos%252Fimages%252F23105%252Fdisplay%252Fmain_learn.png=c160x96#" /></a>
+    </div>
+</div>
+
+  <div class="challenge-title">
+    <a href="../../myla2050learn2015.html">LA is the Best Place to Learn</a></div>
+      <div class="learn-more">
+        <a href="../../myla2050learn2015.html">Learn More <img src="../../assets/icons/arrow_green-def7b8dfadd0dcc5f118e5cd10ed5e1ca25ff0794100c0b16b0707c38adad12c.png" alt="Arrow green def7b8dfadd0dcc5f118e5cd10ed5e1ca25ff0794100c0b16b0707c38adad12c" /></a></div>
+      <div class="clear"></div>
+</div>
+
+<div class="thick_divider"></div>
+
+
+  <div class="clear"></div>
+
+<div class="yellow-seperator "></div>
+
+<div class="idea-detail-body">
+  <div id="replaceable_header">
+  <div class="project-header">
+      <div id="project-main">
+        <div id="project-title">
+          <h1 class="huge no-rank ">The Peer Mediation Network</h1>
+            <div class="idea-by">
+                <div class="by"><span class="challange">submission </span><span class="by">by </span><span class="person">butlesh</span></div>
+            </div>
+        </div>
+      </div>
+      <script language="javascript">
+        (function ($) {
+          $('#previous, #next').click(function (e) {
+            var url = this.href;
+            e.preventDefault();
+            $.ajax({
+              url: url,
+              dataType: 'script',
+              success: function () {
+                window.history.pushState('string', 'Title', url);
+              }
+            });
+          });
+        }(jQuery));
+      </script>
+  </div>
+  <div class="clear"></div>
+  <div class="divider"></div>
+    <script language="javascript">
+      jQuery(".yellow-seperator").removeClass("winner");
+      jQuery("#idea-rank").removeClass("winner");
+    </script>
+</div>
+
+  <div id="replaceable_body">
+
+      <div class="user-media">
+        <iframe width="570" title="YouTube video player" src="http://www.youtube.com/embed/69OXVYZ15kU?HD=1;rel=0;showinfo=0;controls=0;egm=1;wmode=transparent" height="385" frameborder="0" wmode="transparent"></iframe>
+
+    </div>
+
+
+  
+
+<script language="JavaScript">
+jQuery(document).ready(function(){
+  var clip = new ZeroClipboard( document.getElementById("copy-label"), {
+    moviePath: "/javascripts/vendor/zeroclipboard/ZeroClipboard.swf"
+  } );
+  clip.on( 'complete', function(client, args) {
+    afterClipCopied();
+  } );
+	function afterClipCopied(){
+    jQuery('#challenge-permalink').focus();
+    trackShareContent('copy link');
+	}
+});
+</script>
+
+    
+   <h2 id="the-idea">About Your Application</h2>
+
+
+     <p>
+           <b>Organization(s) name(s):</b>
+    <p>The Institute for Nonviolence in Los Angeles</p>
+
+       
+     </p>
+
+     <p>
+           <b>Organization(s) website(s):</b>
+    <p><a class="external" href="http://www.invla.org">www.invla.org</a></p>
+
+       
+     </p>
+
+     <p>
+           <b>Organization(s) twitter handle(s):</b>
+    <p> <a class="external" href="http://www.twitter.com/DaysofDialogue">www.twitter.com/DaysofDialogue</a></p>
+
+       
+     </p>
+
+     <p>
+           <b>Organization(s) facebook handle(s):</b>
+    <p><a class="external" href="http://WWW.FACEBOOK.COM/GROUPS/110752075748344/">WWW.FACEBOOK.COM/GROUPS/110752075748344/</a></p>
+
+       
+     </p>
+   <h2 id="the-idea">Describe Your Organization(s)</h2>
+
+
+     <p>
+       <input type="checkbox" name="113707" id="113707" value="1" disabled="disabled" checked="checked" />
+Non-profit organization
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113708" id="113708" value="1" disabled="disabled" />
+For-profit organization
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113709" id="113709" value="1" disabled="disabled" />
+Government
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113710" id="113710" value="1" disabled="disabled" />
+Other (please specify below):
+
+       
+     </p>
+   <h2 id="the-idea">In one sentence, please describe what your organization does.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>INVLA staff and trained volunteer mediators provide peer mediation, conflict resolution training, &amp; program implementation for people aged 8-80, as well as Days of Dialogue, facilitated community dialogue sessions on controversial public issues. </p>
+
+       
+     </p>
+   <h2 id="the-idea">In one to three sentences, please describe your proposal.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>Students will lead the conflict resolution revolution and be agents of peaceful change in LA and via the internet. Young people who have received Peer Mediation Training will produce and ‘star in’ video podcasts, YouTube videos and interactive programs. They will share the basic tenets of alternatives to violence and social emotional learning using technology that is fast becoming a universal language and whose integration into all facets of communication will be de rigueur for citizens of 2050.</p>
+
+       
+     </p>
+   <h2 id="the-idea">Where will you be working? Please be specific (e.g. Third Street Middle School; Boyle Heights; LA County).</h2>
+
+
+     <p>
+       <input type="checkbox" name="113719" id="113719" value="1" disabled="disabled" />
+Central LA
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113720" id="113720" value="1" disabled="disabled" />
+East LA
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113721" id="113721" value="1" disabled="disabled" />
+San Gabriel Valley
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113722" id="113722" value="1" disabled="disabled" />
+San Fernando Valley
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113723" id="113723" value="1" disabled="disabled" />
+South LA
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113724" id="113724" value="1" disabled="disabled" />
+Westside
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113725" id="113725" value="1" disabled="disabled" />
+South Bay
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113726" id="113726" value="1" disabled="disabled" />
+Antelope Valley
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113727" id="113727" value="1" disabled="disabled" />
+County of Los Angeles (countywide)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113728" id="113728" value="1" disabled="disabled" checked="checked" />
+City of Los Angeles (citywide)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113729" id="113729" value="1" disabled="disabled" checked="checked" />
+LAUSD
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113730" id="113730" value="1" disabled="disabled" />
+Other (please specify below):
+
+       
+     </p>
+   <h2 id="the-idea">How do you plan to use these resources to make change? (check all that apply)</h2>
+
+
+     <p>
+       <input type="checkbox" name="113732" id="113732" value="1" disabled="disabled" checked="checked" />
+Conduct research
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113733" id="113733" value="1" disabled="disabled" checked="checked" />
+Engage residents and stakeholders
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113734" id="113734" value="1" disabled="disabled" />
+Implement a pilot or new project
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113735" id="113735" value="1" disabled="disabled" checked="checked" />
+Expand a pilot or program
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113736" id="113736" value="1" disabled="disabled" checked="checked" />
+Mobilize for systems change
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113737" id="113737" value="1" disabled="disabled" />
+Advocate with policymakers and leaders
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113738" id="113738" value="1" disabled="disabled" />
+Implement and track policy
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113739" id="113739" value="1" disabled="disabled" />
+Other (please specify below):
+
+       
+     </p>
+   <h2 id="the-idea">How will your proposal improve the following “Learn” metrics? (check all that apply)</h2>
+
+
+     <p>
+       <input type="checkbox" name="113741" id="113741" value="1" disabled="disabled" />
+Percentage of children enrolled in early education programs
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113742" id="113742" value="1" disabled="disabled" />
+Percentage of community college students completing a certificate, degree, or transfer-related program in six years
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113743" id="113743" value="1" disabled="disabled" />
+Youth unemployment and underemployment
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113744" id="113744" value="1" disabled="disabled" checked="checked" />
+District-wide graduation rates
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113745" id="113745" value="1" disabled="disabled" />
+HS student proficiency in English &amp; Language Arts and Math
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113746" id="113746" value="1" disabled="disabled" checked="checked" />
+Academic Performance Index* scores
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113747" id="113747" value="1" disabled="disabled" />
+College matriculation rates
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113748" id="113748" value="1" disabled="disabled" />
+Student education pipeline (an integrated network of pre-schools, K-12 institutions, and higher education systems that prepares students for seamless transitions between high school, higher education institutions, and the workforce) (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113749" id="113749" value="1" disabled="disabled" checked="checked" />
+Suspension and expulsion rates (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113750" id="113750" value="1" disabled="disabled" checked="checked" />
+Truancy rates in elementary and middle schools (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113751" id="113751" value="1" disabled="disabled" checked="checked" />
+Students perceived sense of safety at and on the way to school (Dream Metric)
+
+       
+     </p>
+   <h2 id="the-idea">Describe in greater detail how you will make LA the best place to learn.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>INVLA is in its 4th year training students in South LA to be Peer Mediators. (See attached video). Via the Peer Mediation Network, youth (ages 8 – 18) will take their work to the next level and be agents of peaceful change in their schools and communities. They will collaborate to create regular Vodcasts on the PeerMediationNetwork.org, interviewing other peer mediators, school personnel, families, and potentially reenacting real ‘cases.’ While mastering communication and listening skills, these young people will model alternatives to violence at school and in communities and integrate technology to expand the reach of the program. Combining mediation and social emotional learning with the focused use of technology will provide an invaluable formula for personal and professional life-long success, utilizable in many contexts.</p>
+
+<p>Peer mediation is a restorative practice in which trained students help their peers resolve conflicts. Based on restorative principles, it promotes interpersonal connection, builds a sense of community and integrates the voices of participants. Training teaches students social emotional learning and conflict resolution skills that allow them to manage their feelings and behaviors and co-exist more peacefully. Disputes that would otherwise escalate to violence, get diffused and agreements reached generally 'stick'. A single suspension increases the chances of low achievement, dropping out of school and being pushed into the criminal justice system. Evidence shows that peer mediation programs (1) reduce violent conflict and generally decrease the number of office referrals and school suspensions by 45% and (2) trained peer mediators have higher academic achievement, increased self-esteem and better communication.  </p>
+
+<p>This project will enable INVLA to augment its Peer Mediation Training Program by providing funds for full implementation support at the schools. Creating a safe, stable learning environment, Peer Mediation- especially when offered as a regularly scheduled elective- improves school climates and builds greater student connectedness. </p>
+
+<p>Project Goals: 
+<br />(1)	Model the mastery of the Vodcast, social media, and other technologies as integrated and purposeful tools, in order to mainstream the concept that there are alternatives to violence in society.
+<br />(2)	Reduce the rates of suspension and expulsion at each school
+<br />(3)	Improve school climates and increase students’ perceived sense of safety at school</p>
+
+       
+     </p>
+   <h2 id="the-idea">Please explain how you will evaluate your work.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>Prior to and after providing peer mediation training, the project will analyze school discipline data and administer online and paper surveys to students to assess their knowledge of conflict resolution principles as well as their perception of the school climate and level of safety at school.  Parents will also complete surveys to assess their knowledge of conflict resolution initiatives.
+<br />Project trainers will evaluate real time peer mediations and provide feedback and support and mediation participants will complete surveys following each mediation. Surveys will measure outcomes, including:
+<br />- The number of cases mediated and agreements reached 
+<br />- Whether students knew about mediation before the mediation and how they found out 
+<br />- Satisfaction levels with the mediation
+<br />- Ability of each party to communicate feelings and understand the other person’s point of view 
+<br />- Whether program participation has an impact on how parties manage disputes outside the classroom</p>
+
+       
+     </p>
+   <h2 id="the-idea">How can the LA2050 community and other stakeholders help your proposal succeed? (check all that apply)</h2>
+
+
+     <p>
+       <input type="checkbox" name="113759" id="113759" value="1" disabled="disabled" checked="checked" />
+Money (financial capital)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113760" id="113760" value="1" disabled="disabled" checked="checked" />
+Volunteers/staff (human capital)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113761" id="113761" value="1" disabled="disabled" checked="checked" />
+Publicity/awareness (social capital)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113762" id="113762" value="1" disabled="disabled" />
+Infrastructure (building/space/vehicles, etc.)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113763" id="113763" value="1" disabled="disabled" />
+Education/training
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113764" id="113764" value="1" disabled="disabled" />
+Technical infrastructure (computers, etc.)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113765" id="113765" value="1" disabled="disabled" checked="checked" />
+Community outreach
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113766" id="113766" value="1" disabled="disabled" />
+Network/relationship support
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113767" id="113767" value="1" disabled="disabled" />
+Quality improvement research
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="113768" id="113768" value="1" disabled="disabled" />
+Other (please specify below):
+
+       
+     </p>
+
+
+    <h2 id="discussion" name="discussion">
+  <div style="float:left;">Discussion</div>
+  <span class="comment-count" style="margin-top:3px">
+    6
+    <img src="../../assets/icons/pink-talk-bubble-tail-c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7.png" alt="Pink talk bubble tail c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7" />
+  </span>
+  <div class="clear"></div>
+</h2>
+
+<div class="clear"></div>
+  <div class="comments">
+    <div class="comment" style="padding-left:0px;">
+  <div class="content"><p>Hello we love what you are doing we want to work with you. Good luck on the grant la2050 we are also running for LA2050 under create. We hope to work with you soon the work you do is very important and very similar to what we do and we want to help. If we win we will help each other out. Love you guys keep pushing hard and keeping doing good work.</p>
+
+<p>- Heart of Art</p></div>
+  <div class="by"><span class="by">by </span><span class="person">Hoagirls35</span></div>
+    <span class="posted-at">6 months ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_35228" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="peermediationnetwork.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="xBuGc2ObANV2We++R7utUuRgT0TPEIvpB1J0m2J3D1/Zt+6gR5XzeBxLw+02QuS9/jd7KIM3/Ok2mBO2Ymu+2g==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="35228" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>This is a great proactive approach!  Continue the good work!</p></div>
+  <div class="by"><span class="by">by </span><span class="person">PDM</span></div>
+    <span class="posted-at">6 months ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_35977" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="peermediationnetwork.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KOn1wZD25/Nwgxrv9P7sRvkVMA8OlBxSiofgGH9Ym0w1RZ0StPgUXhqRNryFB6Wp40IEY0Kza1K7TYc1f0QqyQ==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="35977" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>I highly recommend the restorative possibilities this program offers. As a volunteer mediator, I have seen a decrease in bully-ing and dependence on levels of violence on the school grounds. It works! </p></div>
+  <div class="by"><span class="by">by </span><span class="person">KAYTY</span></div>
+    <span class="posted-at">6 months ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_35478" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="peermediationnetwork.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="0FuVrJxa+yasEJsdT0O5l/qCFyqKSrlcGYfANqvVQT3N9/1/uFQIi8YCt04+uvB44NUjRsZtzlwoTacbq8nwuA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="35478" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>It is so amazing to see the kids that are trained Peer Mediators and the positive effect not only they have at the schools they attend but also with their own interpersonal relationships at home.  Truly inspiring. </p></div>
+  <div class="by"><span class="by">by </span><span class="person">Anne1226</span></div>
+    <span class="posted-at">6 months ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_35169" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="peermediationnetwork.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="JvsGiNNPU/v1zZcrcJ9FvR81wBLZMkknRjpowwZwb+07V25b90GgVp/fu3gBZgxSBWL0fpUVPid38A/uBmzeaA==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="35169" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:0px;">
+  <div class="content"><p>The Peer Mediation Network's outreach in our community can contribute to creating leaders in this generation and beyond, thereby reducing the amount of violence Los Angeles is presently faced with .</p></div>
+  <div class="by"><span class="by">by </span><span class="person">jacrenshaw</span></div>
+    <span class="posted-at">6 months ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_35113" style="display:none;;margin-left:0px;">
+  <form class="new_comment" id="new_comment" action="peermediationnetwork.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ZHtiKko+Zeb7dvUqD/VmN5lHSQSvFxVIQfkuEOrEvCp51wr5bjCWS5Fk2Xl+DC/YgxB9aOMwYkhwM0k96tgNrw==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="35113" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+<div class="comment" style="padding-left:20px;">
+  <div class="content"><p>Thanks for finding us and wanting to work with us! Please send us an email so we can connect 
+<br />info@invla.org</p></div>
+  <div class="by"><span class="by">by </span><span class="person">jilltone</span></div>
+    <span class="posted-at">6 months ago </span>
+</div>
+
+<div class="add_comment_form" id="reply_to_36327" style="display:none;;margin-left:20px;">
+  <form class="new_comment" id="new_comment" action="peermediationnetwork.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1AJSUPPg40GFLJu3gcf0LqC7caJofP9b55tUK5HAyd/JrjqD1+4Q7O8+t+TwPr3BuuxFziRbiFvWUTMGkdx4Wg==" />
+    <input type="hidden" name="parent_comment" id="parent_comment" value="36327" />
+    <label id="comment-tip" class="comment-tip">Type your comment here...</label>
+    <textarea class="grid_12 comment_content" name="comment[content]" id="comment_content">
+</textarea>
+    <span class="prompt">You will be prompted to sign in before your comment publishes.</span>
+    <div class="clear"></div>
+</form></div>
+
+<div class="separator"></div>
+
+  </div>
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+  $(".comment_content").bind('focus', function(){
+    $(this).siblings('label.comment-tip').hide();
+  });
+  $(".comment_content").bind('blur', function(){
+    if ($(this).val().length == 0){
+      $(this).siblings('label.comment-tip').show();
+    }
+  });
+  $('.reply').bind('click', function(){
+    $(this).parent().next('.add_comment_form').slideToggle();
+  });
+});
+</script>
+
+</div>
+
+</div>
+
+  
+
+
+<script language="javascript">
+
+  
+  function vote_success(project_name, twitter_link, facebook_link){
+    trackNewVote();
+    message = 'some stuff'
+    project_message_dialog('good-vote-dialog', message, twitter_link, facebook_link);
+  }
+
+  function vote_already_cast( project_name, twitter_link, facebook_link ) {
+    project_message_dialog( 'good-vote-dialog-recast per_challenge', "Your vote has already been cast for " + project_name, twitter_link, facebook_link);
+  }
+
+  function project_message_dialog(type, message, twitter_link, facebook_link) {
+    content = '<div class="message">' + message + '</div>';
+
+    jQuery('<div></div>').html(content).dialog({
+      dialogClass: type,
+      width: 530,
+      buttons: {}
+    });
+  }
+</script>
+
+<script>
+//<![CDATA[
+setMixPanelDetails('maker submission')
+//]]>
+</script>
+
+<script type="text/javascript">
+  jQuery('external').bind('click', function(){
+    link = jQuery(this).attr('href')
+    _gaq.push(['_trackPageview', link]);
+  });
+</script>
+
+      <br style="clear:both">
+    </div>
+    <div class="right-column">
+        
+
+  
+<div id="award_box">
+  <div id="award_icon">
+    <img src="../../assets/icons/pink-ribbon-award-box-icon-45b87e779c93f5099a48378c2aadc0fcd51184974daecf76e3f5c50034ea21fb.png" alt="Pink ribbon award box icon 45b87e779c93f5099a48378c2aadc0fcd51184974daecf76e3f5c50034ea21fb" />
+  </div>
+  <div id="award_text">
+    <img src="../../assets/icons/award_topvotedidea-5a5ae14e3d56a10363ea2a398cece46cf4df891213cbe68677c19d8903a1932a.png" alt="Award topvotedidea 5a5ae14e3d56a10363ea2a398cece46cf4df891213cbe68677c19d8903a1932a" />
+  </div>
+
+      <div id="award_prize_money">
+        $100,000
+      </div>
+
+  <div class="vertical-padding"></div>
+</div>
+
+  <div id="challenge_phases">
+  
+<div id="submission_phase" class="phase">
+  <div class="phase-header">
+      <img class="step-phase" src="../../assets/icons/circle-1-inactive-e7784182a1bd5eace578987db27fc19ec6337f418c48c6c8732605b9043d50d0.png" alt="Circle 1 inactive e7784182a1bd5eace578987db27fc19ec6337f418c48c6c8732605b9043d50d0" />
+      <img class="step-title" src="../../assets/icons/step1-title-submission-inactive-cde083e53089b973e7c9dc80a44a038c1ce4cf3b2650aeb5549157d1ed58a2d9.png" alt="Step1 title submission inactive cde083e53089b973e7c9dc80a44a038c1ce4cf3b2650aeb5549157d1ed58a2d9" />
+
+    <div id="step1_plus" class="step-expand" onclick="expandStep1();"><div class="phases-orange-plus"></div></div>
+    <div id="step1_minus" class="step-expand" onclick="collapseStep1();" style="display:none;"><div class="phases-orange-minus"></div></div>
+    <div style="clear:both;"></div>
+  </div>
+
+  <div id="submission_phase_detail" class="phase-detail">
+
+    <div class="phase-dates deadline">
+      <p>Submission Began<br>
+      <span class="upcoming_date_with_day">Tuesday, September 08, 2015</span><br>
+      <p>Submission Ended<br>
+      <span class="upcoming_date_with_day">Tuesday, October 06, 2015</span><br><span>at 07:00 PM UTC</span></p>
+    </div>
+  </div>
+</div>
+
+
+
+<script language="javascript">
+  function expandStep1()
+  {
+    jQuery("#step1_plus").hide();
+    jQuery("#step1_minus").show();
+
+    jQuery("#submission_phase_detail").show();
+  }
+
+  function collapseStep1()
+  {
+    jQuery("#step1_plus").show();
+    jQuery("#step1_minus").hide();
+
+    jQuery("#submission_phase_detail").hide();
+  }
+
+</script>
+
+  
+<div id="voting_phase" class="phase">
+  <div class="phase-header">
+      <img class="step-phase" src="../../assets/icons/circle-2-inactive-74a43088831beb43fdbd7591ef5d50a5a7a26ff92c9e8ed489782459fa31a8d9.png" alt="Circle 2 inactive 74a43088831beb43fdbd7591ef5d50a5a7a26ff92c9e8ed489782459fa31a8d9" />
+      <img class="step-title" src="../../assets/icons/step2-title-voting-inactive-96be722f53c417edddb5742ba9a6dc2fd403f7e4f6c19dbe883d50d20d93689d.png" alt="Step2 title voting inactive 96be722f53c417edddb5742ba9a6dc2fd403f7e4f6c19dbe883d50d20d93689d" />
+
+
+    <div id="step2_plus" class="step-expand" onclick="expandStep2();"><div class="phases-blue-plus"></div></div>
+    <div id="step2_minus" class="step-expand" onclick="collapseStep2();" style="display:none;"><div class="phases-blue-minus"></div></div>
+    <div style="clear:both;"></div>
+  </div>
+
+  <div id="voting_phase_detail" class="phase-detail">
+
+    <div class="phase-dates deadline">
+        <p>Voting Began<br>
+      <span class="upcoming_date_with_day">Tuesday, October 20, 2015</span><br>
+      <p>Voting Ended<br>
+      <span class="upcoming_date_with_day">Tuesday, November 03, 2015</span><br><span>at 08:00 PM UTC</span></p>
+    </div>
+  </div>
+</div>
+
+
+
+<script language="javascript">
+  function expandStep2()
+  {
+    jQuery("#step2_plus").hide();
+    jQuery("#step2_minus").show();
+
+    jQuery("#voting_phase_detail").show();
+  }
+
+  function collapseStep2()
+  {
+    jQuery("#step2_plus").show();
+    jQuery("#step2_minus").hide();
+
+    jQuery("#voting_phase_detail").hide();
+  }
+
+</script>
+  <div id="winner_phase" class="phase">
+  <div class="phase-header">
+    <img class="step-phase" src="../../assets/icons/circle-3-83da7a9432aeea960e1a9e9ee93e7ea1221af6c8f42b27964f2e9999d94b2b8d.png" alt="Circle 3 83da7a9432aeea960e1a9e9ee93e7ea1221af6c8f42b27964f2e9999d94b2b8d" />
+    <img class="step-title" src="../../assets/icons/step3-title-3d9e2a65d6ea1ad301f8fc607f5f828bd96362932c71d81c0da5b1fd964422b0.png" alt="Step3 title 3d9e2a65d6ea1ad301f8fc607f5f828bd96362932c71d81c0da5b1fd964422b0" />
+
+    <div id="step3_plus" class="step-expand" onclick="expandStep3();"><div class="phases-red-plus"></div></div>
+    <div id="step3_minus" class="step-expand" onclick="collapseStep3();" style="display:none;"><div class="phases-red-minus"></div></div>
+
+    <div style="clear:both;"></div>
+  </div>
+
+  <div id="winner_phase_detail" class="phase-detail">
+        <div class="winner_contents">
+          <a href="CITIZENSOFTHEWORLD.html">    <div class="user-media">
+        	<img alt="A Peaceful Los Angeles: Developing the Hearts and Minds of Our Future Leaders" src="../..//s3/youtube/vi/RVA2N6tX2cg/0.jpg=c280x170#" />
+
+    </div>
+
+</a>
+          <div class="title">
+             <div class="byline">
+                 <span class="idea">winning submission</span>
+                 <span class="by">by</span>
+                 <span class="author">smrossley</span>
+
+             </div>
+             <a href="CITIZENSOFTHEWORLD.html">A Peaceful Los Angeles: Developing the Hearts and Minds of Our Future Leaders</a>
+          </div>
+        </div>
+
+    <div class="phase-dates deadline">
+      <p>Winner Announced<br>
+      <span class="upcoming_date_with_day">Tuesday, December 08, 2015</span><br>
+    </div>
+  </div>
+
+</div>
+
+<script language="javascript">
+  function expandStep3()
+  {
+    jQuery("#step3_plus").hide();
+    jQuery("#step3_minus").show();
+
+    jQuery("#winner_phase_detail").show();
+  }
+
+  function collapseStep3()
+  {
+    jQuery("#step3_plus").show();
+    jQuery("#step3_minus").hide();
+
+    jQuery("#winner_phase_detail").hide();
+  }
+
+    expandStep3();
+</script>
+
+</div>
+
+    </div>
+    <br style="clear:both">
+    <div class="ad-footer">
+        <div class="clear"></div>
+
+    </div>
+  </div>
+</div>
+
+
+      <footer id="footer">
+  <div class="footer-content">
+    <div class="links">
+      <h2>Creative Solutions for Living Well + Doing Good.</h2>
+      <ul>
+        <li><a href="http://www.good.is/about">About</a></li>
+        <li><a href="http://www.good.is/about/contact">Contact</a></li>
+        <li><a href="http://support.good.is/">Support</a></li>
+        <li><a href="http://www.good.is/about/advertise">Advertise</a></li>
+        <li><a href="http://good.theresumator.com">Jobs</a></li>
+        <li><a href="https://subscribe.goodmagazine.com">Subscriptions</a></li>
+        <li><a href="http://shop.good.is">Online Store</a></li>
+        <li><a href="http://www.goodcorps.com">GOODcorps</a></li>
+        <li><a href="http://www.good.is/about/privacy">Privacy</a></li>
+        <li><a href="http://www.good.is/about/terms">Terms</a></li>
+      </ul>
+    </div>
+    <div class="social">
+      <h2>Connect with us</h2>
+      <ul>
+        <li class="facebook"><a href="http://www.facebook.com/GOODHQ" target="_blank">Facebook</a></li>
+        <li class="twitter"><a href="http://twitter.com/good" target="_blank">Twitter</a></li>
+        <li class="instagram"><a href="http://instagram.com/goodhq" target="_blank">Instagram</a></li>
+        <li class="tumblr"><a href="http://good.tumblr.com/" target="_blank">Tumblr</a></li>
+      </ul>
+    </div>
+    <p class= "legal"> Copyright © 2015 GOOD Worldwide Inc </p>
+  </div>
+</footer>
+
+      
+
+      <script type="text/javascript">
+        function good_warn( message )
+        {
+          jQuery('<div></div>').html( message.replace('.', '.<br>') ).dialog({
+            dialogClass: "good-alert",
+            width: 330,
+            buttons: {
+              "OK": function() {
+                jQuery(this).dialog("close");
+              }
+            }
+          });
+        }
+
+        function good_confirm( message, executeFunction )
+        {
+          jQuery('<div></div>').html( message ).dialog({
+            dialogClass: "good-alert",
+            height: 170,
+            width: 330,
+            buttons: {
+              "Cancel": function() {
+                jQuery(this).dialog("close");
+              },
+              "Yes, I'm sure": function() {
+                executeFunction();
+                jQuery(this).dialog("close");
+              }
+
+            }
+          });
+        }
+
+      </script>
+
+      <!-- GA -->
+      <script type="text/javascript">
+        jQuery(document).ready(function() {
+          setCustomVisitorVariable();
+        });
+
+        function setCustomVisitorVariable() {
+          if (typeof(_gat) == 'object') {
+            if (typeof(user.attributes["login"]) == 'undefined') {
+              if (!_gat._getTrackerByName()._getVisitorCustomVar(1)) {
+                _gaq.push(['_setCustomVar', 1, 'Visitor_Type', 'Visitor', 1]);
+              }
+            }
+            else {
+              if (_gat._getTrackerByName()._getVisitorCustomVar(1) == 'Visitor') {
+                _gaq.push(['_setCustomVar', 1, 'Visitor_Type', 'Member', 1]);
+              }
+            }
+          }
+        }
+      </script>
+
+  </body>
+</html>
+

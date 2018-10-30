@@ -1,0 +1,124 @@
+/* tooltips for the ideas list page */
+/* line 5, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/tooltip/idea.scss */
+.tooltip {
+  position: absolute;
+  display: none;
+  /* display:block; */
+  z-index: 9999;
+  width: 269px;
+  height: 289px;
+  /* the bg image + shadow option */
+  background: url(../../images/sprites/tooltip.png) no-repeat;
+}
+/* line 15, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/tooltip/idea.scss */
+.tooltip .content {
+  margin: 15px 30px 0 40px;
+}
+/* line 18, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/tooltip/idea.scss */
+.tooltip .content .title {
+  color: #085F53;
+  text-align: center;
+}
+/* line 22, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/tooltip/idea.scss */
+.tooltip .content .title label {
+  font-family: "TradeGothicLTStdBoldCondensed", "Arial";
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 0.05em;
+}
+/* line 33, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_fonts.scss */
+.hide-custom-font-face .tooltip .content .title label {
+  visibility: hidden;
+}
+/* line 28, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/tooltip/idea.scss */
+.tooltip .content .title .subtitle {
+  margin: -6px 0 0;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  line-height: 14px;
+}
+/* line 37, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/tooltip/idea.scss */
+.tooltip .content .body {
+  margin: 10px 0;
+  border-top: 1px solid #cccfd6;
+  padding: 10px 0 0;
+}
+/* line 42, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/tooltip/idea.scss */
+.tooltip .content .body .description {
+  font-size: 12px;
+  color: #282828;
+  line-height: 18px;
+  height: 90px;
+}
+/* line 49, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/tooltip/idea.scss */
+.tooltip .content .body a.details {
+  color: #ff5572;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 11px;
+  text-decoration: none;
+  margin: 0 0 12px;
+  display: block;
+  background: url(../../images/sprites/pink-link-arrow.png) no-repeat scroll 99% 4px;
+  padding: 0 10px 0 0;
+  float: left;
+}
+/* line 62, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/tooltip/idea.scss */
+.tooltip .content .body a.button {
+  background-color: #f74967;
+  background-image: url("idea.self-eb971c9298d1548bdc93a859b4c2aee01537301a065c4c3f91eb9e871731fdfc.css%3Fbody=1.css");
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
+  background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
+  background-image: -moz-linear-gradient(top, #f74967, #ff5572);
+  background-image: -ms-linear-gradient(top, #f74967, #ff5572);
+  background-image: -o-linear-gradient(top, #f74967, #ff5572);
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-box-shadow: 0px 0px 1px 0px #E59CA8;
+  -webkit-box-shadow: 0px 0px 1px 0px #E59CA8;
+  box-shadow: 0px 0px 1px 0px #E59CA8;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #f0415f;
+  font-family: arial;
+  font-size: 13px;
+  padding: 0;
+  width: 100%;
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px;
+}
+/* line 22, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
+.tooltip .content .body a.button:hover {
+  border: 1px solid #ec3c5a;
+  cursor: pointer;
+  background-color: #e2304e;
+  background-image: url("idea.self-eb971c9298d1548bdc93a859b4c2aee01537301a065c4c3f91eb9e871731fdfc.css%3Fbody=1.css");
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2304e), to(#f54664));
+  background-image: -webkit-linear-gradient(top, #e2304e, #f54664);
+  background-image: -moz-linear-gradient(top, #e2304e, #f54664);
+  background-image: -ms-linear-gradient(top, #e2304e, #f54664);
+  background-image: -o-linear-gradient(top, #e2304e, #f54664);
+}
+/* line 27, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
+.tooltip .content .body a.button[disabled]:hover {
+  background-color: #f74967;
+  background-image: url("idea.self-eb971c9298d1548bdc93a859b4c2aee01537301a065c4c3f91eb9e871731fdfc.css%3Fbody=1.css");
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
+  background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
+  background-image: -moz-linear-gradient(top, #f74967, #ff5572);
+  background-image: -ms-linear-gradient(top, #f74967, #ff5572);
+  background-image: -o-linear-gradient(top, #f74967, #ff5572);
+}

@@ -1,0 +1,33 @@
+/* tooltips for the new idea form fields */
+/* line 4, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/tooltip/form.scss */
+.formtip {
+  position: absolute;
+  display: none;
+  background: #f0f5f4;
+  width: 260px;
+  padding: 16px;
+  /* shadow */
+}
+/* line 13, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/tooltip/form.scss */
+.formtip .notch {
+  position: absolute;
+  background: transparent url(../../images/sprites/formtip-notch.png);
+  top: 40%;
+  left: -10px;
+  height: 19px;
+  width: 10px;
+}
+/* line 22, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/tooltip/form.scss */
+.formtip p.tip {
+  font-family: Georgia;
+  font-style: italic;
+  color: #085f53;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+}
+/* line 30, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/tooltip/form.scss */
+.formtip p.tip a {
+  text-decoration: underline;
+  color: #085f53;
+}

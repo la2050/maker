@@ -1,0 +1,1232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <title>L.A. Bike Trains</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en" />
+
+      <link rel="stylesheet" media="all" href="../../assets/reset.self-c24ee0aa1527df85ac03c8d941cc1366e21748a09c41555f3392555f39e1f308.css%3Fbody=1.css" />
+<link rel="stylesheet" media="all" href="../../assets/text.self-39c860465e6a5da40781e13fcf84bb75c7f471d94b6cfe9c29560089d0b181f5.css%3Fbody=1.css" />
+<link rel="stylesheet" media="all" href="../../assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css%3Fbody=1.css" />
+      <!--[if IE 6]>
+      <link rel="stylesheet" media="all" href="/stylesheets/ie6.css" />
+      <![endif]-->
+      <!--[if IE 7]>
+      <link rel="stylesheet" media="all" href="/stylesheets/ie7.css" />
+      <![endif]-->
+      <!--[if lt IE 9]>
+      <script src="/javascripts/IE9.js"></script>
+      <![endif]-->
+      <script src="../../assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js%3Fbody=1"></script>
+<script src="../../assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js%3Fbody=1"></script>
+<script src="../../assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js%3Fbody=1"></script>
+      <script src="../../javascripts/plugins/jquery.scrollto.min.js"></script>
+      <script src="../../javascripts/plugins/jquery.autogrow.js"></script>
+      <script src="../../javascripts/plugins/jquery.simplemodal.js"></script>
+      <script src="http://cdn.jquerytools.org/1.2.5/all/jquery.tools.min.js"></script>
+
+      <script src="../../javascripts/compiled/ui_elements.js"></script>
+      <script src="../../javascripts/compiled/mixpanel.js"></script>
+      <script src="../../javascripts/compiled/comments.js"></script>
+      <script src="../../javascripts/vendor/ajaxfileupload/ajaxfileupload.js"></script>
+
+      <!-- For custom alert boxes and background color fade in/out -->
+      <!-- And for jquery ui datepicker -->
+      <script src="../../javascripts/plugins/jquery-ui-1.9.2.custom.min.js"></script>
+      <link rel="stylesheet" media="screen" href="../../assets/ui-dialog/jquery-ui-dialog.custom.self-3c9c895313a1b7eb8a344aebe697c558a084668e4499bb77df7b700ee0c4a23d.css%3Fbody=1.css" />
+      <link rel="stylesheet" media="screen" href="../../stylesheets/smoothness/jquery-ui-1.9.2.custom.css" />
+
+      <link rel="stylesheet" media="screen" href="../../stylesheets/imgareaselect-animated.css" />
+
+      <script src="../../javascripts/vendor/imgareaselect/jquery.imgareaselect.min.js"></script>
+
+      <script type="text/javascript">
+        $.noConflict();
+      </script>
+
+
+      <link rel="icon" type="image/vnd.microsoft.icon" href="../../favicon.ico" />
+          <meta property="og:title" content="L.A. Bike Trains"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="/myLA2050connect/projects/LABikeTrains"/>
+      <meta property="og:image" content="http://img.youtube.com/vi/l2oE7AX8gtw/0.jpg" />
+    <meta property="og:site_name" content="How would you use $100K to make LA the best place to connect? by GOOD Maker"/>
+    <meta property="fb:app_id" content="590727534352624"/>
+    <meta property="fb:admins" content="100004372031382"/>
+    <meta property="og:description" content=""/>
+        <link rel="img_src" href="http://s3.amazonaws.com/stage.assets.maker.good.is/attachments/fund_photos/images/20120/display/LA2050-MAKER-5.jpg?1403006294" />
+	<script src="../../javascripts/vendor/zeroclipboard/ZeroClipboard.js"></script>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=590727534352624";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+        window.twttr = (function (d,s,id) {
+          var t, js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+          js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+          return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+        }(document, "script", "twitter-wjs"));
+
+        window.fbAsyncInit = function() {
+          FB.Event.subscribe('edge.create', function(response) {
+            trackShareContent('facebook');
+          });
+        };
+
+        twttr.ready(function (twttr) {
+          twttr.events.bind('click', function(event) {
+            trackShareContent('twitter');
+          });
+        });
+        </script>
+  <link rel="stylesheet" media="screen" href="../../assets/shared/goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/shared/menubar.self-c6f399247e564168b1e87cc3598006147e2610b99a1df88849bd36740110f282.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/shared/footer.self-d5c5909d3f1a927d51ca2f6a93e55566ff415acdbe5208d6ced368f0e74b57c2.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/goodmaker_new.self-a0c54ca7154c11a512cc4ec4597f6e3e0eb6c0470daae13eefc1c665698b8bad.css%3Fbody=1.css" />
+  
+  <script src="../../assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js%3Fbody=1"></script>
+<script src="../../assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js%3Fbody=1"></script>
+<script src="../../assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js%3Fbody=1"></script>
+
+
+    <script src="../../javascripts/vendor/backbone/underscore-min.js"></script>
+    <script src="../../javascripts/vendor/backbone/backbone-min.js"></script>
+
+      
+      <!-- GA -->
+      <script type="text/javascript">
+        function removeRootGACookies() {
+            var ca = document.cookie.split(';'),
+                re = /^(__utm.)=/;
+            for(var i=0; i<ca.length; i++) {
+                var c = ca[i].trim();
+                var m = c.match(re)
+                if (m) {
+                  // Deletes cookies only if they are on root domain, does nothing otherwise
+                  document.cookie = m[1] + "=;path=/;domain=.good.is;expires=Thu, 01 Jan 1970 00:00:01 GMT;"
+                }
+            }
+        }
+        // Delete GA cookies on .good.is, this code can be removed on 6/1/2016 (GA cookies last 2 years)
+        removeRootGACookies()
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'doesntmatter']);
+        _gaq.push(['_setDomainName', '.maker.good.is']);
+        _gaq.push(['_trackPageview']);
+
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      </script>
+
+      <!-- start Mixpanel -->
+      <script type="text/javascript">(function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");
+    b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+
+    '//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';d=c.getElementsByTagName("script")[0];
+    d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){
+    var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(
+    Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?g=a[f]=[]:
+    f="mixpanel";g.people=g.people||[];h=['disable','track','track_pageview','track_links',
+    'track_forms','register','register_once','unregister','identify','alias','name_tag','set_config',
+    'people.set','people.set_once','people.increment','people.track_charge','people.append'];
+    for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.2;})(document,window.mixpanel||[]);
+      mixpanel.init("doesntmatter", {cookie_name: "gd_doesntmatter"});
+      </script>
+
+      <!-- end Mixpanel -->
+
+    </head>
+
+    <body class="normal projects show">
+      
+  <div id="header-background"></div>
+<div id="menu-bar-background"></div>
+
+<div id="global-header">
+ <div id='menu-bar'>
+  <div id='good-header'>
+    <a class="good-logo" href="http://www.good.is"></a>
+    <div id='slogan'>
+      <a href="../../index.html">Go to Maker Home</a>
+    </div>
+  </div>
+  <div id='template-container'>
+    <div id='template-profile-area'></div>
+  </div>
+</div>
+<div class='clear'></div>
+
+ 
+<!---->
+
+ 
+
+
+
+ <div class="clear"></div>
+</div>
+
+
+
+
+<div class="container">
+  <div class="contents">
+    
+    
+    <div class="left-column">
+      <link rel="canonical" href="http://myLA2050connect.localhost:3000/myLA2050connect/projects/LABikeTrains">
+
+
+<link rel="stylesheet" media="screen" href="../../assets/projects/show_idea.self-5bc5c3f78c6f4ba36ebfd7d5a30f6785c124fb14711fda201f5f93d8fbb589d3.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/projects/index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/tooltip/idea.self-eb971c9298d1548bdc93a859b4c2aee01537301a065c4c3f91eb9e871731fdfc.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/tooltip/form.self-55ce5cc1a9a95e48bb274b3a10bad6e4e69738bd4896a43e48d242aff4a5df2d.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/projects.self-8bba53b365ba017996583893f85c89a8b6899ebc86f5b8e0d3a4291b6b2de81e.css%3Fbody=1.css" />
+<link rel="stylesheet" media="screen" href="../../assets/show_idea.self-d2fefe18a71da57eee2141bce760e3400d33f26242847bd68d9762dbdc4b21de.css%3Fbody=1.css" />
+
+
+
+    <div class="challenge-header">
+  <div class="challenge-media" >
+
+    <div class="user-media">
+      <a href="../../myLA2050connect.html"><img alt="How would you use $100K to make LA the best place to connect?" src="../..//s3/maker%252Fattachments%252Ffund_photos%252Fimages%252F20120%252Fdisplay%252FLA2050-MAKER-5.jpg=c160x96#" /></a>
+    </div>
+</div>
+
+  <div class="challenge-title">
+    <a href="../../myLA2050connect.html">LA is the best place to connect</a></div>
+      <div class="learn-more">
+        <a href="../../myLA2050connect.html">Learn More <img src="../../assets/icons/arrow_green-def7b8dfadd0dcc5f118e5cd10ed5e1ca25ff0794100c0b16b0707c38adad12c.png" alt="Arrow green def7b8dfadd0dcc5f118e5cd10ed5e1ca25ff0794100c0b16b0707c38adad12c" /></a></div>
+      <div class="clear"></div>
+</div>
+
+<div class="thick_divider"></div>
+
+
+  <div class="clear"></div>
+
+<div class="yellow-seperator "></div>
+
+<div class="idea-detail-body">
+  <div id="replaceable_header">
+  <div class="project-header">
+      <div id="project-main">
+        <div id="project-title">
+          <h1 class="huge no-rank ">L.A. Bike Trains</h1>
+            <div class="idea-by">
+                <div class="by"><span class="challange">submission </span><span class="by">by </span><span class="person">NVNVNVNVNV</span></div>
+            </div>
+        </div>
+      </div>
+      <script language="javascript">
+        (function ($) {
+          $('#previous, #next').click(function (e) {
+            var url = this.href;
+            e.preventDefault();
+            $.ajax({
+              url: url,
+              dataType: 'script',
+              success: function () {
+                window.history.pushState('string', 'Title', url);
+              }
+            });
+          });
+        }(jQuery));
+      </script>
+  </div>
+  <div class="clear"></div>
+  <div class="divider"></div>
+    <script language="javascript">
+      jQuery(".yellow-seperator").removeClass("winner");
+      jQuery("#idea-rank").removeClass("winner");
+    </script>
+</div>
+
+  <div id="replaceable_body">
+
+      <div class="user-media">
+        <iframe width="570" title="YouTube video player" src="http://www.youtube.com/embed/l2oE7AX8gtw?HD=1;rel=0;showinfo=0;controls=0;egm=1;wmode=transparent" height="385" frameborder="0" wmode="transparent"></iframe>
+
+    </div>
+
+
+  
+
+<script language="JavaScript">
+jQuery(document).ready(function(){
+  var clip = new ZeroClipboard( document.getElementById("copy-label"), {
+    moviePath: "/javascripts/vendor/zeroclipboard/ZeroClipboard.swf"
+  } );
+  clip.on( 'complete', function(client, args) {
+    afterClipCopied();
+  } );
+	function afterClipCopied(){
+    jQuery('#challenge-permalink').focus();
+    trackShareContent('copy link');
+	}
+});
+</script>
+
+    
+   <h2 id="the-idea">About Your Organization</h2>
+
+
+     <p>
+           <b>Organization name(s):</b>
+    <p>L.A. Bike Trains, Bicycle Culture Institute</p>
+
+       
+     </p>
+
+     <p>
+           <b>Organization website:</b>
+    <p>
+        <a href="http://labiketrains.com/" rel="external">http://labiketrains.com/</a>
+    </p>
+
+       
+     </p>
+
+     <p>
+           <b>Organization Twitter handle:</b>
+    <p><a class="external" href="https://twitter.com/LABikeTrains">https://twitter.com/LABikeTrains</a></p>
+
+       
+     </p>
+
+     <p>
+           <b>Organization Facebook page:</b>
+    <p><a class="external" href="https://www.facebook.com/LABikeTrains">https://www.facebook.com/LABikeTrains</a></p>
+
+       
+     </p>
+
+     <p>
+           <b>Organization Instagram:</b>
+    <p><a class="external" href="http://instagram.com/bicyclecultureinst">http://instagram.com/bicyclecultureinst</a></p>
+
+       
+     </p>
+   <h2 id="the-idea">Describe your organization (check only one):</h2>
+
+
+     <p>
+       <input type="checkbox" name="94076" id="94076" value="1" disabled="disabled" checked="checked" />
+Nonprofit organization
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94077" id="94077" value="1" disabled="disabled" />
+For-profit organization
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94078" id="94078" value="1" disabled="disabled" />
+Government
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94079" id="94079" value="1" disabled="disabled" />
+Individual
+
+       
+     </p>
+   <h2 id="the-idea">Please describe yourself (check only one): </h2>
+
+
+     <p>
+       <input type="checkbox" name="94080" id="94080" value="1" disabled="disabled" />
+Solo actor (just us on this project!)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94081" id="94081" value="1" disabled="disabled" checked="checked" />
+Proposed collaboration (we want to work with partners!)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94082" id="94082" value="1" disabled="disabled" checked="checked" />
+Collaboration (partners are signed up and ready to hit the ground running!)
+
+       
+     </p>
+   <h2 id="the-idea">In one sentence, please describe your idea or project.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>L.A. Bike Trains! Led by experienced 'conductors' on the best routes across LA - making biking a fun, safe and reliable way to get to work.</p>
+
+       
+     </p>
+   <h2 id="the-idea">IN ONE SENTENCE, PLEASE DESCRIBE WHAT YOUR ORGANIZATION DOES.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>The Bicycle Culture Institute is a 501(c)3 non-profit dedicated to connecting people to new (bicycle) ideas.</p>
+
+       
+     </p>
+   <h2 id="the-idea">Does your project impact Los Angeles County? Check only one.</h2>
+
+
+     <p>
+       <input type="checkbox" name="94086" id="94086" value="1" disabled="disabled" checked="checked" />
+Yes (benefits all of LA County)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94087" id="94087" value="1" disabled="disabled" />
+Yes (benefits a region of LA County)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94088" id="94088" value="1" disabled="disabled" checked="checked" />
+Yes (benefits a population of LA County)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94089" id="94089" value="1" disabled="disabled" />
+No
+
+       
+     </p>
+   <h2 id="the-idea">Please write a sample tweet to describe your submission.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>@LABikeTrains educating new bicycle riders, developing mellow urban routes &amp; making bikes the BEST way to get around #LA</p>
+
+       
+     </p>
+   <h2 id="the-idea">Which area(s) of LA does your project benefit? Check all that apply.</h2>
+
+
+     <p>
+       <input type="checkbox" name="94090" id="94090" value="1" disabled="disabled" checked="checked" />
+Central LA
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94091" id="94091" value="1" disabled="disabled" checked="checked" />
+East LA
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94092" id="94092" value="1" disabled="disabled" />
+South LA
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94093" id="94093" value="1" disabled="disabled" />
+San Gabriel Valley
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94094" id="94094" value="1" disabled="disabled" checked="checked" />
+San Fernando Valley
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94095" id="94095" value="1" disabled="disabled" />
+South Bay
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94096" id="94096" value="1" disabled="disabled" checked="checked" />
+Westside
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94097" id="94097" value="1" disabled="disabled" />
+Other:
+
+       
+     </p>
+
+     <p>
+           <b>If other, please specify.:</b>
+    <p>We are working to develop the foundation needed to expand into all areas of LA County, from building capacity to key relationships.</p>
+
+       
+     </p>
+   <h2 id="the-idea">WHAT IS YOUR IDEA/PROJECT IN MORE DETAIL?</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>The idea: Individuals can create social solutions to hard problems that frequently seem insurmountable or dependent on major infrastructure.
+<br />+
+<br />Individuals only change their behavior based on 1:1 positive experiences.  = A social/educational program making bicycling feel safe, fun and accessible – in the middle of car-centric Los Angeles!</p>
+
+<p>LA Bike Trains are regular group rides along the safest routes, led by trained 'conductors.' But it gets better. We've built in education, rider support and are working on a mobile app to become a major transportation alternative and "first mile/last mile" solution. Everyone wants to “beat the traffic” or avoid parking and L.A. Bike Trains is a fun solution that’s easy to talk about or participate in
+</p>
+
+       
+     </p>
+   <h2 id="the-idea">What will you do to implement this idea/project?</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>#1 Promotion: print materials, signage and traditional media
+<br />#2 Develop USA's first urban (traffic) specific ride leader training program
+<br />#3 Create new routes based on need as determined by the Commuter Survey <a class="external" href="http://labiketrains.com/commuter-survey/">http://labiketrains.com/commuter-survey/</a>
+<br />#4 Connect current efforts into a web based (mobile) app that suggests routes at all times and provides real-time tracking of live routes for anyone to "hop on/hop off."
+<br />#5 Connect LA Bike Trains to major educational and employment organizations to help facilitate bicycling to major commuter destinations.</p>
+
+<p>Right now we have the benefit of being almost 2(!) years old. We've got a solid team, program and lots of community support - even internationally! Cities from San Francisco to London have asked "how do you do it? We want Bike Trains in our city!" But even in LA few people who would benefit the most have heard of us or know how we can make their commute and their life better. </p>
+
+<p>We also need a huge increase in commuter survey responses. The tactic we've taken is that in addition to our own collection, we are working with major transportation and city agencies to get access to their data as well. </p>
+
+<p>Everything is about breaking down barriers - from helping people learn how to safely and comfortably bike commute on their own or with us. No topic is too silly; most are worried about sweating and not looking professional enough, or too serious.. we are always addressing safety and helping people get over real safety concerns. We do that by showing up, running on time and being generous with everything we know. </p>
+
+<p>Being an LA Bike Trains conductor is a big job and only the most kind hearted, energetic and wonderful people can do it. Conductors are unpaid volunteers who spend a lot of time making sure their communication is great, that riders feel safe and have a good time and participate in any number of other development or advocacy work. </p>
+
+<p>That means that even beyond the Bike Trains, we're developing an incredible volunteer network across Los Angeles. After primary conductors, we have 'back up' conductors. We are always looking for volunteer web/mobile developers, event coordinators, community organizers, educators and happy people. Right now our volunteer list is 100+ strong and growing.</p>
+
+<p>We've got an unreleased app 'beta' but we need funding and specific development talent to get it to the point where we can release it into the wilds of LA city streets safely.  </p>
+
+       
+     </p>
+   <h2 id="the-idea">HOW WILL YOUR IDEA/PROJECT HELP MAKE LA THE BEST PLACE TO CONNECT TODAY? IN 2050?</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>Today, L.A. Bike Trains is a novel approach using a fun social experience to educate Angelinos about bicycles for transportation. We primarily address crude concerns, from safety fears to a total lack of knowledge on how to navigate the city without a car and what stuff is needed. We answer a lot of the same questions again, and again. All of these questions can be found online, but we have discovered that the most important element in creating behavior change is emotional, via 1:1 human experience. We provide that and inspiration for taking the next steps.</p>
+
+<p>We’re also at an exciting intersection – helping define what multi-modal transportation looks like. From using our experience to assist with Open Streets events, collaborate with major transportation/urban development projects and the creation of innovative bike friendly routes via a mobile app… there’s no limit to where we can grow in the future.</p>
+
+<p>Right now the biggest need is basic education and advocating for infrastructure developments, while creating an authentic bicycle culture that makes Angelinos more resilient. As infrastructure improves and social acceptance of bicycling for transport gains, we’ll be able to focus on bicycle specific innovation within LA’s ever changing urban transit mix. Having built a massive network of volunteers, participants, collaborators and channels of communication we’ll be able to facilitate an evolution that may bring us to work more closely with mass transit, urban planning, the bicycle industry itself or any number of potential avenues.</p>
+
+<p>What doesn’t change between now and 2050 is our commitment to using the bicycle as the greatest tool we have for connecting individuals and communities in Los Angeles. The bicycle is a great equalizer between rich and poor, languages and backgrounds. Transportation equality and access is one of the greatest projects the city must undertake to allow all of its’ citizens access to educational, recreation and occupational opportunity.
+</p>
+
+       
+     </p>
+   <h2 id="the-idea">WHOM WILL YOUR PROJECT BENEFIT? PLEASE BE SPECIFIC.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>Like most start-up projects, we’ve had to begin in communities that are naturally receptive to what we’re doing. It’s no surprise that we’re popular in the young, affluent and very Caucasian neighborhood of Silverlake, but the real promise is in the Latino communities of East LA and beyond. Reaching diverse and low income populations – the ones who stand to gain the most from this project – requires a lot more effort. From being able to faithfully offer communication, assistance and service in multiple languages. It’s also important to have the resources necessary to reach those populations in meaningful ways. </p>
+
+<p>In more affluent neighborhoods we can simply promote online and begin rides at local cafes. In traditionally poor neighborhoods, the barriers are much higher. That means we need to spend a lot more time and money to bring the same spirit of service; by providing free coffee at a local park and being present at community events. Conductors bear a huge responsibility, not only in taking on the responsibility and potential liability of leading regular rides, but also educating, encouraging and connecting people to a broader community, bicycling resources and providing an empathetic window into what their specific neighborhood requires to become receptive to community adoption of a ‘bike train.’</p>
+
+<p>Too many projects attempt to reach out to Spanish speaking community by simply offering a website in Spanish. We understand that we need to be able to fully support communities that are predominantly Spanish speaking. That means working with existing groups, recruiting existing leaders and research into what is most needed. Having the time, thoughtfulness and creativity to bridge the project into a different framework is how we plan to be successful in positively impacting divers populations in Los Angeles. Incremental, rather than blanket progress. To do that faithfully it has to happen organically and that is extremely difficult to predict.</p>
+
+<p>L.A. Bike Trains is in the position to most positively impact disadvantaged and low-income communities. By making the bicycle (often in combination with public transport) a reliable and desirable transportation option, individuals stand to gain mobility, save a significant percentage of their income and begin to solve some of the most pressing health issues seriously affecting low-income populations. We address this goal through an all-inclusive, holistic approach. </p>
+
+       
+     </p>
+   <h2 id="the-idea">Please identify any partners or collaborators who will work with you on this project.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>·         Los Angeles County Bicycle Coalition
+<br />·         LADOT Bike Program
+<br />·         Metro Bike Program
+<br />·         Los Angeles County’s ‘Bicycle Advisory Committee’*
+<br />·         Multicultural Communities for Mobility*
+<br />·         R.O.P.E. (Radical Outreach People Empowered)
+<br />·         Bodacious Bike Babes
+<br />·         Sweet Ride USA
+<br />·         Wolfpack Hustle/Midnight Ridazz
+<br />·         S.W.A.T. She Wolf Attack Team
+<br />·         SoCalCX - Prestige Series
+<br />·         UCLA Sustainability Dept*
+<br />·         UCLA Bike Coalition
+<br />·         USC Bike Coalition*
+<br />·         Lezyne
+<br />·         Cyclone Bicycle Supply
+<br />·         Josh Cohen, Bicycle Attorney
+<br />·         Alta Planning
+<br />·         Fehr and Peers*
+<br />·         Design by Colleen</p>
+
+<p>*Not Yet Confirmed</p>
+
+<p>These organizational collaborators range from organizations that we can rely on to help us promote our work to their audiences, to those that provide more in-depth assistance with knowledge or professional connections to being able to support us financially or with ‘in-kind’ donations. These are the organizations that are our “first tier” whenever we need anything or just want to explore possibilities.
+<br /> 
+<br />The primary collaborations that we want to develop are with university bicycle coalitions. A successful test run and development of 2 new routes going to UCLA was launched during bike week May 2014. We now want to deepen that relationship so that more staff and students will utilize L.A. Bike Trains as their transportation resource. L.A. Bike Trains would like UCLA to support those routes via funding, promotion and technical assistance – such as data collection and research.  With a UCLA collaboration in process, it can serve as a template for additional collaborations with other schools, such as USC, but also large employers from the city of LA to Sony Entertainment.
+</p>
+
+       
+     </p>
+   <h2 id="the-idea">How will your project impact the LA2050 &quot;CONNECT&quot; metrics?</h2>
+
+
+     <p>
+       <input type="checkbox" name="94104" id="94104" value="1" disabled="disabled" checked="checked" />
+Rates of volunteerism
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94105" id="94105" value="1" disabled="disabled" />
+Voting rates by race
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94106" id="94106" value="1" disabled="disabled" checked="checked" />
+Adults getting sufficient social &amp; emotional support
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94107" id="94107" value="1" disabled="disabled" checked="checked" />
+Median travel time to work
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94108" id="94108" value="1" disabled="disabled" checked="checked" />
+Attendance at cultural events
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94109" id="94109" value="1" disabled="disabled" checked="checked" />
+Number of public transit riders
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94110" id="94110" value="1" disabled="disabled" checked="checked" />
+Participation in neighborhood councils
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94111" id="94111" value="1" disabled="disabled" checked="checked" />
+Percentage of Angelenos that volunteer informally (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94112" id="94112" value="1" disabled="disabled" />
+Government responsiveness to residents’ needs (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94113" id="94113" value="1" disabled="disabled" />
+Transit-accessible housing and employment (the share of housing units and percentage of jobs that are located within a half-mile of transit) (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94114" id="94114" value="1" disabled="disabled" checked="checked" />
+Total number of social media friends (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94115" id="94115" value="1" disabled="disabled" checked="checked" />
+Attendance at public/open street gatherings (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94116" id="94116" value="1" disabled="disabled" checked="checked" />
+Residential segregation (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94117" id="94117" value="1" disabled="disabled" />
+Access to free wifi (Dream Metric)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94118" id="94118" value="1" disabled="disabled" />
+Other:
+
+       
+     </p>
+
+     <p>
+           <b>Please elaborate on how your project will impact the above metrics.:</b>
+    <p>One of the strongest reasons that people choose to commute by bike is the mental and physical well-being that it creates. LA Bike Trains makes that even better by providing a positive social network to reinforce and support individuals.</p>
+
+<p>It's inspiring enough that people want to help. And ride. And get active in their communities when they realize all the silly barriers keeping Angelinos from having the kind of healthy accessible transportation network we deserve. </p>
+
+<p>New and sometimes scared participants are comforted by the fact that most of our routes run in parallel to bus or train transport options. LA Bike Trains is at an exciting place to bridge the "first mile - last mile" question of how to transition a population used to auto transport to a multi-modal approach.  </p>
+
+       
+     </p>
+   <h2 id="the-idea">PLEASE SELECT WHICH OTHER LA2050 GOALS ARE RELEVANT TO YOUR PROJECT OR ORGANIZATION (CHECK ALL THAT APPLY):</h2>
+
+
+     <p>
+       <input type="checkbox" name="94121" id="94121" value="1" disabled="disabled" checked="checked" />
+LA is the best place to LEARN
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94122" id="94122" value="1" disabled="disabled" />
+LA is the best place to CREATE
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94123" id="94123" value="1" disabled="disabled" checked="checked" />
+LA is the healthiest place to LIVE
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94124" id="94124" value="1" disabled="disabled" checked="checked" />
+LA is the best place to PLAY
+
+       
+     </p>
+   <h2 id="the-idea">PLEASE EXPLAIN HOW YOU WILL EVALUATE YOUR PROJECT.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>#1 Are the trains running? On time &amp; on schedule? Benchmark service reliability.
+<br />#2 Are we serving more people by the end of the year? (participation numbers/metrics)
+<br />#3 Are we making progress into new communities? (Geographic and population surveys)</p>
+
+<p>Right now we are already keeping track of participation and internet traffic. From that we can extract a lot of basic information. The general website traffic includes commuter survey responses, sign ups by route and general volunteer responses. We can see what parts of the city are responding most frequently and what communities seem to be conspicuously absent from online interaction. Because we use MailChimp to communicate with anyone that signs up for a specific route, we can also track the engagement of who is reading emails and further measure that by counting who is showing up and participating each week.</p>
+
+<p>We divide participation into three groups:</p>
+
+<p>Butterflies: these are the folks who love us on social media or just think the idea is great. They might volunteer at an event, or get inspired to ride more often on their own, but don’t sign up and participate in specific routes. Butterflies can become Regulars or Graduates.
+<br />Regulars: The people who sign up and ride with us regularly.
+<br />Graduates: They show up not knowing very much and require a lot of education, help and encouragement. After 1-3 rides they disappear. Why? Because now they’re fully capable bike commuters and can bike commute whenever or however they want!</p>
+
+<p>In order to accurately measure the impact of receiving the LA2050 Connect Grant, we need to benchmark our current operations and develop more sensitive ways of measuring community impact. One of the initiatives that this proposal would develop is what we are calling “Visual Surveys.”</p>
+
+       
+     </p>
+   <h2 id="the-idea">WHAT TWO LESSONS HAVE INFORMED YOUR SOLUTION OR PROJECT? </h2>
+
+
+     <p>
+           <b>:</b>
+    <p>#1 Money is required.
+<br />Without educated, experienced and dedicated leadership building out the foundations of this project it cannot scale or develop beyond occasional group rides organized within a friend/work network. Without a small army of well-organized volunteers, there’s no way rides will be consistent or reliable over time. That means that although conductors and volunteers are unpaid, that there is a need for paid leadership and consultants to help the organization develop. At a minimum, websites, fliers and extra bike tubes add up. Finding money from outside sources to keep from needing volunteers work for free and also pay for organizational costs is not sustainable.</p>
+
+<p>We need ‘start up’ funds to help us develop the app, new routes and education programs, while paying for specific management roles that can help L.A. Bike Trains grow to a comprehensive city level outreach and full program capacity. Even as we work on those goals, we’ll need to investigate options for on-going fiscal sustainability. </p>
+
+<p>#2 Always Be Hollerin’ (ABH!)
+<br />As a grassroots project, it’s hard to get the word out. Then, once people know who you are, you’ve got to keep them engaged and reminded how exactly you can help them and other people. Right Now. </p>
+
+<p>People are busy. When co-founder Bruce Chan left L.A. Bike Trains to focus on grad school and other advocacy projects – the facebook page suddenly became less exciting and many people thought we had “quit.” Even as we picked up major press and the social media feeds picked up, Nona regularly had people in the bike community ask “are you still doing L.A. Bike Trains?”</p>
+
+<p>While that’s frustrating (and a lot of work that isn’t the direct effort of leading actual routes) it is the #1 reason why bike train projects – all over the world – have quietly failed after brief attempts. The biggest challenge in any bike train is getting participation and continually infusing fresh sign ups into the system so that it stays vibrant. The natural tendency is to assume that people will discover the route, sign up and show up every week with no prompting. In truth, nothing could be a better recipe for conductor burnout and lack of participation.</p>
+
+<p>*Credit: Always Be Hollerin’ ABH! Is the battle cry of good friend and fellow bike-entrepreneur Iggy Cortez, owner of Far West Courier based in Santa Monica. That guy defines awesome.</p>
+
+       
+     </p>
+   <h2 id="the-idea">Explain how implementing your project in the next twelve months is an achievable goal.</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>L.A. Bike Trains is already successfully in operation. We need to grow and develop in order to become sustainable within Los Angeles and part of that is also becoming a model for similar projects in other cities, within LA County and beyond. A team of 7+ developers has floundered in making progress on the mobile app because there isn’t money to pay for project development, service costs and other requirements. By funding this position, the already developed specs and project can finally move forward. App development timeline to Beta and Alpha launch is under 10 months.</p>
+
+<p>Development is based on ‘open source’ collaborative process, managed through GitHub. Lead developer, Christopher Lovejoy has presented numerous times at ‘Hack for LA, Code for America’ and other community minded coding events. In combination with larger educational partners, like UCLA, we have access to a significant talent pool that wants to work on social benefit/biking related projects while building up their skills and ‘GitHub’ resume of accomplishments. While this is already in place; the people and project management is critical. It’s easier and faster to work with a senior team of experienced developers, designers and managers – however the scope of that budget is far beyond what is reasonable at this time. We understand that there is strength in the collaborative process and working with younger developers allows us the possibility to develop a world class solution with a village budget.
+<br /> </p>
+
+<p>We’ve already begun initial relationships, routes and projects with UCLA, (Bike) METRO, USC, the Los Angeles Bicycle Coalition, Multicultural Communities for Mobility, Southern California Association of Governments and others but have been unable to complete or move forward on this progress because no one can dedicate additional unpaid time to these efforts. There is a tremendous amount of potential and desire, but so far the big missing piece is paid development time. By funding enough development time to follow through on grant and award requests, we can not only find additional funding, but begin to become sustainable beyond 2015, ensuring that L.A. Bike Trains not only serves as an inspirational idea, but a true transportation resource for Los Angeles.</p>
+
+<p>A new Route takes about $1500 to develop; conductor training, conductor kit, public promotion, system materials revised (online, print), program ‘onboarding,’ back up volunteer development and administrative efforts. </p>
+
+       
+     </p>
+   <h2 id="the-idea">Please list at least two major barriers/challenges you anticipate. What is your strategy for ensuring a successful implementation?</h2>
+
+
+     <p>
+           <b>:</b>
+    <p>#1 Access to a bicycle, helmet, lights and security locks.
+<br />D.I.Y. If an individual is low income and can afford to pay a small amount, or simply wants to learn how to be completely self-sufficient we can refer them to the Bicycle Kitchen where they will be able to learn to build their own bike with recycled or low cost parts. Additional co-ops in other areas of the city also make this option accessible in the valley, east and west sides of the city. The East Side Riders Bicycle Club has also launched a new location in South LA and we are hopeful that they will also offer a similar program that we can refer people to.</p>
+
+<p>Low-Cost: If an individual can afford a new bike, we are working with local bike shops to curate a “package deal” of a quality geared bike (must be approved by L.A. Bike Trains to carry our logo or receive endorsement), helmet and lock at an affordable price point, ideally $550 or around $600. This is an approachable price point when viewed as an alternative to automobile ownership and maintenance, even in low income communities.</p>
+
+<p>Lights: L.A. Bike Trains supports the Los Angeles County Bicycle Coalition’s ‘Operation Firefly.’ It’s an annual campaign to purchase front/rear bicycle lights and distribute them for free to bicycle riders throughout LA County that are riding without. This is a huge safety concern and the cost of bike lights is prohibitive for many low income cyclists. We can help fundraise for the purchase of additional lights, provide distribution to communities along our routes and promote ‘Operation Firefly’ to individuals who would be otherwise unaware that such a resource exists.</p>
+
+<p>Helmets: L.A. Bike Trains encourages all cyclists to wear bike specific helmets whenever they are riding a bike. We refer low income individuals to friendly local bike shops that we know carry affordable options and offer discounts. We also encourage people to take advantage of online deals and educational giveaways that occasionally happen.</p>
+
+<p>Locks: Unfortunately bike theft is a huge problem in Los Angeles. It is an extra devastating event in low income communities where there is no means to replace a bike that may be the sole transportation option. </p>
+
+<p>Time - Money - Patience; we need to expand into neighborhoods that do not primarily speak English or spend all their time online. </p>
+
+<p>At the same time we're working on relationships with large organizations that have many of the same hurdles: complexity and long timeframes. Beer me. 
+</p>
+
+       
+     </p>
+   <h2 id="the-idea">WHAT RESOURCES DOES YOUR PROJECT NEED? (CHECK ALL THAT APPLY)</h2>
+
+
+     <p>
+       <input type="checkbox" name="94132" id="94132" value="1" disabled="disabled" checked="checked" />
+Money (financial capital)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94133" id="94133" value="1" disabled="disabled" />
+Volunteers/staff (human capital)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94134" id="94134" value="1" disabled="disabled" checked="checked" />
+Publicity/awareness (social capital)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94135" id="94135" value="1" disabled="disabled" />
+Infrastructure (building/space/vehicles, etc.)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94136" id="94136" value="1" disabled="disabled" checked="checked" />
+Education/training
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94137" id="94137" value="1" disabled="disabled" checked="checked" />
+Technical infrastructure (computers, etc.)
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94138" id="94138" value="1" disabled="disabled" checked="checked" />
+Community outreach
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94139" id="94139" value="1" disabled="disabled" checked="checked" />
+Network/relationship support
+
+       
+     </p>
+
+     <p>
+       <input type="checkbox" name="94140" id="94140" value="1" disabled="disabled" checked="checked" />
+Quality improvement research
+
+       
+     </p>
+
+
+    <h2 id="discussion" name="discussion">
+  <div style="float:left;">Discussion</div>
+  <span class="comment-count" style="margin-top:3px">
+    0
+    <img src="../../assets/icons/pink-talk-bubble-tail-c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7.png" alt="Pink talk bubble tail c96b4a07ef1417e25d0bcf5c4cba4766b8bbf0382f07677990a9d5577885d4d7" />
+  </span>
+  <div class="clear"></div>
+</h2>
+
+<div class="clear"></div>
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+  $(".comment_content").bind('focus', function(){
+    $(this).siblings('label.comment-tip').hide();
+  });
+  $(".comment_content").bind('blur', function(){
+    if ($(this).val().length == 0){
+      $(this).siblings('label.comment-tip').show();
+    }
+  });
+  $('.reply').bind('click', function(){
+    $(this).parent().next('.add_comment_form').slideToggle();
+  });
+});
+</script>
+
+</div>
+
+</div>
+
+  
+
+
+<script language="javascript">
+
+  
+  function vote_success(project_name, twitter_link, facebook_link){
+    trackNewVote();
+    message = 'some stuff'
+    project_message_dialog('good-vote-dialog', message, twitter_link, facebook_link);
+  }
+
+  function vote_already_cast( project_name, twitter_link, facebook_link ) {
+    project_message_dialog( 'good-vote-dialog-recast per_challenge', "Your vote has already been cast for " + project_name, twitter_link, facebook_link);
+  }
+
+  function project_message_dialog(type, message, twitter_link, facebook_link) {
+    content = '<div class="message">' + message + '</div>';
+
+    jQuery('<div></div>').html(content).dialog({
+      dialogClass: type,
+      width: 530,
+      buttons: {}
+    });
+  }
+</script>
+
+<script>
+//<![CDATA[
+setMixPanelDetails('maker submission')
+//]]>
+</script>
+
+<script type="text/javascript">
+  jQuery('external').bind('click', function(){
+    link = jQuery(this).attr('href')
+    _gaq.push(['_trackPageview', link]);
+  });
+</script>
+
+      <br style="clear:both">
+    </div>
+    <div class="right-column">
+        
+
+  
+<div id="award_box">
+  <div id="award_icon">
+    <img src="../../assets/icons/pink-ribbon-award-box-icon-45b87e779c93f5099a48378c2aadc0fcd51184974daecf76e3f5c50034ea21fb.png" alt="Pink ribbon award box icon 45b87e779c93f5099a48378c2aadc0fcd51184974daecf76e3f5c50034ea21fb" />
+  </div>
+  <div id="award_text">
+    <img src="../../assets/icons/award_topvotedidea-5a5ae14e3d56a10363ea2a398cece46cf4df891213cbe68677c19d8903a1932a.png" alt="Award topvotedidea 5a5ae14e3d56a10363ea2a398cece46cf4df891213cbe68677c19d8903a1932a" />
+  </div>
+
+      <div id="award_prize_money">
+        $100,000
+      </div>
+
+  <div class="vertical-padding"></div>
+</div>
+
+  <div id="challenge_phases">
+  
+<div id="submission_phase" class="phase">
+  <div class="phase-header">
+      <img class="step-phase" src="../../assets/icons/circle-1-inactive-e7784182a1bd5eace578987db27fc19ec6337f418c48c6c8732605b9043d50d0.png" alt="Circle 1 inactive e7784182a1bd5eace578987db27fc19ec6337f418c48c6c8732605b9043d50d0" />
+      <img class="step-title" src="../../assets/icons/step1-title-submission-inactive-cde083e53089b973e7c9dc80a44a038c1ce4cf3b2650aeb5549157d1ed58a2d9.png" alt="Step1 title submission inactive cde083e53089b973e7c9dc80a44a038c1ce4cf3b2650aeb5549157d1ed58a2d9" />
+
+    <div id="step1_plus" class="step-expand" onclick="expandStep1();"><div class="phases-orange-plus"></div></div>
+    <div id="step1_minus" class="step-expand" onclick="collapseStep1();" style="display:none;"><div class="phases-orange-minus"></div></div>
+    <div style="clear:both;"></div>
+  </div>
+
+  <div id="submission_phase_detail" class="phase-detail">
+
+    <div class="phase-dates deadline">
+      <p>Submission Began<br>
+      <span class="upcoming_date_with_day">Tuesday, July 01, 2014</span><br>
+      <p>Submission Ended<br>
+      <span class="upcoming_date_with_day">Thursday, July 31, 2014</span><br><span>at 07:00 PM UTC</span></p>
+    </div>
+  </div>
+</div>
+
+
+
+<script language="javascript">
+  function expandStep1()
+  {
+    jQuery("#step1_plus").hide();
+    jQuery("#step1_minus").show();
+
+    jQuery("#submission_phase_detail").show();
+  }
+
+  function collapseStep1()
+  {
+    jQuery("#step1_plus").show();
+    jQuery("#step1_minus").hide();
+
+    jQuery("#submission_phase_detail").hide();
+  }
+
+</script>
+
+  
+<div id="voting_phase" class="phase">
+  <div class="phase-header">
+      <img class="step-phase" src="../../assets/icons/circle-2-inactive-74a43088831beb43fdbd7591ef5d50a5a7a26ff92c9e8ed489782459fa31a8d9.png" alt="Circle 2 inactive 74a43088831beb43fdbd7591ef5d50a5a7a26ff92c9e8ed489782459fa31a8d9" />
+      <img class="step-title" src="../../assets/icons/step2-title-voting-inactive-96be722f53c417edddb5742ba9a6dc2fd403f7e4f6c19dbe883d50d20d93689d.png" alt="Step2 title voting inactive 96be722f53c417edddb5742ba9a6dc2fd403f7e4f6c19dbe883d50d20d93689d" />
+
+
+    <div id="step2_plus" class="step-expand" onclick="expandStep2();"><div class="phases-blue-plus"></div></div>
+    <div id="step2_minus" class="step-expand" onclick="collapseStep2();" style="display:none;"><div class="phases-blue-minus"></div></div>
+    <div style="clear:both;"></div>
+  </div>
+
+  <div id="voting_phase_detail" class="phase-detail">
+
+    <div class="phase-dates deadline">
+        <p>Voting Began<br>
+      <span class="upcoming_date_with_day">Tuesday, September 02, 2014</span><br>
+      <p>Voting Ended<br>
+      <span class="upcoming_date_with_day">Tuesday, September 16, 2014</span><br><span>at 07:00 PM UTC</span></p>
+    </div>
+  </div>
+</div>
+
+
+
+<script language="javascript">
+  function expandStep2()
+  {
+    jQuery("#step2_plus").hide();
+    jQuery("#step2_minus").show();
+
+    jQuery("#voting_phase_detail").show();
+  }
+
+  function collapseStep2()
+  {
+    jQuery("#step2_plus").show();
+    jQuery("#step2_minus").hide();
+
+    jQuery("#voting_phase_detail").hide();
+  }
+
+</script>
+  <div id="winner_phase" class="phase">
+  <div class="phase-header">
+    <img class="step-phase" src="../../assets/icons/circle-3-83da7a9432aeea960e1a9e9ee93e7ea1221af6c8f42b27964f2e9999d94b2b8d.png" alt="Circle 3 83da7a9432aeea960e1a9e9ee93e7ea1221af6c8f42b27964f2e9999d94b2b8d" />
+    <img class="step-title" src="../../assets/icons/step3-title-3d9e2a65d6ea1ad301f8fc607f5f828bd96362932c71d81c0da5b1fd964422b0.png" alt="Step3 title 3d9e2a65d6ea1ad301f8fc607f5f828bd96362932c71d81c0da5b1fd964422b0" />
+
+    <div id="step3_plus" class="step-expand" onclick="expandStep3();"><div class="phases-red-plus"></div></div>
+    <div id="step3_minus" class="step-expand" onclick="collapseStep3();" style="display:none;"><div class="phases-red-minus"></div></div>
+
+    <div style="clear:both;"></div>
+  </div>
+
+  <div id="winner_phase_detail" class="phase-detail">
+        <div class="winner_contents">
+          <a href="LA2015.html">    <div class="user-media">
+        	<img alt="Special Olympics World Games 2015" src="../..//s3/youtube/vi/DMG32xJ5p-Q/0.jpg=c280x170#" />
+
+    </div>
+
+</a>
+          <div class="title">
+             <div class="byline">
+                 <span class="idea">winning submission</span>
+                 <span class="by">by</span>
+                 <span class="author">TeamLA2015</span>
+
+             </div>
+             <a href="LA2015.html">Special Olympics World Games 2015</a>
+          </div>
+        </div>
+
+    <div class="phase-dates deadline">
+      <p>Winner Announced<br>
+      <span class="upcoming_date_with_day">Tuesday, September 30, 2014</span><br>
+    </div>
+  </div>
+
+</div>
+
+<script language="javascript">
+  function expandStep3()
+  {
+    jQuery("#step3_plus").hide();
+    jQuery("#step3_minus").show();
+
+    jQuery("#winner_phase_detail").show();
+  }
+
+  function collapseStep3()
+  {
+    jQuery("#step3_plus").show();
+    jQuery("#step3_minus").hide();
+
+    jQuery("#winner_phase_detail").hide();
+  }
+
+    expandStep3();
+</script>
+
+</div>
+
+    </div>
+    <br style="clear:both">
+    <div class="ad-footer">
+        <div class="clear"></div>
+
+    </div>
+  </div>
+</div>
+
+
+      <footer id="footer">
+  <div class="footer-content">
+    <div class="links">
+      <h2>Creative Solutions for Living Well + Doing Good.</h2>
+      <ul>
+        <li><a href="http://www.good.is/about">About</a></li>
+        <li><a href="http://www.good.is/about/contact">Contact</a></li>
+        <li><a href="http://support.good.is/">Support</a></li>
+        <li><a href="http://www.good.is/about/advertise">Advertise</a></li>
+        <li><a href="http://good.theresumator.com">Jobs</a></li>
+        <li><a href="https://subscribe.goodmagazine.com">Subscriptions</a></li>
+        <li><a href="http://shop.good.is">Online Store</a></li>
+        <li><a href="http://www.goodcorps.com">GOODcorps</a></li>
+        <li><a href="http://www.good.is/about/privacy">Privacy</a></li>
+        <li><a href="http://www.good.is/about/terms">Terms</a></li>
+      </ul>
+    </div>
+    <div class="social">
+      <h2>Connect with us</h2>
+      <ul>
+        <li class="facebook"><a href="http://www.facebook.com/GOODHQ" target="_blank">Facebook</a></li>
+        <li class="twitter"><a href="http://twitter.com/good" target="_blank">Twitter</a></li>
+        <li class="instagram"><a href="http://instagram.com/goodhq" target="_blank">Instagram</a></li>
+        <li class="tumblr"><a href="http://good.tumblr.com/" target="_blank">Tumblr</a></li>
+      </ul>
+    </div>
+    <p class= "legal"> Copyright © 2015 GOOD Worldwide Inc </p>
+  </div>
+</footer>
+
+      
+
+      <script type="text/javascript">
+        function good_warn( message )
+        {
+          jQuery('<div></div>').html( message.replace('.', '.<br>') ).dialog({
+            dialogClass: "good-alert",
+            width: 330,
+            buttons: {
+              "OK": function() {
+                jQuery(this).dialog("close");
+              }
+            }
+          });
+        }
+
+        function good_confirm( message, executeFunction )
+        {
+          jQuery('<div></div>').html( message ).dialog({
+            dialogClass: "good-alert",
+            height: 170,
+            width: 330,
+            buttons: {
+              "Cancel": function() {
+                jQuery(this).dialog("close");
+              },
+              "Yes, I'm sure": function() {
+                executeFunction();
+                jQuery(this).dialog("close");
+              }
+
+            }
+          });
+        }
+
+      </script>
+
+      <!-- GA -->
+      <script type="text/javascript">
+        jQuery(document).ready(function() {
+          setCustomVisitorVariable();
+        });
+
+        function setCustomVisitorVariable() {
+          if (typeof(_gat) == 'object') {
+            if (typeof(user.attributes["login"]) == 'undefined') {
+              if (!_gat._getTrackerByName()._getVisitorCustomVar(1)) {
+                _gaq.push(['_setCustomVar', 1, 'Visitor_Type', 'Visitor', 1]);
+              }
+            }
+            else {
+              if (_gat._getTrackerByName()._getVisitorCustomVar(1) == 'Visitor') {
+                _gaq.push(['_setCustomVar', 1, 'Visitor_Type', 'Member', 1]);
+              }
+            }
+          }
+        }
+      </script>
+
+  </body>
+</html>
+
