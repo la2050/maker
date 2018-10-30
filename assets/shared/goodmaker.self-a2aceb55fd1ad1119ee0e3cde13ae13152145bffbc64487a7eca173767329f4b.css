@@ -1492,7 +1492,7 @@ div.phase-action-box .action-box-text .ideas-hidden.pre-voting {
 /* line 442, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_challenge_phases.scss */
 .submit-idea-button {
   background-color: #ffcb15;
-  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css");
+  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffcb15), to(#ffc015));
   background-image: -webkit-linear-gradient(top, #ffcb15, #ffc015);
   background-image: -moz-linear-gradient(top, #ffcb15, #ffc015);
@@ -1521,7 +1521,7 @@ div.phase-action-box .action-box-text .ideas-hidden.pre-voting {
   border: 1px solid #fca804;
   cursor: pointer;
   background-color: #ffc015;
-  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css");
+  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffc015), to(#f7ae10));
   background-image: -webkit-linear-gradient(top, #ffc015, #f7ae10);
   background-image: -moz-linear-gradient(top, #ffc015, #f7ae10);
@@ -1532,7 +1532,7 @@ div.phase-action-box .action-box-text .ideas-hidden.pre-voting {
 /* line 446, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_challenge_phases.scss */
 .submit-idea-button-large {
   background-color: #ffcb15;
-  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css");
+  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffcb15), to(#ffc015));
   background-image: -webkit-linear-gradient(top, #ffcb15, #ffc015);
   background-image: -moz-linear-gradient(top, #ffcb15, #ffc015);
@@ -1566,7 +1566,7 @@ div.phase-action-box .action-box-text .ideas-hidden.pre-voting {
   border: 1px solid #fca804;
   cursor: pointer;
   background-color: #ffc015;
-  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css");
+  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffc015), to(#f7ae10));
   background-image: -webkit-linear-gradient(top, #ffc015, #f7ae10);
   background-image: -moz-linear-gradient(top, #ffc015, #f7ae10);
@@ -1577,7 +1577,7 @@ div.phase-action-box .action-box-text .ideas-hidden.pre-voting {
 /* line 456, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_challenge_phases.scss */
 .voting-button {
   background-color: #58d9e5;
-  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css");
+  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#58d9e5), to(#49c9d5));
   background-image: -webkit-linear-gradient(top, #58d9e5, #49c9d5);
   background-image: -moz-linear-gradient(top, #58d9e5, #49c9d5);
@@ -1606,7 +1606,7 @@ div.phase-action-box .action-box-text .ideas-hidden.pre-voting {
   border: 1px solid #31becb;
   cursor: pointer;
   background-color: #49c9d5;
-  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css");
+  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#49c9d5), to(#31becb));
   background-image: -webkit-linear-gradient(top, #49c9d5, #31becb);
   background-image: -moz-linear-gradient(top, #49c9d5, #31becb);
@@ -1617,7 +1617,7 @@ div.phase-action-box .action-box-text .ideas-hidden.pre-voting {
 /* line 460, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_challenge_phases.scss */
 .voting-button-large {
   background-color: #58d9e5;
-  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css");
+  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#58d9e5), to(#49c9d5));
   background-image: -webkit-linear-gradient(top, #58d9e5, #49c9d5);
   background-image: -moz-linear-gradient(top, #58d9e5, #49c9d5);
@@ -1651,7 +1651,7 @@ div.phase-action-box .action-box-text .ideas-hidden.pre-voting {
   border: 1px solid #31becb;
   cursor: pointer;
   background-color: #49c9d5;
-  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css");
+  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#49c9d5), to(#31becb));
   background-image: -webkit-linear-gradient(top, #49c9d5, #31becb);
   background-image: -moz-linear-gradient(top, #49c9d5, #31becb);
@@ -1662,7 +1662,7 @@ div.phase-action-box .action-box-text .ideas-hidden.pre-voting {
 /* line 470, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_challenge_phases.scss */
 .winner-button-large {
   background-color: #fe6b84;
-  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css");
+  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fe6b84), to(#ff5572));
   background-image: -webkit-linear-gradient(top, #fe6b84, #ff5572);
   background-image: -moz-linear-gradient(top, #fe6b84, #ff5572);
@@ -1696,7 +1696,7 @@ div.phase-action-box .action-box-text .ideas-hidden.pre-voting {
   border: 1px solid #f13c5a;
   cursor: pointer;
   background-color: #ff5572;
-  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css");
+  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff5572), to(#f14c68));
   background-image: -webkit-linear-gradient(top, #ff5572, #f14c68);
   background-image: -moz-linear-gradient(top, #ff5572, #f14c68);
@@ -3141,7 +3141,7 @@ div.left-column .add_comment_form #comment-tip, div.left-column .add_comment_for
 /* line 559, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/shared/goodmaker.scss */
 div.left-column .add_comment_form .good-button {
   background-color: #f74967;
-  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css");
+  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
   background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
   background-image: -moz-linear-gradient(top, #f74967, #ff5572);
@@ -3174,7 +3174,7 @@ div.left-column .add_comment_form .good-button:hover {
   border: 1px solid #ec3c5a;
   cursor: pointer;
   background-color: #e2304e;
-  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css");
+  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2304e), to(#f54664));
   background-image: -webkit-linear-gradient(top, #e2304e, #f54664);
   background-image: -moz-linear-gradient(top, #e2304e, #f54664);
@@ -3184,7 +3184,7 @@ div.left-column .add_comment_form .good-button:hover {
 /* line 27, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
 div.left-column .add_comment_form .good-button[disabled]:hover {
   background-color: #f74967;
-  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css");
+  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
   background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
   background-image: -moz-linear-gradient(top, #f74967, #ff5572);
@@ -3268,7 +3268,7 @@ div.left-column div.share .permalink #challenge-permalink {
   margin: 10px 0 0;
   padding: 5px 25px;
   background-color: #f74967;
-  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css");
+  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
   background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
   background-image: -moz-linear-gradient(top, #f74967, #ff5572);
@@ -3298,7 +3298,7 @@ div.left-column div.share .permalink #challenge-permalink {
   border: 1px solid #ec3c5a;
   cursor: pointer;
   background-color: #e2304e;
-  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css");
+  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2304e), to(#f54664));
   background-image: -webkit-linear-gradient(top, #e2304e, #f54664);
   background-image: -moz-linear-gradient(top, #e2304e, #f54664);
@@ -3308,7 +3308,7 @@ div.left-column div.share .permalink #challenge-permalink {
 /* line 27, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
 .good-button[disabled]:hover {
   background-color: #f74967;
-  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css%3Fbody=1.css");
+  background-image: url("goodmaker.self-a2aceb55fd1ad1119ee0e3cde13ae13152145bffbc64487a7eca173767329f4b.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
   background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
   background-image: -moz-linear-gradient(top, #f74967, #ff5572);

@@ -295,7 +295,7 @@
 /* line 270, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/index.scss */
 .ideas .idea .image .overlays a.vote-button {
   background-color: #f74967;
-  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css");
+  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
   background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
   background-image: -moz-linear-gradient(top, #f74967, #ff5572);
@@ -336,7 +336,7 @@
   border: 1px solid #ec3c5a;
   cursor: pointer;
   background-color: #e2304e;
-  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css");
+  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2304e), to(#f54664));
   background-image: -webkit-linear-gradient(top, #e2304e, #f54664);
   background-image: -moz-linear-gradient(top, #e2304e, #f54664);
@@ -346,7 +346,7 @@
 /* line 27, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
 .ideas .idea .image .overlays a.vote-button[disabled]:hover {
   background-color: #f74967;
-  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css");
+  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
   background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
   background-image: -moz-linear-gradient(top, #f74967, #ff5572);
@@ -406,7 +406,7 @@
 /* line 44, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_change_vote.scss */
 .ideas .idea .image .overlays .change-vote .vote-button {
   background-color: #f74967;
-  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css");
+  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
   background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
   background-image: -moz-linear-gradient(top, #f74967, #ff5572);
@@ -444,7 +444,7 @@
   border: 1px solid #ec3c5a;
   cursor: pointer;
   background-color: #e2304e;
-  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css");
+  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2304e), to(#f54664));
   background-image: -webkit-linear-gradient(top, #e2304e, #f54664);
   background-image: -moz-linear-gradient(top, #e2304e, #f54664);
@@ -454,7 +454,7 @@
 /* line 27, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
 .ideas .idea .image .overlays .change-vote .vote-button[disabled]:hover {
   background-color: #f74967;
-  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css");
+  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
   background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
   background-image: -moz-linear-gradient(top, #f74967, #ff5572);
@@ -464,7 +464,7 @@
 /* line 53, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_change_vote.scss */
 .ideas .idea .image .overlays .change-vote .cancel-button {
   background-color: #f74967;
-  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css");
+  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
   background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
   background-image: -moz-linear-gradient(top, #f74967, #ff5572);
@@ -503,7 +503,7 @@
   border: 1px solid #ec3c5a;
   cursor: pointer;
   background-color: #e2304e;
-  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css");
+  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2304e), to(#f54664));
   background-image: -webkit-linear-gradient(top, #e2304e, #f54664);
   background-image: -moz-linear-gradient(top, #e2304e, #f54664);
@@ -513,7 +513,7 @@
 /* line 27, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
 .ideas .idea .image .overlays .change-vote .cancel-button[disabled]:hover {
   background-color: #f74967;
-  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css");
+  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
   background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
   background-image: -moz-linear-gradient(top, #f74967, #ff5572);
@@ -523,7 +523,7 @@
 /* line 61, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/components/_change_vote.scss */
 .ideas .idea .image .overlays .change-vote .cancel-button:hover {
   background-color: #858283;
-  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css");
+  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#858283), to(#aaa7a8));
   background-image: -webkit-linear-gradient(top, #858283, #aaa7a8);
   background-image: -moz-linear-gradient(top, #858283, #aaa7a8);
@@ -623,7 +623,7 @@ a {
 /* line 381, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/projects/index.scss */
 .index .container form input[type=submit] {
   background-color: #f74967;
-  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css");
+  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
   background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
   background-image: -moz-linear-gradient(top, #f74967, #ff5572);
@@ -663,7 +663,7 @@ a {
   border: 1px solid #ec3c5a;
   cursor: pointer;
   background-color: #e2304e;
-  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css");
+  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2304e), to(#f54664));
   background-image: -webkit-linear-gradient(top, #e2304e, #f54664);
   background-image: -moz-linear-gradient(top, #e2304e, #f54664);
@@ -673,7 +673,7 @@ a {
 /* line 27, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
 .index .container form input[type=submit][disabled]:hover {
   background-color: #f74967;
-  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css%3Fbody=1.css");
+  background-image: url("index.self-cd1e3467c4d204797f56317dafe181d0a3158b76a69c56296eb0e65d59818c10.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
   background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
   background-image: -moz-linear-gradient(top, #f74967, #ff5572);

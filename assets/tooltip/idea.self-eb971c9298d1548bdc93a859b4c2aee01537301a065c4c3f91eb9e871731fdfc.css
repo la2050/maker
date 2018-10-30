@@ -68,7 +68,7 @@
 /* line 62, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/tooltip/idea.scss */
 .tooltip .content .body a.button {
   background-color: #f74967;
-  background-image: url("idea.self-eb971c9298d1548bdc93a859b4c2aee01537301a065c4c3f91eb9e871731fdfc.css%3Fbody=1.css");
+  background-image: url("idea.self-eb971c9298d1548bdc93a859b4c2aee01537301a065c4c3f91eb9e871731fdfc.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
   background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
   background-image: -moz-linear-gradient(top, #f74967, #ff5572);
@@ -105,7 +105,7 @@
   border: 1px solid #ec3c5a;
   cursor: pointer;
   background-color: #e2304e;
-  background-image: url("idea.self-eb971c9298d1548bdc93a859b4c2aee01537301a065c4c3f91eb9e871731fdfc.css%3Fbody=1.css");
+  background-image: url("idea.self-eb971c9298d1548bdc93a859b4c2aee01537301a065c4c3f91eb9e871731fdfc.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2304e), to(#f54664));
   background-image: -webkit-linear-gradient(top, #e2304e, #f54664);
   background-image: -moz-linear-gradient(top, #e2304e, #f54664);
@@ -115,7 +115,7 @@
 /* line 27, /Users/bnilsen/git/maker_clone/app/assets/stylesheets/partials/_buttons.scss */
 .tooltip .content .body a.button[disabled]:hover {
   background-color: #f74967;
-  background-image: url("idea.self-eb971c9298d1548bdc93a859b4c2aee01537301a065c4c3f91eb9e871731fdfc.css%3Fbody=1.css");
+  background-image: url("idea.self-eb971c9298d1548bdc93a859b4c2aee01537301a065c4c3f91eb9e871731fdfc.css?body=1");
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f74967), to(#ff5572));
   background-image: -webkit-linear-gradient(top, #f74967, #ff5572);
   background-image: -moz-linear-gradient(top, #f74967, #ff5572);
