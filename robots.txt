@@ -1,7 +1,0 @@
-User-agent: *
-Disallow: /faqs
-Disallow: /pages/plans
-Disallow: /pages/quickstart
-Disallow: /pages/tour
-Disallow: /feeds/funds
-Disallow: /projects/load_more
